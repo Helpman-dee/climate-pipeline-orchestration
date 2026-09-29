@@ -26,4 +26,9 @@ orchestration benchmark or a performance result.
   `data/reports/nigeria-power-daily-2001-2024-v1-quality-report.json`; audit
   metadata is stored in `data/audit.duckdb` (2,633,728 bytes at report time).
 
-No Airflow, Prefect, Dagster, or benchmark comparison has been run.
+Framework-orchestrated experiments have since been completed and are summarized
+in `docs/analysis_summary.md`: 27 normal runs (three frameworks, three
+workloads, and three repetitions), nine fault/data-quality experiments, and
+three framework-native reprocessing runs. Fault and reprocessing comparisons
+have one validated run per framework, so their overheads are descriptive. These
+experiments are distinct from the framework-neutral canonical validation above.
