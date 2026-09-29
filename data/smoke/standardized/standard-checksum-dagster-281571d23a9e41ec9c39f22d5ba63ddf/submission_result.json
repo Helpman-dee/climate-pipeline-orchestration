@@ -1,0 +1,9 @@
+{
+  "workflow_runtime_seconds": 99.59840535399962,
+  "submission_started_at": "2026-09-23T08:59:18.226762+00:00",
+  "completion_verified_at": "2026-09-23T09:00:57.812688+00:00",
+  "terminal_state": "success",
+  "external_run_id": "31919033-b3d1-48a5-8d5b-acfc30045156",
+  "framework": "dagster",
+  "status": "success"
+}

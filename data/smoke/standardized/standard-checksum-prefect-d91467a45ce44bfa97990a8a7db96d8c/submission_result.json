@@ -1,0 +1,9 @@
+{
+  "workflow_runtime_seconds": 17.75009967999995,
+  "submission_started_at": "2026-09-23T08:57:47.607126+00:00",
+  "completion_verified_at": "2026-09-23T08:58:05.354091+00:00",
+  "terminal_state": "completed",
+  "external_run_id": "4f52bde6-9ba3-40f6-ba84-4866091b58b7",
+  "framework": "prefect",
+  "status": "success"
+}

@@ -1,0 +1,12 @@
+small:
+  locations: [abuja]
+  years: [2001]
+  parallelism: 1
+medium:
+  locations: [maiduguri, kano, abuja, ibadan, port_harcourt]
+  years: {start: 2001, end: 2005}
+  parallelism: 1
+large:
+  locations: [maiduguri, kano, abuja, ibadan, port_harcourt]
+  years: {start: 2001, end: 2024}
+  parallelism: 1

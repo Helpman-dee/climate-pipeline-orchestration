@@ -1,0 +1,12 @@
+FROM python:3.13-slim
+WORKDIR /app
+COPY requirements/prefect.lock /tmp/prefect.lock
+RUN pip install --no-cache-dir -r /tmp/prefect.lock
+COPY pyproject.toml ./
+COPY src ./src
+# Keep Prefect's FastAPI/Starlette dependency pair intact.  The replay API is
+# hosted separately, so this worker image needs only the shared pipeline libs.
+RUN pip install --no-cache-dir duckdb==1.3.2 pandas==2.3.1 pandera==0.25.0 pyarrow==21.0.0 psutil==7.0.0 PyYAML==6.0.2 requests==2.32.4 \
+    && pip install --no-cache-dir --no-deps .
+COPY configs ./configs
+CMD ["python", "-c", "from climate_pipeline.orchestrators.prefect_flow import climate_flow; print(climate_flow)"]

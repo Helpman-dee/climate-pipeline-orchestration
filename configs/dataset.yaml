@@ -1,0 +1,55 @@
+dataset_version: nigeria-power-daily-2001-2024-v1
+source:
+  base_url: https://power.larc.nasa.gov/api/temporal/daily/point
+  parameter_dictionary_url: https://power.larc.nasa.gov/parameters/
+  community: AG
+  format: JSON
+  time_standard: UTC
+period:
+  start_year: 2001
+  end_year: 2024
+parameters:
+  PRECTOTCORR:
+    canonical_name: precipitation_corrected_mm_day
+    expected_unit: mm/day
+  T2M:
+    canonical_name: temperature_mean_c
+    expected_unit: C
+  T2M_MIN:
+    canonical_name: temperature_min_c
+    expected_unit: C
+  T2M_MAX:
+    canonical_name: temperature_max_c
+    expected_unit: C
+quality:
+  max_missing_fraction_warning: 0.02
+  min_temperature_c: -20
+  max_temperature_c: 60
+  max_precipitation_mm_day: 1000
+locations:
+  - id: maiduguri
+    name: Maiduguri
+    latitude: 11.8311
+    longitude: 13.1510
+    rationale: Semi-arid northeast drought-sensitive Sahelian margin.
+  - id: kano
+    name: Kano
+    latitude: 12.0022
+    longitude: 8.5920
+    rationale: Northern Sudan savannah contrast.
+  - id: abuja
+    name: Abuja
+    latitude: 9.0765
+    longitude: 7.3986
+    rationale: Central Guinea savannah transition.
+  - id: ibadan
+    name: Ibadan
+    latitude: 7.3775
+    longitude: 3.9470
+    rationale: Humid southwest forest-zone contrast.
+  - id: port_harcourt
+    name: Port Harcourt
+    latitude: 4.8156
+    longitude: 7.0498
+    rationale: Humid Niger Delta coastal rainforest contrast.
+

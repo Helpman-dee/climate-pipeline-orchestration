@@ -1,0 +1,145 @@
+services:
+  replay:
+    build: { context: ., dockerfile: docker/Dockerfile.core }
+    command: python -m climate_pipeline start-replay --port 8000
+    ports: ["8000:8000"]
+    volumes: ["./data:/app/data", "./configs:/app/configs:ro"]
+
+  # One-shot clients submit workflows. Their container startup is outside the
+  # benchmark timing boundary; persistent services below execute workflows.
+  prefect:
+    build: { context: ., dockerfile: docker/Dockerfile.prefect }
+    profiles: ["prefect"]
+    volumes: ["./data:/app/data", "./configs:/app/configs:ro"]
+  airflow:
+    build: { context: ., dockerfile: docker/Dockerfile.airflow }
+    profiles: ["airflow"]
+    volumes: ["./data:/app/data", "./configs:/app/configs:ro"]
+  dagster:
+    build: { context: ., dockerfile: docker/Dockerfile.dagster }
+    profiles: ["dagster"]
+    volumes: ["./data:/app/data", "./configs:/app/configs:ro"]
+
+  prefect-server:
+    image: csc796-climate-pipeline-orchestration-prefect:latest
+    profiles: ["prefect"]
+    command: prefect server start --host 0.0.0.0 --port 4200 --no-services
+    environment:
+      PREFECT_HOME: /prefect
+      # Prefect's server and process worker both update deployment state. Wait
+      # through a transient SQLite write lock instead of returning HTTP 503.
+      PREFECT_SERVER_DATABASE_CONNECTION_URL: sqlite+aiosqlite:////prefect/prefect.db?timeout=60
+      PREFECT_SERVER_DATABASE_CONNECTION_TIMEOUT: "60"
+      PREFECT_SERVER_DATABASE_TIMEOUT: "60"
+    volumes: ["prefect-data:/prefect"]
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://127.0.0.1:4200/api/health', timeout=3)"]
+      interval: 5s
+      timeout: 4s
+      retries: 30
+      start_period: 10s
+  prefect-worker:
+    image: csc796-climate-pipeline-orchestration-prefect:latest
+    profiles: ["prefect"]
+    command: prefect worker start --pool climate-benchmark-pool --type process --limit 1
+    environment: { PREFECT_API_URL: http://prefect-server:4200/api }
+    volumes: ["./data:/app/data", "./configs:/app/configs:ro"]
+    depends_on:
+      prefect-server: { condition: service_healthy }
+    healthcheck:
+      test: ["CMD", "python", "-c", "import os; os.kill(1, 0)"]
+      interval: 5s
+      timeout: 3s
+      retries: 12
+
+  airflow-db:
+    image: postgres:16
+    profiles: ["airflow"]
+    environment: { POSTGRES_USER: airflow, POSTGRES_PASSWORD: airflow, POSTGRES_DB: airflow }
+    volumes: ["airflow-db:/var/lib/postgresql/data"]
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U airflow -d airflow"]
+      interval: 5s
+      timeout: 4s
+      retries: 30
+  airflow-api:
+    image: csc796-climate-pipeline-orchestration-airflow:latest
+    profiles: ["airflow"]
+    command: api-server --host 0.0.0.0 --port 8080
+    environment: &airflow-env
+      AIRFLOW__CORE__EXECUTOR: LocalExecutor
+      AIRFLOW__CORE__PARALLELISM: "1"
+      AIRFLOW__CORE__MAX_ACTIVE_TASKS_PER_DAG: "1"
+      AIRFLOW__CORE__MAX_ACTIVE_RUNS_PER_DAG: "1"
+      AIRFLOW__CORE__LOAD_EXAMPLES: "False"
+      AIRFLOW__CORE__DAGS_FOLDER: /opt/airflow/dags
+      AIRFLOW__DATABASE__SQL_ALCHEMY_CONN: postgresql+psycopg2://airflow:airflow@airflow-db/airflow
+      AIRFLOW__CORE__EXECUTION_API_SERVER_URL: http://airflow-api:8080/execution/
+      AIRFLOW__API_AUTH__JWT_SECRET: 4M3hQ5mV4oOAX3asG6-zrZvgMwRifAkS6AwSOrFj1AQ
+      AIRFLOW__API__SECRET_KEY: 4M3hQ5mV4oOAX3asG6-zrZvgMwRifAkS6AwSOrFj1AQ
+      AIRFLOW__CORE__FERNET_KEY: 4M3hQ5mV4oOAX3asG6-zrZvgMwRifAkS6AwSOrFj1AQ=
+    volumes: ["./data:/app/data", "./configs:/app/configs:ro"]
+    depends_on:
+      airflow-db: { condition: service_healthy }
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://127.0.0.1:8080/api/v2/monitor/health', timeout=3)"]
+      interval: 5s
+      timeout: 4s
+      retries: 30
+  airflow-scheduler:
+    image: csc796-climate-pipeline-orchestration-airflow:latest
+    profiles: ["airflow"]
+    command: scheduler
+    environment: *airflow-env
+    volumes: ["./data:/app/data", "./configs:/app/configs:ro"]
+    depends_on:
+      airflow-api: { condition: service_healthy }
+    healthcheck:
+      test: ["CMD", "python", "-c", "import os; os.kill(1, 0)"]
+      interval: 5s
+      timeout: 3s
+      retries: 12
+
+  dagster-code:
+    image: csc796-climate-pipeline-orchestration-dagster:latest
+    profiles: ["dagster"]
+    command: dagster api grpc -h 0.0.0.0 -p 4000 -m climate_pipeline.dagster_repository
+    environment: &dagster-env
+      DAGSTER_HOME: /opt/dagster/dagster_home
+    volumes: ["./data:/app/data", "./configs:/app/configs:ro", "dagster-home:/opt/dagster/dagster_home"]
+    healthcheck:
+      test: ["CMD", "python", "-c", "import socket; socket.create_connection(('127.0.0.1',4000),3).close()"]
+      interval: 5s
+      timeout: 4s
+      retries: 30
+  dagster-webserver:
+    image: csc796-climate-pipeline-orchestration-dagster:latest
+    profiles: ["dagster"]
+    command: dagster-webserver -h 0.0.0.0 -p 3000 -w /app/dagster-workspace.yaml
+    environment: *dagster-env
+    volumes: ["./data:/app/data", "./configs:/app/configs:ro", "dagster-home:/opt/dagster/dagster_home"]
+    depends_on:
+      dagster-code: { condition: service_healthy }
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://127.0.0.1:3000/server_info', timeout=3)"]
+      interval: 5s
+      timeout: 4s
+      retries: 30
+  dagster-daemon:
+    image: csc796-climate-pipeline-orchestration-dagster:latest
+    profiles: ["dagster"]
+    command: dagster-daemon run -w /app/dagster-workspace.yaml
+    environment: *dagster-env
+    volumes: ["./data:/app/data", "./configs:/app/configs:ro", "dagster-home:/opt/dagster/dagster_home"]
+    depends_on:
+      dagster-webserver: { condition: service_healthy }
+    healthcheck:
+      test: ["CMD", "python", "-c", "import os; os.kill(1, 0)"]
+      interval: 5s
+      timeout: 3s
+      retries: 12
+
+volumes:
+  airflow-db:
+  prefect-data:
+  dagster-home:

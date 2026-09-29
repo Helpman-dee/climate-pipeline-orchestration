@@ -1,0 +1,27 @@
+frameworks: [airflow, prefect, dagster]
+workloads_file: configs/workloads.yaml
+canonical_data_root: data
+raw_results_root: data/benchmarks/raw
+replay_control_url: http://127.0.0.1:8000
+random_seed: 7962026
+worker_timeout_seconds: 600
+repetitions:
+  warmup: 1
+  measured: 3
+fairness:
+  serial_orchestrators: true
+  serial_partitions: true
+  reset_state_before_each_run: true
+  canonical_input_only: true
+  warmups_excluded_from_summary: true
+scenarios:
+  normal: {fault_scenario: null, expected_outcome: success}
+  transient_http: {fault_scenario: transient_http, expected_outcome: recovery}
+  transient_storage: {fault_scenario: transient_storage, expected_outcome: recovery}
+  timeout: {fault_scenario: timeout, expected_outcome: recovery}
+  malformed_json: {fault_scenario: malformed_json, expected_outcome: blocked}
+  missing_field: {fault_scenario: missing_field, expected_outcome: blocked}
+  duplicate_source: {fault_scenario: duplicate_source, expected_outcome: blocked}
+  invalid_observation: {fault_scenario: invalid_observation, expected_outcome: blocked}
+  storage_failure: {fault_scenario: storage_failure, expected_outcome: blocked}
+  historical_backfill: {fault_scenario: null, expected_outcome: success}

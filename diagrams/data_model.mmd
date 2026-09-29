@@ -1,0 +1,12 @@
+erDiagram
+  LOCATION ||--o{ CLIMATE_OBSERVATION : identifies
+  DATE ||--o{ CLIMATE_OBSERVATION : records
+  PIPELINE_RUN ||--o{ QUALITY_INCIDENT : contains
+  PIPELINE_RUN ||--o{ VERIFICATION_RESULT : produces
+  LOCATION { string location_id PK }
+  DATE { date observation_date PK }
+  CLIMATE_OBSERVATION { string location_id FK date observation_date FK float precipitation_corrected_mm_day }
+  PIPELINE_RUN { string run_id PK string framework string status }
+  QUALITY_INCIDENT { string run_id FK string code string severity }
+  VERIFICATION_RESULT { string run_id FK string status }
+

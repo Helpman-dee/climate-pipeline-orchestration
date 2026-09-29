@@ -1,0 +1,11 @@
+flowchart LR
+  A[Canonical NASA POWER JSON] --> B[FastAPI deterministic replay]
+  B --> C[Framework adapter]
+  C --> D[Framework-neutral run_partition]
+  D --> E[Parse and schema gate]
+  E --> F[Semantic quality gate]
+  F --> G[Features and idempotent load]
+  G --> H[Parquet curated partitions]
+  G --> I[DuckDB audit and incidents]
+  I --> J[Verifier and benchmark results]
+

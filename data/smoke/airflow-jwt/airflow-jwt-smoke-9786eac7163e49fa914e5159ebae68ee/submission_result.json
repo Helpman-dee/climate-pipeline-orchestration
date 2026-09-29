@@ -1,0 +1,8 @@
+{
+  "workflow_runtime_seconds": 35.11293057799992,
+  "submission_started_at": "2026-09-23T08:15:23.197189+00:00",
+  "completion_verified_at": "2026-09-23T08:15:58.306647+00:00",
+  "terminal_state": "success",
+  "framework": "airflow",
+  "status": "success"
+}

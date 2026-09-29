@@ -1,0 +1,5886 @@
+{
+  "created_at": "2026-09-21T17:29:20.869654+00:00",
+  "dataset_version": "nigeria-power-daily-2001-2024-v1",
+  "entries": [
+    {
+      "byte_size": 24842,
+      "dataset_version": "nigeria-power-daily-2001-2024-v1",
+      "date_range": {
+        "end": "20011231",
+        "start": "20010101"
+      },
+      "downloaded_at": "2026-09-21T17:26:43.356631+00:00",
+      "http_status": 200,
+      "latitude": 11.8311,
+      "location_id": "maiduguri",
+      "location_name": "Maiduguri",
+      "longitude": 13.151,
+      "raw_path": "data\\raw\\canonical\\nigeria-power-daily-2001-2024-v1\\maiduguri\\2001.json",
+      "request_parameters": {
+        "community": "AG",
+        "end": "20011231",
+        "format": "JSON",
+        "latitude": 11.8311,
+        "longitude": 13.151,
+        "parameters": "PRECTOTCORR,T2M,T2M_MIN,T2M_MAX",
+        "start": "20010101",
+        "time-standard": "UTC"
+      },
+      "response_header": {
+        "api": {
+          "name": "POWER Daily API",
+          "version": "v2.10.0"
+        },
+        "end": "20011231",
+        "fill_value": -999.0,
+        "sources": [
+          "MERRA2",
+          "POWER"
+        ],
+        "start": "20010101",
+        "time_standard": "UTC",
+        "title": "NASA/POWER Source Native Resolution Daily Data"
+      },
+      "sha256": "34cb075a9dd4792a8c14f2775d152aac5d14227078b5c577d30fd49d7473b5ac",
+      "source_url": "https://power.larc.nasa.gov/api/temporal/daily/point?parameters=PRECTOTCORR%2CT2M%2CT2M_MIN%2CT2M_MAX&community=AG&longitude=13.151&latitude=11.8311&start=20010101&end=20011231&format=JSON&time-standard=UTC",
+      "variables_requested": [
+        "PRECTOTCORR",
+        "T2M",
+        "T2M_MIN",
+        "T2M_MAX"
+      ],
+      "year": 2001
+    },
+    {
+      "byte_size": 24815,
+      "dataset_version": "nigeria-power-daily-2001-2024-v1",
+      "date_range": {
+        "end": "20021231",
+        "start": "20020101"
+      },
+      "downloaded_at": "2026-09-21T17:26:44.489592+00:00",
+      "http_status": 200,
+      "latitude": 11.8311,
+      "location_id": "maiduguri",
+      "location_name": "Maiduguri",
+      "longitude": 13.151,
+      "raw_path": "data\\raw\\canonical\\nigeria-power-daily-2001-2024-v1\\maiduguri\\2002.json",
+      "request_parameters": {
+        "community": "AG",
+        "end": "20021231",
+        "format": "JSON",
+        "latitude": 11.8311,
+        "longitude": 13.151,
+        "parameters": "PRECTOTCORR,T2M,T2M_MIN,T2M_MAX",
+        "start": "20020101",
+        "time-standard": "UTC"
+      },
+      "response_header": {
+        "api": {
+          "name": "POWER Daily API",
+          "version": "v2.10.0"
+        },
+        "end": "20021231",
+        "fill_value": -999.0,
+        "sources": [
+          "MERRA2",
+          "POWER"
+        ],
+        "start": "20020101",
+        "time_standard": "UTC",
+        "title": "NASA/POWER Source Native Resolution Daily Data"
+      },
+      "sha256": "089abe2f3a6bddff60d0f13ed7967c7818ab325ea4659795712826e7b35d92a5",
+      "source_url": "https://power.larc.nasa.gov/api/temporal/daily/point?parameters=PRECTOTCORR%2CT2M%2CT2M_MIN%2CT2M_MAX&community=AG&longitude=13.151&latitude=11.8311&start=20020101&end=20021231&format=JSON&time-standard=UTC",
+      "variables_requested": [
+        "PRECTOTCORR",
+        "T2M",
+        "T2M_MIN",
+        "T2M_MAX"
+      ],
+      "year": 2002
+    },
+    {
+      "byte_size": 24870,
+      "dataset_version": "nigeria-power-daily-2001-2024-v1",
+      "date_range": {
+        "end": "20031231",
+        "start": "20030101"
+      },
+      "downloaded_at": "2026-09-21T17:26:46.377483+00:00",
+      "http_status": 200,
+      "latitude": 11.8311,
+      "location_id": "maiduguri",
+      "location_name": "Maiduguri",
+      "longitude": 13.151,
+      "raw_path": "data\\raw\\canonical\\nigeria-power-daily-2001-2024-v1\\maiduguri\\2003.json",
+      "request_parameters": {
+        "community": "AG",
+        "end": "20031231",
+        "format": "JSON",
+        "latitude": 11.8311,
+        "longitude": 13.151,
+        "parameters": "PRECTOTCORR,T2M,T2M_MIN,T2M_MAX",
+        "start": "20030101",
+        "time-standard": "UTC"
+      },
+      "response_header": {
+        "api": {
+          "name": "POWER Daily API",
+          "version": "v2.10.0"
+        },
+        "end": "20031231",
+        "fill_value": -999.0,
+        "sources": [
+          "MERRA2",
+          "POWER"
+        ],
+        "start": "20030101",
+        "time_standard": "UTC",
+        "title": "NASA/POWER Source Native Resolution Daily Data"
+      },
+      "sha256": "ca2b87c5c93d24aee89aa56f987b2a153454d9875c498dbbedc6cd350a5a0cd8",
+      "source_url": "https://power.larc.nasa.gov/api/temporal/daily/point?parameters=PRECTOTCORR%2CT2M%2CT2M_MIN%2CT2M_MAX&community=AG&longitude=13.151&latitude=11.8311&start=20030101&end=20031231&format=JSON&time-standard=UTC",
+      "variables_requested": [
+        "PRECTOTCORR",
+        "T2M",
+        "T2M_MIN",
+        "T2M_MAX"
+      ],
+      "year": 2003
+    },
+    {
+      "byte_size": 24916,
+      "dataset_version": "nigeria-power-daily-2001-2024-v1",
+      "date_range": {
+        "end": "20041231",
+        "start": "20040101"
+      },
+      "downloaded_at": "2026-09-21T17:26:48.599736+00:00",
+      "http_status": 200,
+      "latitude": 11.8311,
+      "location_id": "maiduguri",
+      "location_name": "Maiduguri",
+      "longitude": 13.151,
+      "raw_path": "data\\raw\\canonical\\nigeria-power-daily-2001-2024-v1\\maiduguri\\2004.json",
+      "request_parameters": {
+        "community": "AG",
+        "end": "20041231",
+        "format": "JSON",
+        "latitude": 11.8311,
+        "longitude": 13.151,
+        "parameters": "PRECTOTCORR,T2M,T2M_MIN,T2M_MAX",
+        "start": "20040101",
+        "time-standard": "UTC"
+      },
+      "response_header": {
+        "api": {
+          "name": "POWER Daily API",
+          "version": "v2.10.0"
+        },
+        "end": "20041231",
+        "fill_value": -999.0,
+        "sources": [
+          "MERRA2",
+          "POWER"
+        ],
+        "start": "20040101",
+        "time_standard": "UTC",
+        "title": "NASA/POWER Source Native Resolution Daily Data"
+      },
+      "sha256": "fa0b1266d676d49eaccf90a3f95576fd262b71d742ab86eba5ca1de67bba3bc1",
+      "source_url": "https://power.larc.nasa.gov/api/temporal/daily/point?parameters=PRECTOTCORR%2CT2M%2CT2M_MIN%2CT2M_MAX&community=AG&longitude=13.151&latitude=11.8311&start=20040101&end=20041231&format=JSON&time-standard=UTC",
+      "variables_requested": [
+        "PRECTOTCORR",
+        "T2M",
+        "T2M_MIN",
+        "T2M_MAX"
+      ],
+      "year": 2004
+    },
+    {
+      "byte_size": 24866,
+      "dataset_version": "nigeria-power-daily-2001-2024-v1",
+      "date_range": {
+        "end": "20051231",
+        "start": "20050101"
+      },
+      "downloaded_at": "2026-09-21T17:26:49.820140+00:00",
+      "http_status": 200,
+      "latitude": 11.8311,
+      "location_id": "maiduguri",
+      "location_name": "Maiduguri",
+      "longitude": 13.151,
+      "raw_path": "data\\raw\\canonical\\nigeria-power-daily-2001-2024-v1\\maiduguri\\2005.json",
+      "request_parameters": {
+        "community": "AG",
+        "end": "20051231",
+        "format": "JSON",
+        "latitude": 11.8311,
+        "longitude": 13.151,
+        "parameters": "PRECTOTCORR,T2M,T2M_MIN,T2M_MAX",
+        "start": "20050101",
+        "time-standard": "UTC"
+      },
+      "response_header": {
+        "api": {
+          "name": "POWER Daily API",
+          "version": "v2.10.0"
+        },
+        "end": "20051231",
+        "fill_value": -999.0,
+        "sources": [
+          "MERRA2",
+          "POWER"
+        ],
+        "start": "20050101",
+        "time_standard": "UTC",
+        "title": "NASA/POWER Source Native Resolution Daily Data"
+      },
+      "sha256": "526fb71e2b6dc037a12260dd0e90feefb1007a256bc398c0a52dd8f02cdeb60c",
+      "source_url": "https://power.larc.nasa.gov/api/temporal/daily/point?parameters=PRECTOTCORR%2CT2M%2CT2M_MIN%2CT2M_MAX&community=AG&longitude=13.151&latitude=11.8311&start=20050101&end=20051231&format=JSON&time-standard=UTC",
+      "variables_requested": [
+        "PRECTOTCORR",
+        "T2M",
+        "T2M_MIN",
+        "T2M_MAX"
+      ],
+      "year": 2005
+    },
+    {
+      "byte_size": 24839,
+      "dataset_version": "nigeria-power-daily-2001-2024-v1",
+      "date_range": {
+        "end": "20061231",
+        "start": "20060101"
+      },
+      "downloaded_at": "2026-09-21T17:26:51.557230+00:00",
+      "http_status": 200,
+      "latitude": 11.8311,
+      "location_id": "maiduguri",
+      "location_name": "Maiduguri",
+      "longitude": 13.151,
+      "raw_path": "data\\raw\\canonical\\nigeria-power-daily-2001-2024-v1\\maiduguri\\2006.json",
+      "request_parameters": {
+        "community": "AG",
+        "end": "20061231",
+        "format": "JSON",
+        "latitude": 11.8311,
+        "longitude": 13.151,
+        "parameters": "PRECTOTCORR,T2M,T2M_MIN,T2M_MAX",
+        "start": "20060101",
+        "time-standard": "UTC"
+      },
+      "response_header": {
+        "api": {
+          "name": "POWER Daily API",
+          "version": "v2.10.0"
+        },
+        "end": "20061231",
+        "fill_value": -999.0,
+        "sources": [
+          "MERRA2",
+          "POWER"
+        ],
+        "start": "20060101",
+        "time_standard": "UTC",
+        "title": "NASA/POWER Source Native Resolution Daily Data"
+      },
+      "sha256": "60e614e6dc831757a8336324ee73ceb2ba043c2e197e32304948e5009026ca00",
+      "source_url": "https://power.larc.nasa.gov/api/temporal/daily/point?parameters=PRECTOTCORR%2CT2M%2CT2M_MIN%2CT2M_MAX&community=AG&longitude=13.151&latitude=11.8311&start=20060101&end=20061231&format=JSON&time-standard=UTC",
+      "variables_requested": [
+        "PRECTOTCORR",
+        "T2M",
+        "T2M_MIN",
+        "T2M_MAX"
+      ],
+      "year": 2006
+    },
+    {
+      "byte_size": 24864,
+      "dataset_version": "nigeria-power-daily-2001-2024-v1",
+      "date_range": {
+        "end": "20071231",
+        "start": "20070101"
+      },
+      "downloaded_at": "2026-09-21T17:26:53.610827+00:00",
+      "http_status": 200,
+      "latitude": 11.8311,
+      "location_id": "maiduguri",
+      "location_name": "Maiduguri",
+      "longitude": 13.151,
+      "raw_path": "data\\raw\\canonical\\nigeria-power-daily-2001-2024-v1\\maiduguri\\2007.json",
+      "request_parameters": {
+        "community": "AG",
+        "end": "20071231",
+        "format": "JSON",
+        "latitude": 11.8311,
+        "longitude": 13.151,
+        "parameters": "PRECTOTCORR,T2M,T2M_MIN,T2M_MAX",
+        "start": "20070101",
+        "time-standard": "UTC"
+      },
+      "response_header": {
+        "api": {
+          "name": "POWER Daily API",
+          "version": "v2.10.0"
+        },
+        "end": "20071231",
+        "fill_value": -999.0,
+        "sources": [
+          "MERRA2",
+          "POWER"
+        ],
+        "start": "20070101",
+        "time_standard": "UTC",
+        "title": "NASA/POWER Source Native Resolution Daily Data"
+      },
+      "sha256": "3d8ebb208e4e56b0ff0dd3d474aa649e74e28b7a2084c45de1b4d843cd4ba4d3",
+      "source_url": "https://power.larc.nasa.gov/api/temporal/daily/point?parameters=PRECTOTCORR%2CT2M%2CT2M_MIN%2CT2M_MAX&community=AG&longitude=13.151&latitude=11.8311&start=20070101&end=20071231&format=JSON&time-standard=UTC",
+      "variables_requested": [
+        "PRECTOTCORR",
+        "T2M",
+        "T2M_MIN",
+        "T2M_MAX"
+      ],
+      "year": 2007
+    },
+    {
+      "byte_size": 24945,
+      "dataset_version": "nigeria-power-daily-2001-2024-v1",
+      "date_range": {
+        "end": "20081231",
+        "start": "20080101"
+      },
+      "downloaded_at": "2026-09-21T17:26:54.734691+00:00",
+      "http_status": 200,
+      "latitude": 11.8311,
+      "location_id": "maiduguri",
+      "location_name": "Maiduguri",
+      "longitude": 13.151,
+      "raw_path": "data\\raw\\canonical\\nigeria-power-daily-2001-2024-v1\\maiduguri\\2008.json",
+      "request_parameters": {
+        "community": "AG",
+        "end": "20081231",
+        "format": "JSON",
+        "latitude": 11.8311,
+        "longitude": 13.151,
+        "parameters": "PRECTOTCORR,T2M,T2M_MIN,T2M_MAX",
+        "start": "20080101",
+        "time-standard": "UTC"
+      },
+      "response_header": {
+        "api": {
+          "name": "POWER Daily API",
+          "version": "v2.10.0"
+        },
+        "end": "20081231",
+        "fill_value": -999.0,
+        "sources": [
+          "MERRA2",
+          "POWER"
+        ],
+        "start": "20080101",
+        "time_standard": "UTC",
+        "title": "NASA/POWER Source Native Resolution Daily Data"
+      },
+      "sha256": "f80d648766e95eac391abb8998426dea3f71a62c64d909da4b4e74c32c5fa9a3",
+      "source_url": "https://power.larc.nasa.gov/api/temporal/daily/point?parameters=PRECTOTCORR%2CT2M%2CT2M_MIN%2CT2M_MAX&community=AG&longitude=13.151&latitude=11.8311&start=20080101&end=20081231&format=JSON&time-standard=UTC",
+      "variables_requested": [
+        "PRECTOTCORR",
+        "T2M",
+        "T2M_MIN",
+        "T2M_MAX"
+      ],
+      "year": 2008
+    },
+    {
+      "byte_size": 24889,
+      "dataset_version": "nigeria-power-daily-2001-2024-v1",
+      "date_range": {
+        "end": "20091231",
+        "start": "20090101"
+      },
+      "downloaded_at": "2026-09-21T17:26:55.877283+00:00",
+      "http_status": 200,
+      "latitude": 11.8311,
+      "location_id": "maiduguri",
+      "location_name": "Maiduguri",
+      "longitude": 13.151,
+      "raw_path": "data\\raw\\canonical\\nigeria-power-daily-2001-2024-v1\\maiduguri\\2009.json",
+      "request_parameters": {
+        "community": "AG",
+        "end": "20091231",
+        "format": "JSON",
+        "latitude": 11.8311,
+        "longitude": 13.151,
+        "parameters": "PRECTOTCORR,T2M,T2M_MIN,T2M_MAX",
+        "start": "20090101",
+        "time-standard": "UTC"
+      },
+      "response_header": {
+        "api": {
+          "name": "POWER Daily API",
+          "version": "v2.10.0"
+        },
+        "end": "20091231",
+        "fill_value": -999.0,
+        "sources": [
+          "MERRA2",
+          "POWER"
+        ],
+        "start": "20090101",
+        "time_standard": "UTC",
+        "title": "NASA/POWER Source Native Resolution Daily Data"
+      },
+      "sha256": "9a6d1720c5f45d9f55ee26214093cadffe255895d4e95f6ea0dd3cd51ec37794",
+      "source_url": "https://power.larc.nasa.gov/api/temporal/daily/point?parameters=PRECTOTCORR%2CT2M%2CT2M_MIN%2CT2M_MAX&community=AG&longitude=13.151&latitude=11.8311&start=20090101&end=20091231&format=JSON&time-standard=UTC",
+      "variables_requested": [
+        "PRECTOTCORR",
+        "T2M",
+        "T2M_MIN",
+        "T2M_MAX"
+      ],
+      "year": 2009
+    },
+    {
+      "byte_size": 24899,
+      "dataset_version": "nigeria-power-daily-2001-2024-v1",
+      "date_range": {
+        "end": "20101231",
+        "start": "20100101"
+      },
+      "downloaded_at": "2026-09-21T17:26:56.991311+00:00",
+      "http_status": 200,
+      "latitude": 11.8311,
+      "location_id": "maiduguri",
+      "location_name": "Maiduguri",
+      "longitude": 13.151,
+      "raw_path": "data\\raw\\canonical\\nigeria-power-daily-2001-2024-v1\\maiduguri\\2010.json",
+      "request_parameters": {
+        "community": "AG",
+        "end": "20101231",
+        "format": "JSON",
+        "latitude": 11.8311,
+        "longitude": 13.151,
+        "parameters": "PRECTOTCORR,T2M,T2M_MIN,T2M_MAX",
+        "start": "20100101",
+        "time-standard": "UTC"
+      },
+      "response_header": {
+        "api": {
+          "name": "POWER Daily API",
+          "version": "v2.10.0"
+        },
+        "end": "20101231",
+        "fill_value": -999.0,
+        "sources": [
+          "MERRA2",
+          "POWER"
+        ],
+        "start": "20100101",
+        "time_standard": "UTC",
+        "title": "NASA/POWER Source Native Resolution Daily Data"
+      },
+      "sha256": "6e1e97fd5f8f6f28f16a5bb043807682a902131af226aec8f6c73fe3d7dedfe6",
+      "source_url": "https://power.larc.nasa.gov/api/temporal/daily/point?parameters=PRECTOTCORR%2CT2M%2CT2M_MIN%2CT2M_MAX&community=AG&longitude=13.151&latitude=11.8311&start=20100101&end=20101231&format=JSON&time-standard=UTC",
+      "variables_requested": [
+        "PRECTOTCORR",
+        "T2M",
+        "T2M_MIN",
+        "T2M_MAX"
+      ],
+      "year": 2010
+    },
+    {
+      "byte_size": 24878,
+      "dataset_version": "nigeria-power-daily-2001-2024-v1",
+      "date_range": {
+        "end": "20111231",
+        "start": "20110101"
+      },
+      "downloaded_at": "2026-09-21T17:26:58.125071+00:00",
+      "http_status": 200,
+      "latitude": 11.8311,
+      "location_id": "maiduguri",
+      "location_name": "Maiduguri",
+      "longitude": 13.151,
+      "raw_path": "data\\raw\\canonical\\nigeria-power-daily-2001-2024-v1\\maiduguri\\2011.json",
+      "request_parameters": {
+        "community": "AG",
+        "end": "20111231",
+        "format": "JSON",
+        "latitude": 11.8311,
+        "longitude": 13.151,
+        "parameters": "PRECTOTCORR,T2M,T2M_MIN,T2M_MAX",
+        "start": "20110101",
+        "time-standard": "UTC"
+      },
+      "response_header": {
+        "api": {
+          "name": "POWER Daily API",
+          "version": "v2.10.0"
+        },
+        "end": "20111231",
+        "fill_value": -999.0,
+        "sources": [
+          "MERRA2",
+          "POWER"
+        ],
+        "start": "20110101",
+        "time_standard": "UTC",
+        "title": "NASA/POWER Source Native Resolution Daily Data"
+      },
+      "sha256": "5c5bee38e0aafa01ab48b0c5c7be43d26202f39c82b03a88a233fcb1fe578a62",
+      "source_url": "https://power.larc.nasa.gov/api/temporal/daily/point?parameters=PRECTOTCORR%2CT2M%2CT2M_MIN%2CT2M_MAX&community=AG&longitude=13.151&latitude=11.8311&start=20110101&end=20111231&format=JSON&time-standard=UTC",
+      "variables_requested": [
+        "PRECTOTCORR",
+        "T2M",
+        "T2M_MIN",
+        "T2M_MAX"
+      ],
+      "year": 2011
+    },
+    {
+      "byte_size": 24946,
+      "dataset_version": "nigeria-power-daily-2001-2024-v1",
+      "date_range": {
+        "end": "20121231",
+        "start": "20120101"
+      },
+      "downloaded_at": "2026-09-21T17:26:59.344746+00:00",
+      "http_status": 200,
+      "latitude": 11.8311,
+      "location_id": "maiduguri",
+      "location_name": "Maiduguri",
+      "longitude": 13.151,
+      "raw_path": "data\\raw\\canonical\\nigeria-power-daily-2001-2024-v1\\maiduguri\\2012.json",
+      "request_parameters": {
+        "community": "AG",
+        "end": "20121231",
+        "format": "JSON",
+        "latitude": 11.8311,
+        "longitude": 13.151,
+        "parameters": "PRECTOTCORR,T2M,T2M_MIN,T2M_MAX",
+        "start": "20120101",
+        "time-standard": "UTC"
+      },
+      "response_header": {
+        "api": {
+          "name": "POWER Daily API",
+          "version": "v2.10.0"
+        },
+        "end": "20121231",
+        "fill_value": -999.0,
+        "sources": [
+          "MERRA2",
+          "POWER"
+        ],
+        "start": "20120101",
+        "time_standard": "UTC",
+        "title": "NASA/POWER Source Native Resolution Daily Data"
+      },
+      "sha256": "d4016a021c19ad5a3ca954abcaf7798bb8f9a904e372f8af43316f737769857c",
+      "source_url": "https://power.larc.nasa.gov/api/temporal/daily/point?parameters=PRECTOTCORR%2CT2M%2CT2M_MIN%2CT2M_MAX&community=AG&longitude=13.151&latitude=11.8311&start=20120101&end=20121231&format=JSON&time-standard=UTC",
+      "variables_requested": [
+        "PRECTOTCORR",
+        "T2M",
+        "T2M_MIN",
+        "T2M_MAX"
+      ],
+      "year": 2012
+    },
+    {
+      "byte_size": 24863,
+      "dataset_version": "nigeria-power-daily-2001-2024-v1",
+      "date_range": {
+        "end": "20131231",
+        "start": "20130101"
+      },
+      "downloaded_at": "2026-09-21T17:27:00.675365+00:00",
+      "http_status": 200,
+      "latitude": 11.8311,
+      "location_id": "maiduguri",
+      "location_name": "Maiduguri",
+      "longitude": 13.151,
+      "raw_path": "data\\raw\\canonical\\nigeria-power-daily-2001-2024-v1\\maiduguri\\2013.json",
+      "request_parameters": {
+        "community": "AG",
+        "end": "20131231",
+        "format": "JSON",
+        "latitude": 11.8311,
+        "longitude": 13.151,
+        "parameters": "PRECTOTCORR,T2M,T2M_MIN,T2M_MAX",
+        "start": "20130101",
+        "time-standard": "UTC"
+      },
+      "response_header": {
+        "api": {
+          "name": "POWER Daily API",
+          "version": "v2.10.0"
+        },
+        "end": "20131231",
+        "fill_value": -999.0,
+        "sources": [
+          "MERRA2",
+          "POWER"
+        ],
+        "start": "20130101",
+        "time_standard": "UTC",
+        "title": "NASA/POWER Source Native Resolution Daily Data"
+      },
+      "sha256": "fd65749d4a026ae91a9425fe0ba52c89ccf4000f952576bef432a2ba737f40f2",
+      "source_url": "https://power.larc.nasa.gov/api/temporal/daily/point?parameters=PRECTOTCORR%2CT2M%2CT2M_MIN%2CT2M_MAX&community=AG&longitude=13.151&latitude=11.8311&start=20130101&end=20131231&format=JSON&time-standard=UTC",
+      "variables_requested": [
+        "PRECTOTCORR",
+        "T2M",
+        "T2M_MIN",
+        "T2M_MAX"
+      ],
+      "year": 2013
+    },
+    {
+      "byte_size": 24883,
+      "dataset_version": "nigeria-power-daily-2001-2024-v1",
+      "date_range": {
+        "end": "20141231",
+        "start": "20140101"
+      },
+      "downloaded_at": "2026-09-21T17:27:02.335590+00:00",
+      "http_status": 200,
+      "latitude": 11.8311,
+      "location_id": "maiduguri",
+      "location_name": "Maiduguri",
+      "longitude": 13.151,
+      "raw_path": "data\\raw\\canonical\\nigeria-power-daily-2001-2024-v1\\maiduguri\\2014.json",
+      "request_parameters": {
+        "community": "AG",
+        "end": "20141231",
+        "format": "JSON",
+        "latitude": 11.8311,
+        "longitude": 13.151,
+        "parameters": "PRECTOTCORR,T2M,T2M_MIN,T2M_MAX",
+        "start": "20140101",
+        "time-standard": "UTC"
+      },
+      "response_header": {
+        "api": {
+          "name": "POWER Daily API",
+          "version": "v2.10.0"
+        },
+        "end": "20141231",
+        "fill_value": -999.0,
+        "sources": [
+          "MERRA2",
+          "POWER"
+        ],
+        "start": "20140101",
+        "time_standard": "UTC",
+        "title": "NASA/POWER Source Native Resolution Daily Data"
+      },
+      "sha256": "1e18e5eccc1ce3f5225775304809809fbd7faaae4ef333852766f329d5de5900",
+      "source_url": "https://power.larc.nasa.gov/api/temporal/daily/point?parameters=PRECTOTCORR%2CT2M%2CT2M_MIN%2CT2M_MAX&community=AG&longitude=13.151&latitude=11.8311&start=20140101&end=20141231&format=JSON&time-standard=UTC",
+      "variables_requested": [
+        "PRECTOTCORR",
+        "T2M",
+        "T2M_MIN",
+        "T2M_MAX"
+      ],
+      "year": 2014
+    },
+    {
+      "byte_size": 24834,
+      "dataset_version": "nigeria-power-daily-2001-2024-v1",
+      "date_range": {
+        "end": "20151231",
+        "start": "20150101"
+      },
+      "downloaded_at": "2026-09-21T17:27:03.320836+00:00",
+      "http_status": 200,
+      "latitude": 11.8311,
+      "location_id": "maiduguri",
+      "location_name": "Maiduguri",
+      "longitude": 13.151,
+      "raw_path": "data\\raw\\canonical\\nigeria-power-daily-2001-2024-v1\\maiduguri\\2015.json",
+      "request_parameters": {
+        "community": "AG",
+        "end": "20151231",
+        "format": "JSON",
+        "latitude": 11.8311,
+        "longitude": 13.151,
+        "parameters": "PRECTOTCORR,T2M,T2M_MIN,T2M_MAX",
+        "start": "20150101",
+        "time-standard": "UTC"
+      },
+      "response_header": {
+        "api": {
+          "name": "POWER Daily API",
+          "version": "v2.10.0"
+        },
+        "end": "20151231",
+        "fill_value": -999.0,
+        "sources": [
+          "MERRA2",
+          "POWER"
+        ],
+        "start": "20150101",
+        "time_standard": "UTC",
+        "title": "NASA/POWER Source Native Resolution Daily Data"
+      },
+      "sha256": "6fb21a403089cc6a76b1b7d3d8f3dd923871c08aac8aea544fa23fa2cd83754f",
+      "source_url": "https://power.larc.nasa.gov/api/temporal/daily/point?parameters=PRECTOTCORR%2CT2M%2CT2M_MIN%2CT2M_MAX&community=AG&longitude=13.151&latitude=11.8311&start=20150101&end=20151231&format=JSON&time-standard=UTC",
+      "variables_requested": [
+        "PRECTOTCORR",
+        "T2M",
+        "T2M_MIN",
+        "T2M_MAX"
+      ],
+      "year": 2015
+    },
+    {
+      "byte_size": 24905,
+      "dataset_version": "nigeria-power-daily-2001-2024-v1",
+      "date_range": {
+        "end": "20161231",
+        "start": "20160101"
+      },
+      "downloaded_at": "2026-09-21T17:27:05.062591+00:00",
+      "http_status": 200,
+      "latitude": 11.8311,
+      "location_id": "maiduguri",
+      "location_name": "Maiduguri",
+      "longitude": 13.151,
+      "raw_path": "data\\raw\\canonical\\nigeria-power-daily-2001-2024-v1\\maiduguri\\2016.json",
+      "request_parameters": {
+        "community": "AG",
+        "end": "20161231",
+        "format": "JSON",
+        "latitude": 11.8311,
+        "longitude": 13.151,
+        "parameters": "PRECTOTCORR,T2M,T2M_MIN,T2M_MAX",
+        "start": "20160101",
+        "time-standard": "UTC"
+      },
+      "response_header": {
+        "api": {
+          "name": "POWER Daily API",
+          "version": "v2.10.0"
+        },
+        "end": "20161231",
+        "fill_value": -999.0,
+        "sources": [
+          "MERRA2",
+          "POWER"
+        ],
+        "start": "20160101",
+        "time_standard": "UTC",
+        "title": "NASA/POWER Source Native Resolution Daily Data"
+      },
+      "sha256": "9244f933c3fe42e92667224e343542dc955e326b59ac0619ebb2a33fefe342c7",
+      "source_url": "https://power.larc.nasa.gov/api/temporal/daily/point?parameters=PRECTOTCORR%2CT2M%2CT2M_MIN%2CT2M_MAX&community=AG&longitude=13.151&latitude=11.8311&start=20160101&end=20161231&format=JSON&time-standard=UTC",
+      "variables_requested": [
+        "PRECTOTCORR",
+        "T2M",
+        "T2M_MIN",
+        "T2M_MAX"
+      ],
+      "year": 2016
+    },
+    {
+      "byte_size": 24853,
+      "dataset_version": "nigeria-power-daily-2001-2024-v1",
+      "date_range": {
+        "end": "20171231",
+        "start": "20170101"
+      },
+      "downloaded_at": "2026-09-21T17:27:06.123603+00:00",
+      "http_status": 200,
+      "latitude": 11.8311,
+      "location_id": "maiduguri",
+      "location_name": "Maiduguri",
+      "longitude": 13.151,
+      "raw_path": "data\\raw\\canonical\\nigeria-power-daily-2001-2024-v1\\maiduguri\\2017.json",
+      "request_parameters": {
+        "community": "AG",
+        "end": "20171231",
+        "format": "JSON",
+        "latitude": 11.8311,
+        "longitude": 13.151,
+        "parameters": "PRECTOTCORR,T2M,T2M_MIN,T2M_MAX",
+        "start": "20170101",
+        "time-standard": "UTC"
+      },
+      "response_header": {
+        "api": {
+          "name": "POWER Daily API",
+          "version": "v2.10.0"
+        },
+        "end": "20171231",
+        "fill_value": -999.0,
+        "sources": [
+          "MERRA2",
+          "POWER"
+        ],
+        "start": "20170101",
+        "time_standard": "UTC",
+        "title": "NASA/POWER Source Native Resolution Daily Data"
+      },
+      "sha256": "f8f9e60e8c627d31d3312c5ca20849dffd2fc61c1d292b3ef764b91d8e43bdf4",
+      "source_url": "https://power.larc.nasa.gov/api/temporal/daily/point?parameters=PRECTOTCORR%2CT2M%2CT2M_MIN%2CT2M_MAX&community=AG&longitude=13.151&latitude=11.8311&start=20170101&end=20171231&format=JSON&time-standard=UTC",
+      "variables_requested": [
+        "PRECTOTCORR",
+        "T2M",
+        "T2M_MIN",
+        "T2M_MAX"
+      ],
+      "year": 2017
+    },
+    {
+      "byte_size": 24860,
+      "dataset_version": "nigeria-power-daily-2001-2024-v1",
+      "date_range": {
+        "end": "20181231",
+        "start": "20180101"
+      },
+      "downloaded_at": "2026-09-21T17:27:07.215022+00:00",
+      "http_status": 200,
+      "latitude": 11.8311,
+      "location_id": "maiduguri",
+      "location_name": "Maiduguri",
+      "longitude": 13.151,
+      "raw_path": "data\\raw\\canonical\\nigeria-power-daily-2001-2024-v1\\maiduguri\\2018.json",
+      "request_parameters": {
+        "community": "AG",
+        "end": "20181231",
+        "format": "JSON",
+        "latitude": 11.8311,
+        "longitude": 13.151,
+        "parameters": "PRECTOTCORR,T2M,T2M_MIN,T2M_MAX",
+        "start": "20180101",
+        "time-standard": "UTC"
+      },
+      "response_header": {
+        "api": {
+          "name": "POWER Daily API",
+          "version": "v2.10.0"
+        },
+        "end": "20181231",
+        "fill_value": -999.0,
+        "sources": [
+          "MERRA2",
+          "POWER"
+        ],
+        "start": "20180101",
+        "time_standard": "UTC",
+        "title": "NASA/POWER Source Native Resolution Daily Data"
+      },
+      "sha256": "2128b3543d162378a016cd047f571d81b315f5689758d9ac83abb2a4ff1b1e63",
+      "source_url": "https://power.larc.nasa.gov/api/temporal/daily/point?parameters=PRECTOTCORR%2CT2M%2CT2M_MIN%2CT2M_MAX&community=AG&longitude=13.151&latitude=11.8311&start=20180101&end=20181231&format=JSON&time-standard=UTC",
+      "variables_requested": [
+        "PRECTOTCORR",
+        "T2M",
+        "T2M_MIN",
+        "T2M_MAX"
+      ],
+      "year": 2018
+    },
+    {
+      "byte_size": 24867,
+      "dataset_version": "nigeria-power-daily-2001-2024-v1",
+      "date_range": {
+        "end": "20191231",
+        "start": "20190101"
+      },
+      "downloaded_at": "2026-09-21T17:27:08.440049+00:00",
+      "http_status": 200,
+      "latitude": 11.8311,
+      "location_id": "maiduguri",
+      "location_name": "Maiduguri",
+      "longitude": 13.151,
+      "raw_path": "data\\raw\\canonical\\nigeria-power-daily-2001-2024-v1\\maiduguri\\2019.json",
+      "request_parameters": {
+        "community": "AG",
+        "end": "20191231",
+        "format": "JSON",
+        "latitude": 11.8311,
+        "longitude": 13.151,
+        "parameters": "PRECTOTCORR,T2M,T2M_MIN,T2M_MAX",
+        "start": "20190101",
+        "time-standard": "UTC"
+      },
+      "response_header": {
+        "api": {
+          "name": "POWER Daily API",
+          "version": "v2.10.0"
+        },
+        "end": "20191231",
+        "fill_value": -999.0,
+        "sources": [
+          "MERRA2",
+          "POWER"
+        ],
+        "start": "20190101",
+        "time_standard": "UTC",
+        "title": "NASA/POWER Source Native Resolution Daily Data"
+      },
+      "sha256": "7ea38649ceadf2780bb99faf78eb38a158414f1766fbeb14a9c2d4b2549d65fd",
+      "source_url": "https://power.larc.nasa.gov/api/temporal/daily/point?parameters=PRECTOTCORR%2CT2M%2CT2M_MIN%2CT2M_MAX&community=AG&longitude=13.151&latitude=11.8311&start=20190101&end=20191231&format=JSON&time-standard=UTC",
+      "variables_requested": [
+        "PRECTOTCORR",
+        "T2M",
+        "T2M_MIN",
+        "T2M_MAX"
+      ],
+      "year": 2019
+    },
+    {
+      "byte_size": 24941,
+      "dataset_version": "nigeria-power-daily-2001-2024-v1",
+      "date_range": {
+        "end": "20201231",
+        "start": "20200101"
+      },
+      "downloaded_at": "2026-09-21T17:27:09.605289+00:00",
+      "http_status": 200,
+      "latitude": 11.8311,
+      "location_id": "maiduguri",
+      "location_name": "Maiduguri",
+      "longitude": 13.151,
+      "raw_path": "data\\raw\\canonical\\nigeria-power-daily-2001-2024-v1\\maiduguri\\2020.json",
+      "request_parameters": {
+        "community": "AG",
+        "end": "20201231",
+        "format": "JSON",
+        "latitude": 11.8311,
+        "longitude": 13.151,
+        "parameters": "PRECTOTCORR,T2M,T2M_MIN,T2M_MAX",
+        "start": "20200101",
+        "time-standard": "UTC"
+      },
+      "response_header": {
+        "api": {
+          "name": "POWER Daily API",
+          "version": "v2.10.0"
+        },
+        "end": "20201231",
+        "fill_value": -999.0,
+        "sources": [
+          "MERRA2",
+          "POWER"
+        ],
+        "start": "20200101",
+        "time_standard": "UTC",
+        "title": "NASA/POWER Source Native Resolution Daily Data"
+      },
+      "sha256": "15672916531f1ab7045a47bc7293a083986629c5ffbca8804da21d610f4b4b85",
+      "source_url": "https://power.larc.nasa.gov/api/temporal/daily/point?parameters=PRECTOTCORR%2CT2M%2CT2M_MIN%2CT2M_MAX&community=AG&longitude=13.151&latitude=11.8311&start=20200101&end=20201231&format=JSON&time-standard=UTC",
+      "variables_requested": [
+        "PRECTOTCORR",
+        "T2M",
+        "T2M_MIN",
+        "T2M_MAX"
+      ],
+      "year": 2020
+    },
+    {
+      "byte_size": 24826,
+      "dataset_version": "nigeria-power-daily-2001-2024-v1",
+      "date_range": {
+        "end": "20211231",
+        "start": "20210101"
+      },
+      "downloaded_at": "2026-09-21T17:27:10.692753+00:00",
+      "http_status": 200,
+      "latitude": 11.8311,
+      "location_id": "maiduguri",
+      "location_name": "Maiduguri",
+      "longitude": 13.151,
+      "raw_path": "data\\raw\\canonical\\nigeria-power-daily-2001-2024-v1\\maiduguri\\2021.json",
+      "request_parameters": {
+        "community": "AG",
+        "end": "20211231",
+        "format": "JSON",
+        "latitude": 11.8311,
+        "longitude": 13.151,
+        "parameters": "PRECTOTCORR,T2M,T2M_MIN,T2M_MAX",
+        "start": "20210101",
+        "time-standard": "UTC"
+      },
+      "response_header": {
+        "api": {
+          "name": "POWER Daily API",
+          "version": "v2.10.0"
+        },
+        "end": "20211231",
+        "fill_value": -999.0,
+        "sources": [
+          "MERRA2",
+          "POWER"
+        ],
+        "start": "20210101",
+        "time_standard": "UTC",
+        "title": "NASA/POWER Source Native Resolution Daily Data"
+      },
+      "sha256": "a8ef711220e1f7859582f4e18c8097649dd3b2533911d9555359ab7e2c714923",
+      "source_url": "https://power.larc.nasa.gov/api/temporal/daily/point?parameters=PRECTOTCORR%2CT2M%2CT2M_MIN%2CT2M_MAX&community=AG&longitude=13.151&latitude=11.8311&start=20210101&end=20211231&format=JSON&time-standard=UTC",
+      "variables_requested": [
+        "PRECTOTCORR",
+        "T2M",
+        "T2M_MIN",
+        "T2M_MAX"
+      ],
+      "year": 2021
+    },
+    {
+      "byte_size": 24846,
+      "dataset_version": "nigeria-power-daily-2001-2024-v1",
+      "date_range": {
+        "end": "20221231",
+        "start": "20220101"
+      },
+      "downloaded_at": "2026-09-21T17:27:11.434647+00:00",
+      "http_status": 200,
+      "latitude": 11.8311,
+      "location_id": "maiduguri",
+      "location_name": "Maiduguri",
+      "longitude": 13.151,
+      "raw_path": "data\\raw\\canonical\\nigeria-power-daily-2001-2024-v1\\maiduguri\\2022.json",
+      "request_parameters": {
+        "community": "AG",
+        "end": "20221231",
+        "format": "JSON",
+        "latitude": 11.8311,
+        "longitude": 13.151,
+        "parameters": "PRECTOTCORR,T2M,T2M_MIN,T2M_MAX",
+        "start": "20220101",
+        "time-standard": "UTC"
+      },
+      "response_header": {
+        "api": {
+          "name": "POWER Daily API",
+          "version": "v2.10.0"
+        },
+        "end": "20221231",
+        "fill_value": -999.0,
+        "sources": [
+          "MERRA2",
+          "POWER"
+        ],
+        "start": "20220101",
+        "time_standard": "UTC",
+        "title": "NASA/POWER Source Native Resolution Daily Data"
+      },
+      "sha256": "b3cc7d6e117524f364fbc38b1162a3d1ce5a9cc2d95659207f9f3d12c58c1aad",
+      "source_url": "https://power.larc.nasa.gov/api/temporal/daily/point?parameters=PRECTOTCORR%2CT2M%2CT2M_MIN%2CT2M_MAX&community=AG&longitude=13.151&latitude=11.8311&start=20220101&end=20221231&format=JSON&time-standard=UTC",
+      "variables_requested": [
+        "PRECTOTCORR",
+        "T2M",
+        "T2M_MIN",
+        "T2M_MAX"
+      ],
+      "year": 2022
+    },
+    {
+      "byte_size": 24837,
+      "dataset_version": "nigeria-power-daily-2001-2024-v1",
+      "date_range": {
+        "end": "20231231",
+        "start": "20230101"
+      },
+      "downloaded_at": "2026-09-21T17:27:12.559637+00:00",
+      "http_status": 200,
+      "latitude": 11.8311,
+      "location_id": "maiduguri",
+      "location_name": "Maiduguri",
+      "longitude": 13.151,
+      "raw_path": "data\\raw\\canonical\\nigeria-power-daily-2001-2024-v1\\maiduguri\\2023.json",
+      "request_parameters": {
+        "community": "AG",
+        "end": "20231231",
+        "format": "JSON",
+        "latitude": 11.8311,
+        "longitude": 13.151,
+        "parameters": "PRECTOTCORR,T2M,T2M_MIN,T2M_MAX",
+        "start": "20230101",
+        "time-standard": "UTC"
+      },
+      "response_header": {
+        "api": {
+          "name": "POWER Daily API",
+          "version": "v2.10.0"
+        },
+        "end": "20231231",
+        "fill_value": -999.0,
+        "sources": [
+          "MERRA2",
+          "POWER"
+        ],
+        "start": "20230101",
+        "time_standard": "UTC",
+        "title": "NASA/POWER Source Native Resolution Daily Data"
+      },
+      "sha256": "457ed5a19af8f6e02b25ef106d9d4b1d5c6fcedd0d878cfd2771e56349545b11",
+      "source_url": "https://power.larc.nasa.gov/api/temporal/daily/point?parameters=PRECTOTCORR%2CT2M%2CT2M_MIN%2CT2M_MAX&community=AG&longitude=13.151&latitude=11.8311&start=20230101&end=20231231&format=JSON&time-standard=UTC",
+      "variables_requested": [
+        "PRECTOTCORR",
+        "T2M",
+        "T2M_MIN",
+        "T2M_MAX"
+      ],
+      "year": 2023
+    },
+    {
+      "byte_size": 24943,
+      "dataset_version": "nigeria-power-daily-2001-2024-v1",
+      "date_range": {
+        "end": "20241231",
+        "start": "20240101"
+      },
+      "downloaded_at": "2026-09-21T17:27:14.191358+00:00",
+      "http_status": 200,
+      "latitude": 11.8311,
+      "location_id": "maiduguri",
+      "location_name": "Maiduguri",
+      "longitude": 13.151,
+      "raw_path": "data\\raw\\canonical\\nigeria-power-daily-2001-2024-v1\\maiduguri\\2024.json",
+      "request_parameters": {
+        "community": "AG",
+        "end": "20241231",
+        "format": "JSON",
+        "latitude": 11.8311,
+        "longitude": 13.151,
+        "parameters": "PRECTOTCORR,T2M,T2M_MIN,T2M_MAX",
+        "start": "20240101",
+        "time-standard": "UTC"
+      },
+      "response_header": {
+        "api": {
+          "name": "POWER Daily API",
+          "version": "v2.10.0"
+        },
+        "end": "20241231",
+        "fill_value": -999.0,
+        "sources": [
+          "MERRA2",
+          "POWER"
+        ],
+        "start": "20240101",
+        "time_standard": "UTC",
+        "title": "NASA/POWER Source Native Resolution Daily Data"
+      },
+      "sha256": "dd02d951aa8f163c4559c92392c50969190ea792be9cbfa451b29cabc6608c51",
+      "source_url": "https://power.larc.nasa.gov/api/temporal/daily/point?parameters=PRECTOTCORR%2CT2M%2CT2M_MIN%2CT2M_MAX&community=AG&longitude=13.151&latitude=11.8311&start=20240101&end=20241231&format=JSON&time-standard=UTC",
+      "variables_requested": [
+        "PRECTOTCORR",
+        "T2M",
+        "T2M_MIN",
+        "T2M_MAX"
+      ],
+      "year": 2024
+    },
+    {
+      "byte_size": 24851,
+      "dataset_version": "nigeria-power-daily-2001-2024-v1",
+      "date_range": {
+        "end": "20011231",
+        "start": "20010101"
+      },
+      "downloaded_at": "2026-09-21T17:27:15.621395+00:00",
+      "http_status": 200,
+      "latitude": 12.0022,
+      "location_id": "kano",
+      "location_name": "Kano",
+      "longitude": 8.592,
+      "raw_path": "data\\raw\\canonical\\nigeria-power-daily-2001-2024-v1\\kano\\2001.json",
+      "request_parameters": {
+        "community": "AG",
+        "end": "20011231",
+        "format": "JSON",
+        "latitude": 12.0022,
+        "longitude": 8.592,
+        "parameters": "PRECTOTCORR,T2M,T2M_MIN,T2M_MAX",
+        "start": "20010101",
+        "time-standard": "UTC"
+      },
+      "response_header": {
+        "api": {
+          "name": "POWER Daily API",
+          "version": "v2.10.0"
+        },
+        "end": "20011231",
+        "fill_value": -999.0,
+        "sources": [
+          "MERRA2",
+          "POWER"
+        ],
+        "start": "20010101",
+        "time_standard": "UTC",
+        "title": "NASA/POWER Source Native Resolution Daily Data"
+      },
+      "sha256": "5ba0e92b84751ec89798972d473ac8bbebb711c6cb8fe2c87a7f7bd38a33c056",
+      "source_url": "https://power.larc.nasa.gov/api/temporal/daily/point?parameters=PRECTOTCORR%2CT2M%2CT2M_MIN%2CT2M_MAX&community=AG&longitude=8.592&latitude=12.0022&start=20010101&end=20011231&format=JSON&time-standard=UTC",
+      "variables_requested": [
+        "PRECTOTCORR",
+        "T2M",
+        "T2M_MIN",
+        "T2M_MAX"
+      ],
+      "year": 2001
+    },
+    {
+      "byte_size": 24863,
+      "dataset_version": "nigeria-power-daily-2001-2024-v1",
+      "date_range": {
+        "end": "20021231",
+        "start": "20020101"
+      },
+      "downloaded_at": "2026-09-21T17:27:16.956289+00:00",
+      "http_status": 200,
+      "latitude": 12.0022,
+      "location_id": "kano",
+      "location_name": "Kano",
+      "longitude": 8.592,
+      "raw_path": "data\\raw\\canonical\\nigeria-power-daily-2001-2024-v1\\kano\\2002.json",
+      "request_parameters": {
+        "community": "AG",
+        "end": "20021231",
+        "format": "JSON",
+        "latitude": 12.0022,
+        "longitude": 8.592,
+        "parameters": "PRECTOTCORR,T2M,T2M_MIN,T2M_MAX",
+        "start": "20020101",
+        "time-standard": "UTC"
+      },
+      "response_header": {
+        "api": {
+          "name": "POWER Daily API",
+          "version": "v2.10.0"
+        },
+        "end": "20021231",
+        "fill_value": -999.0,
+        "sources": [
+          "MERRA2",
+          "POWER"
+        ],
+        "start": "20020101",
+        "time_standard": "UTC",
+        "title": "NASA/POWER Source Native Resolution Daily Data"
+      },
+      "sha256": "04f104482c169b1c4e8d3b3bd5898bd099965c1788c8fa174e7b508112c9182b",
+      "source_url": "https://power.larc.nasa.gov/api/temporal/daily/point?parameters=PRECTOTCORR%2CT2M%2CT2M_MIN%2CT2M_MAX&community=AG&longitude=8.592&latitude=12.0022&start=20020101&end=20021231&format=JSON&time-standard=UTC",
+      "variables_requested": [
+        "PRECTOTCORR",
+        "T2M",
+        "T2M_MIN",
+        "T2M_MAX"
+      ],
+      "year": 2002
+    },
+    {
+      "byte_size": 24874,
+      "dataset_version": "nigeria-power-daily-2001-2024-v1",
+      "date_range": {
+        "end": "20031231",
+        "start": "20030101"
+      },
+      "downloaded_at": "2026-09-21T17:27:19.906249+00:00",
+      "http_status": 200,
+      "latitude": 12.0022,
+      "location_id": "kano",
+      "location_name": "Kano",
+      "longitude": 8.592,
+      "raw_path": "data\\raw\\canonical\\nigeria-power-daily-2001-2024-v1\\kano\\2003.json",
+      "request_parameters": {
+        "community": "AG",
+        "end": "20031231",
+        "format": "JSON",
+        "latitude": 12.0022,
+        "longitude": 8.592,
+        "parameters": "PRECTOTCORR,T2M,T2M_MIN,T2M_MAX",
+        "start": "20030101",
+        "time-standard": "UTC"
+      },
+      "response_header": {
+        "api": {
+          "name": "POWER Daily API",
+          "version": "v2.10.0"
+        },
+        "end": "20031231",
+        "fill_value": -999.0,
+        "sources": [
+          "MERRA2",
+          "POWER"
+        ],
+        "start": "20030101",
+        "time_standard": "UTC",
+        "title": "NASA/POWER Source Native Resolution Daily Data"
+      },
+      "sha256": "11890455f00c0d453dda4704ae791fed158dfb751d3e6bfefdc77dbff2fc980c",
+      "source_url": "https://power.larc.nasa.gov/api/temporal/daily/point?parameters=PRECTOTCORR%2CT2M%2CT2M_MIN%2CT2M_MAX&community=AG&longitude=8.592&latitude=12.0022&start=20030101&end=20031231&format=JSON&time-standard=UTC",
+      "variables_requested": [
+        "PRECTOTCORR",
+        "T2M",
+        "T2M_MIN",
+        "T2M_MAX"
+      ],
+      "year": 2003
+    },
+    {
+      "byte_size": 24918,
+      "dataset_version": "nigeria-power-daily-2001-2024-v1",
+      "date_range": {
+        "end": "20041231",
+        "start": "20040101"
+      },
+      "downloaded_at": "2026-09-21T17:27:23.287682+00:00",
+      "http_status": 200,
+      "latitude": 12.0022,
+      "location_id": "kano",
+      "location_name": "Kano",
+      "longitude": 8.592,
+      "raw_path": "data\\raw\\canonical\\nigeria-power-daily-2001-2024-v1\\kano\\2004.json",
+      "request_parameters": {
+        "community": "AG",
+        "end": "20041231",
+        "format": "JSON",
+        "latitude": 12.0022,
+        "longitude": 8.592,
+        "parameters": "PRECTOTCORR,T2M,T2M_MIN,T2M_MAX",
+        "start": "20040101",
+        "time-standard": "UTC"
+      },
+      "response_header": {
+        "api": {
+          "name": "POWER Daily API",
+          "version": "v2.10.0"
+        },
+        "end": "20041231",
+        "fill_value": -999.0,
+        "sources": [
+          "MERRA2",
+          "POWER"
+        ],
+        "start": "20040101",
+        "time_standard": "UTC",
+        "title": "NASA/POWER Source Native Resolution Daily Data"
+      },
+      "sha256": "e6f59a417a069e10243697ad8ec842c1a86042a42f2b4f9fb6c6c18459b8fddc",
+      "source_url": "https://power.larc.nasa.gov/api/temporal/daily/point?parameters=PRECTOTCORR%2CT2M%2CT2M_MIN%2CT2M_MAX&community=AG&longitude=8.592&latitude=12.0022&start=20040101&end=20041231&format=JSON&time-standard=UTC",
+      "variables_requested": [
+        "PRECTOTCORR",
+        "T2M",
+        "T2M_MIN",
+        "T2M_MAX"
+      ],
+      "year": 2004
+    },
+    {
+      "byte_size": 24846,
+      "dataset_version": "nigeria-power-daily-2001-2024-v1",
+      "date_range": {
+        "end": "20051231",
+        "start": "20050101"
+      },
+      "downloaded_at": "2026-09-21T17:27:24.415739+00:00",
+      "http_status": 200,
+      "latitude": 12.0022,
+      "location_id": "kano",
+      "location_name": "Kano",
+      "longitude": 8.592,
+      "raw_path": "data\\raw\\canonical\\nigeria-power-daily-2001-2024-v1\\kano\\2005.json",
+      "request_parameters": {
+        "community": "AG",
+        "end": "20051231",
+        "format": "JSON",
+        "latitude": 12.0022,
+        "longitude": 8.592,
+        "parameters": "PRECTOTCORR,T2M,T2M_MIN,T2M_MAX",
+        "start": "20050101",
+        "time-standard": "UTC"
+      },
+      "response_header": {
+        "api": {
+          "name": "POWER Daily API",
+          "version": "v2.10.0"
+        },
+        "end": "20051231",
+        "fill_value": -999.0,
+        "sources": [
+          "MERRA2",
+          "POWER"
+        ],
+        "start": "20050101",
+        "time_standard": "UTC",
+        "title": "NASA/POWER Source Native Resolution Daily Data"
+      },
+      "sha256": "025e58cf0b829267b4f0f98b8a77c714873ed1673baeabbe13e9f5811f95fa2c",
+      "source_url": "https://power.larc.nasa.gov/api/temporal/daily/point?parameters=PRECTOTCORR%2CT2M%2CT2M_MIN%2CT2M_MAX&community=AG&longitude=8.592&latitude=12.0022&start=20050101&end=20051231&format=JSON&time-standard=UTC",
+      "variables_requested": [
+        "PRECTOTCORR",
+        "T2M",
+        "T2M_MIN",
+        "T2M_MAX"
+      ],
+      "year": 2005
+    },
+    {
+      "byte_size": 24851,
+      "dataset_version": "nigeria-power-daily-2001-2024-v1",
+      "date_range": {
+        "end": "20061231",
+        "start": "20060101"
+      },
+      "downloaded_at": "2026-09-21T17:27:25.236566+00:00",
+      "http_status": 200,
+      "latitude": 12.0022,
+      "location_id": "kano",
+      "location_name": "Kano",
+      "longitude": 8.592,
+      "raw_path": "data\\raw\\canonical\\nigeria-power-daily-2001-2024-v1\\kano\\2006.json",
+      "request_parameters": {
+        "community": "AG",
+        "end": "20061231",
+        "format": "JSON",
+        "latitude": 12.0022,
+        "longitude": 8.592,
+        "parameters": "PRECTOTCORR,T2M,T2M_MIN,T2M_MAX",
+        "start": "20060101",
+        "time-standard": "UTC"
+      },
+      "response_header": {
+        "api": {
+          "name": "POWER Daily API",
+          "version": "v2.10.0"
+        },
+        "end": "20061231",
+        "fill_value": -999.0,
+        "sources": [
+          "MERRA2",
+          "POWER"
+        ],
+        "start": "20060101",
+        "time_standard": "UTC",
+        "title": "NASA/POWER Source Native Resolution Daily Data"
+      },
+      "sha256": "cd5613d42bc3dcbec00e0b532e0722ab73a0cd008832c840b8f8e28d13b9e2f8",
+      "source_url": "https://power.larc.nasa.gov/api/temporal/daily/point?parameters=PRECTOTCORR%2CT2M%2CT2M_MIN%2CT2M_MAX&community=AG&longitude=8.592&latitude=12.0022&start=20060101&end=20061231&format=JSON&time-standard=UTC",
+      "variables_requested": [
+        "PRECTOTCORR",
+        "T2M",
+        "T2M_MIN",
+        "T2M_MAX"
+      ],
+      "year": 2006
+    },
+    {
+      "byte_size": 24916,
+      "dataset_version": "nigeria-power-daily-2001-2024-v1",
+      "date_range": {
+        "end": "20071231",
+        "start": "20070101"
+      },
+      "downloaded_at": "2026-09-21T17:27:26.260989+00:00",
+      "http_status": 200,
+      "latitude": 12.0022,
+      "location_id": "kano",
+      "location_name": "Kano",
+      "longitude": 8.592,
+      "raw_path": "data\\raw\\canonical\\nigeria-power-daily-2001-2024-v1\\kano\\2007.json",
+      "request_parameters": {
+        "community": "AG",
+        "end": "20071231",
+        "format": "JSON",
+        "latitude": 12.0022,
+        "longitude": 8.592,
+        "parameters": "PRECTOTCORR,T2M,T2M_MIN,T2M_MAX",
+        "start": "20070101",
+        "time-standard": "UTC"
+      },
+      "response_header": {
+        "api": {
+          "name": "POWER Daily API",
+          "version": "v2.10.0"
+        },
+        "end": "20071231",
+        "fill_value": -999.0,
+        "sources": [
+          "MERRA2",
+          "POWER"
+        ],
+        "start": "20070101",
+        "time_standard": "UTC",
+        "title": "NASA/POWER Source Native Resolution Daily Data"
+      },
+      "sha256": "649ad60ed61e90de6078af0130fbadb71b6196c13c4abaa71bf3ec21e6d442c0",
+      "source_url": "https://power.larc.nasa.gov/api/temporal/daily/point?parameters=PRECTOTCORR%2CT2M%2CT2M_MIN%2CT2M_MAX&community=AG&longitude=8.592&latitude=12.0022&start=20070101&end=20071231&format=JSON&time-standard=UTC",
+      "variables_requested": [
+        "PRECTOTCORR",
+        "T2M",
+        "T2M_MIN",
+        "T2M_MAX"
+      ],
+      "year": 2007
+    },
+    {
+      "byte_size": 24955,
+      "dataset_version": "nigeria-power-daily-2001-2024-v1",
+      "date_range": {
+        "end": "20081231",
+        "start": "20080101"
+      },
+      "downloaded_at": "2026-09-21T17:27:27.284002+00:00",
+      "http_status": 200,
+      "latitude": 12.0022,
+      "location_id": "kano",
+      "location_name": "Kano",
+      "longitude": 8.592,
+      "raw_path": "data\\raw\\canonical\\nigeria-power-daily-2001-2024-v1\\kano\\2008.json",
+      "request_parameters": {
+        "community": "AG",
+        "end": "20081231",
+        "format": "JSON",
+        "latitude": 12.0022,
+        "longitude": 8.592,
+        "parameters": "PRECTOTCORR,T2M,T2M_MIN,T2M_MAX",
+        "start": "20080101",
+        "time-standard": "UTC"
+      },
+      "response_header": {
+        "api": {
+          "name": "POWER Daily API",
+          "version": "v2.10.0"
+        },
+        "end": "20081231",
+        "fill_value": -999.0,
+        "sources": [
+          "MERRA2",
+          "POWER"
+        ],
+        "start": "20080101",
+        "time_standard": "UTC",
+        "title": "NASA/POWER Source Native Resolution Daily Data"
+      },
+      "sha256": "02994be0814a782c0b572e62432ae483d753bdec9178e0f421202a02a0451231",
+      "source_url": "https://power.larc.nasa.gov/api/temporal/daily/point?parameters=PRECTOTCORR%2CT2M%2CT2M_MIN%2CT2M_MAX&community=AG&longitude=8.592&latitude=12.0022&start=20080101&end=20081231&format=JSON&time-standard=UTC",
+      "variables_requested": [
+        "PRECTOTCORR",
+        "T2M",
+        "T2M_MIN",
+        "T2M_MAX"
+      ],
+      "year": 2008
+    },
+    {
+      "byte_size": 24892,
+      "dataset_version": "nigeria-power-daily-2001-2024-v1",
+      "date_range": {
+        "end": "20091231",
+        "start": "20090101"
+      },
+      "downloaded_at": "2026-09-21T17:27:28.322850+00:00",
+      "http_status": 200,
+      "latitude": 12.0022,
+      "location_id": "kano",
+      "location_name": "Kano",
+      "longitude": 8.592,
+      "raw_path": "data\\raw\\canonical\\nigeria-power-daily-2001-2024-v1\\kano\\2009.json",
+      "request_parameters": {
+        "community": "AG",
+        "end": "20091231",
+        "format": "JSON",
+        "latitude": 12.0022,
+        "longitude": 8.592,
+        "parameters": "PRECTOTCORR,T2M,T2M_MIN,T2M_MAX",
+        "start": "20090101",
+        "time-standard": "UTC"
+      },
+      "response_header": {
+        "api": {
+          "name": "POWER Daily API",
+          "version": "v2.10.0"
+        },
+        "end": "20091231",
+        "fill_value": -999.0,
+        "sources": [
+          "MERRA2",
+          "POWER"
+        ],
+        "start": "20090101",
+        "time_standard": "UTC",
+        "title": "NASA/POWER Source Native Resolution Daily Data"
+      },
+      "sha256": "00fc19ebe33acf46f7f3a2d399a6c9b3a980fd50d37c8261b24c20f8aceb5ae4",
+      "source_url": "https://power.larc.nasa.gov/api/temporal/daily/point?parameters=PRECTOTCORR%2CT2M%2CT2M_MIN%2CT2M_MAX&community=AG&longitude=8.592&latitude=12.0022&start=20090101&end=20091231&format=JSON&time-standard=UTC",
+      "variables_requested": [
+        "PRECTOTCORR",
+        "T2M",
+        "T2M_MIN",
+        "T2M_MAX"
+      ],
+      "year": 2009
+    },
+    {
+      "byte_size": 24865,
+      "dataset_version": "nigeria-power-daily-2001-2024-v1",
+      "date_range": {
+        "end": "20101231",
+        "start": "20100101"
+      },
+      "downloaded_at": "2026-09-21T17:27:29.656047+00:00",
+      "http_status": 200,
+      "latitude": 12.0022,
+      "location_id": "kano",
+      "location_name": "Kano",
+      "longitude": 8.592,
+      "raw_path": "data\\raw\\canonical\\nigeria-power-daily-2001-2024-v1\\kano\\2010.json",
+      "request_parameters": {
+        "community": "AG",
+        "end": "20101231",
+        "format": "JSON",
+        "latitude": 12.0022,
+        "longitude": 8.592,
+        "parameters": "PRECTOTCORR,T2M,T2M_MIN,T2M_MAX",
+        "start": "20100101",
+        "time-standard": "UTC"
+      },
+      "response_header": {
+        "api": {
+          "name": "POWER Daily API",
+          "version": "v2.10.0"
+        },
+        "end": "20101231",
+        "fill_value": -999.0,
+        "sources": [
+          "MERRA2",
+          "POWER"
+        ],
+        "start": "20100101",
+        "time_standard": "UTC",
+        "title": "NASA/POWER Source Native Resolution Daily Data"
+      },
+      "sha256": "dc998083e7ab8dca80927fc352cce2c6dac755916df20cf3d0bdb233c0010c37",
+      "source_url": "https://power.larc.nasa.gov/api/temporal/daily/point?parameters=PRECTOTCORR%2CT2M%2CT2M_MIN%2CT2M_MAX&community=AG&longitude=8.592&latitude=12.0022&start=20100101&end=20101231&format=JSON&time-standard=UTC",
+      "variables_requested": [
+        "PRECTOTCORR",
+        "T2M",
+        "T2M_MIN",
+        "T2M_MAX"
+      ],
+      "year": 2010
+    },
+    {
+      "byte_size": 24849,
+      "dataset_version": "nigeria-power-daily-2001-2024-v1",
+      "date_range": {
+        "end": "20111231",
+        "start": "20110101"
+      },
+      "downloaded_at": "2026-09-21T17:27:30.777359+00:00",
+      "http_status": 200,
+      "latitude": 12.0022,
+      "location_id": "kano",
+      "location_name": "Kano",
+      "longitude": 8.592,
+      "raw_path": "data\\raw\\canonical\\nigeria-power-daily-2001-2024-v1\\kano\\2011.json",
+      "request_parameters": {
+        "community": "AG",
+        "end": "20111231",
+        "format": "JSON",
+        "latitude": 12.0022,
+        "longitude": 8.592,
+        "parameters": "PRECTOTCORR,T2M,T2M_MIN,T2M_MAX",
+        "start": "20110101",
+        "time-standard": "UTC"
+      },
+      "response_header": {
+        "api": {
+          "name": "POWER Daily API",
+          "version": "v2.10.0"
+        },
+        "end": "20111231",
+        "fill_value": -999.0,
+        "sources": [
+          "MERRA2",
+          "POWER"
+        ],
+        "start": "20110101",
+        "time_standard": "UTC",
+        "title": "NASA/POWER Source Native Resolution Daily Data"
+      },
+      "sha256": "440293721692b0b20153a16943f39b69253ce4cc89578caa27d9deefc2424c99",
+      "source_url": "https://power.larc.nasa.gov/api/temporal/daily/point?parameters=PRECTOTCORR%2CT2M%2CT2M_MIN%2CT2M_MAX&community=AG&longitude=8.592&latitude=12.0022&start=20110101&end=20111231&format=JSON&time-standard=UTC",
+      "variables_requested": [
+        "PRECTOTCORR",
+        "T2M",
+        "T2M_MIN",
+        "T2M_MAX"
+      ],
+      "year": 2011
+    },
+    {
+      "byte_size": 24954,
+      "dataset_version": "nigeria-power-daily-2001-2024-v1",
+      "date_range": {
+        "end": "20121231",
+        "start": "20120101"
+      },
+      "downloaded_at": "2026-09-21T17:27:31.686617+00:00",
+      "http_status": 200,
+      "latitude": 12.0022,
+      "location_id": "kano",
+      "location_name": "Kano",
+      "longitude": 8.592,
+      "raw_path": "data\\raw\\canonical\\nigeria-power-daily-2001-2024-v1\\kano\\2012.json",
+      "request_parameters": {
+        "community": "AG",
+        "end": "20121231",
+        "format": "JSON",
+        "latitude": 12.0022,
+        "longitude": 8.592,
+        "parameters": "PRECTOTCORR,T2M,T2M_MIN,T2M_MAX",
+        "start": "20120101",
+        "time-standard": "UTC"
+      },
+      "response_header": {
+        "api": {
+          "name": "POWER Daily API",
+          "version": "v2.10.0"
+        },
+        "end": "20121231",
+        "fill_value": -999.0,
+        "sources": [
+          "MERRA2",
+          "POWER"
+        ],
+        "start": "20120101",
+        "time_standard": "UTC",
+        "title": "NASA/POWER Source Native Resolution Daily Data"
+      },
+      "sha256": "73d2414fbc1bb0bf37087a20690bfa1c8933f9d4958de2dcdc3687c8dff78ade",
+      "source_url": "https://power.larc.nasa.gov/api/temporal/daily/point?parameters=PRECTOTCORR%2CT2M%2CT2M_MIN%2CT2M_MAX&community=AG&longitude=8.592&latitude=12.0022&start=20120101&end=20121231&format=JSON&time-standard=UTC",
+      "variables_requested": [
+        "PRECTOTCORR",
+        "T2M",
+        "T2M_MIN",
+        "T2M_MAX"
+      ],
+      "year": 2012
+    },
+    {
+      "byte_size": 24869,
+      "dataset_version": "nigeria-power-daily-2001-2024-v1",
+      "date_range": {
+        "end": "20131231",
+        "start": "20130101"
+      },
+      "downloaded_at": "2026-09-21T17:27:32.842125+00:00",
+      "http_status": 200,
+      "latitude": 12.0022,
+      "location_id": "kano",
+      "location_name": "Kano",
+      "longitude": 8.592,
+      "raw_path": "data\\raw\\canonical\\nigeria-power-daily-2001-2024-v1\\kano\\2013.json",
+      "request_parameters": {
+        "community": "AG",
+        "end": "20131231",
+        "format": "JSON",
+        "latitude": 12.0022,
+        "longitude": 8.592,
+        "parameters": "PRECTOTCORR,T2M,T2M_MIN,T2M_MAX",
+        "start": "20130101",
+        "time-standard": "UTC"
+      },
+      "response_header": {
+        "api": {
+          "name": "POWER Daily API",
+          "version": "v2.10.0"
+        },
+        "end": "20131231",
+        "fill_value": -999.0,
+        "sources": [
+          "MERRA2",
+          "POWER"
+        ],
+        "start": "20130101",
+        "time_standard": "UTC",
+        "title": "NASA/POWER Source Native Resolution Daily Data"
+      },
+      "sha256": "77f1268fbf67f3b35460e198f1e1a8c85540812e866e0495794789c72d30c257",
+      "source_url": "https://power.larc.nasa.gov/api/temporal/daily/point?parameters=PRECTOTCORR%2CT2M%2CT2M_MIN%2CT2M_MAX&community=AG&longitude=8.592&latitude=12.0022&start=20130101&end=20131231&format=JSON&time-standard=UTC",
+      "variables_requested": [
+        "PRECTOTCORR",
+        "T2M",
+        "T2M_MIN",
+        "T2M_MAX"
+      ],
+      "year": 2013
+    },
+    {
+      "byte_size": 24898,
+      "dataset_version": "nigeria-power-daily-2001-2024-v1",
+      "date_range": {
+        "end": "20141231",
+        "start": "20140101"
+      },
+      "downloaded_at": "2026-09-21T17:27:33.962851+00:00",
+      "http_status": 200,
+      "latitude": 12.0022,
+      "location_id": "kano",
+      "location_name": "Kano",
+      "longitude": 8.592,
+      "raw_path": "data\\raw\\canonical\\nigeria-power-daily-2001-2024-v1\\kano\\2014.json",
+      "request_parameters": {
+        "community": "AG",
+        "end": "20141231",
+        "format": "JSON",
+        "latitude": 12.0022,
+        "longitude": 8.592,
+        "parameters": "PRECTOTCORR,T2M,T2M_MIN,T2M_MAX",
+        "start": "20140101",
+        "time-standard": "UTC"
+      },
+      "response_header": {
+        "api": {
+          "name": "POWER Daily API",
+          "version": "v2.10.0"
+        },
+        "end": "20141231",
+        "fill_value": -999.0,
+        "sources": [
+          "MERRA2",
+          "POWER"
+        ],
+        "start": "20140101",
+        "time_standard": "UTC",
+        "title": "NASA/POWER Source Native Resolution Daily Data"
+      },
+      "sha256": "cf44ae43ae99d5cf5fe2ffc21e784de6f5ea72e6472adeaa2b450faf12ed5dfd",
+      "source_url": "https://power.larc.nasa.gov/api/temporal/daily/point?parameters=PRECTOTCORR%2CT2M%2CT2M_MIN%2CT2M_MAX&community=AG&longitude=8.592&latitude=12.0022&start=20140101&end=20141231&format=JSON&time-standard=UTC",
+      "variables_requested": [
+        "PRECTOTCORR",
+        "T2M",
+        "T2M_MIN",
+        "T2M_MAX"
+      ],
+      "year": 2014
+    },
+    {
+      "byte_size": 24812,
+      "dataset_version": "nigeria-power-daily-2001-2024-v1",
+      "date_range": {
+        "end": "20151231",
+        "start": "20150101"
+      },
+      "downloaded_at": "2026-09-21T17:27:35.589432+00:00",
+      "http_status": 200,
+      "latitude": 12.0022,
+      "location_id": "kano",
+      "location_name": "Kano",
+      "longitude": 8.592,
+      "raw_path": "data\\raw\\canonical\\nigeria-power-daily-2001-2024-v1\\kano\\2015.json",
+      "request_parameters": {
+        "community": "AG",
+        "end": "20151231",
+        "format": "JSON",
+        "latitude": 12.0022,
+        "longitude": 8.592,
+        "parameters": "PRECTOTCORR,T2M,T2M_MIN,T2M_MAX",
+        "start": "20150101",
+        "time-standard": "UTC"
+      },
+      "response_header": {
+        "api": {
+          "name": "POWER Daily API",
+          "version": "v2.10.0"
+        },
+        "end": "20151231",
+        "fill_value": -999.0,
+        "sources": [
+          "MERRA2",
+          "POWER"
+        ],
+        "start": "20150101",
+        "time_standard": "UTC",
+        "title": "NASA/POWER Source Native Resolution Daily Data"
+      },
+      "sha256": "8a23b1e37d146bce1c683be01a62bf409dc9240a4055ae772f7afc6c1d23eabd",
+      "source_url": "https://power.larc.nasa.gov/api/temporal/daily/point?parameters=PRECTOTCORR%2CT2M%2CT2M_MIN%2CT2M_MAX&community=AG&longitude=8.592&latitude=12.0022&start=20150101&end=20151231&format=JSON&time-standard=UTC",
+      "variables_requested": [
+        "PRECTOTCORR",
+        "T2M",
+        "T2M_MIN",
+        "T2M_MAX"
+      ],
+      "year": 2015
+    },
+    {
+      "byte_size": 24900,
+      "dataset_version": "nigeria-power-daily-2001-2024-v1",
+      "date_range": {
+        "end": "20161231",
+        "start": "20160101"
+      },
+      "downloaded_at": "2026-09-21T17:27:36.602330+00:00",
+      "http_status": 200,
+      "latitude": 12.0022,
+      "location_id": "kano",
+      "location_name": "Kano",
+      "longitude": 8.592,
+      "raw_path": "data\\raw\\canonical\\nigeria-power-daily-2001-2024-v1\\kano\\2016.json",
+      "request_parameters": {
+        "community": "AG",
+        "end": "20161231",
+        "format": "JSON",
+        "latitude": 12.0022,
+        "longitude": 8.592,
+        "parameters": "PRECTOTCORR,T2M,T2M_MIN,T2M_MAX",
+        "start": "20160101",
+        "time-standard": "UTC"
+      },
+      "response_header": {
+        "api": {
+          "name": "POWER Daily API",
+          "version": "v2.10.0"
+        },
+        "end": "20161231",
+        "fill_value": -999.0,
+        "sources": [
+          "MERRA2",
+          "POWER"
+        ],
+        "start": "20160101",
+        "time_standard": "UTC",
+        "title": "NASA/POWER Source Native Resolution Daily Data"
+      },
+      "sha256": "559f0ee0968cc247a2a29c60645075d4d011d0e7437d8206e8ba174a5db589f6",
+      "source_url": "https://power.larc.nasa.gov/api/temporal/daily/point?parameters=PRECTOTCORR%2CT2M%2CT2M_MIN%2CT2M_MAX&community=AG&longitude=8.592&latitude=12.0022&start=20160101&end=20161231&format=JSON&time-standard=UTC",
+      "variables_requested": [
+        "PRECTOTCORR",
+        "T2M",
+        "T2M_MIN",
+        "T2M_MAX"
+      ],
+      "year": 2016
+    },
+    {
+      "byte_size": 24851,
+      "dataset_version": "nigeria-power-daily-2001-2024-v1",
+      "date_range": {
+        "end": "20171231",
+        "start": "20170101"
+      },
+      "downloaded_at": "2026-09-21T17:27:37.728380+00:00",
+      "http_status": 200,
+      "latitude": 12.0022,
+      "location_id": "kano",
+      "location_name": "Kano",
+      "longitude": 8.592,
+      "raw_path": "data\\raw\\canonical\\nigeria-power-daily-2001-2024-v1\\kano\\2017.json",
+      "request_parameters": {
+        "community": "AG",
+        "end": "20171231",
+        "format": "JSON",
+        "latitude": 12.0022,
+        "longitude": 8.592,
+        "parameters": "PRECTOTCORR,T2M,T2M_MIN,T2M_MAX",
+        "start": "20170101",
+        "time-standard": "UTC"
+      },
+      "response_header": {
+        "api": {
+          "name": "POWER Daily API",
+          "version": "v2.10.0"
+        },
+        "end": "20171231",
+        "fill_value": -999.0,
+        "sources": [
+          "MERRA2",
+          "POWER"
+        ],
+        "start": "20170101",
+        "time_standard": "UTC",
+        "title": "NASA/POWER Source Native Resolution Daily Data"
+      },
+      "sha256": "7c9fda768776928277692f512101af4518bdb5144ce52f8d9ece5d0a1359bd61",
+      "source_url": "https://power.larc.nasa.gov/api/temporal/daily/point?parameters=PRECTOTCORR%2CT2M%2CT2M_MIN%2CT2M_MAX&community=AG&longitude=8.592&latitude=12.0022&start=20170101&end=20171231&format=JSON&time-standard=UTC",
+      "variables_requested": [
+        "PRECTOTCORR",
+        "T2M",
+        "T2M_MIN",
+        "T2M_MAX"
+      ],
+      "year": 2017
+    },
+    {
+      "byte_size": 24827,
+      "dataset_version": "nigeria-power-daily-2001-2024-v1",
+      "date_range": {
+        "end": "20181231",
+        "start": "20180101"
+      },
+      "downloaded_at": "2026-09-21T17:27:38.854021+00:00",
+      "http_status": 200,
+      "latitude": 12.0022,
+      "location_id": "kano",
+      "location_name": "Kano",
+      "longitude": 8.592,
+      "raw_path": "data\\raw\\canonical\\nigeria-power-daily-2001-2024-v1\\kano\\2018.json",
+      "request_parameters": {
+        "community": "AG",
+        "end": "20181231",
+        "format": "JSON",
+        "latitude": 12.0022,
+        "longitude": 8.592,
+        "parameters": "PRECTOTCORR,T2M,T2M_MIN,T2M_MAX",
+        "start": "20180101",
+        "time-standard": "UTC"
+      },
+      "response_header": {
+        "api": {
+          "name": "POWER Daily API",
+          "version": "v2.10.0"
+        },
+        "end": "20181231",
+        "fill_value": -999.0,
+        "sources": [
+          "MERRA2",
+          "POWER"
+        ],
+        "start": "20180101",
+        "time_standard": "UTC",
+        "title": "NASA/POWER Source Native Resolution Daily Data"
+      },
+      "sha256": "fad916f52ddd72052eb3c6f112b84880a41633a659e9f54b3ce6474fa734ea2b",
+      "source_url": "https://power.larc.nasa.gov/api/temporal/daily/point?parameters=PRECTOTCORR%2CT2M%2CT2M_MIN%2CT2M_MAX&community=AG&longitude=8.592&latitude=12.0022&start=20180101&end=20181231&format=JSON&time-standard=UTC",
+      "variables_requested": [
+        "PRECTOTCORR",
+        "T2M",
+        "T2M_MIN",
+        "T2M_MAX"
+      ],
+      "year": 2018
+    },
+    {
+      "byte_size": 24861,
+      "dataset_version": "nigeria-power-daily-2001-2024-v1",
+      "date_range": {
+        "end": "20191231",
+        "start": "20190101"
+      },
+      "downloaded_at": "2026-09-21T17:27:40.389357+00:00",
+      "http_status": 200,
+      "latitude": 12.0022,
+      "location_id": "kano",
+      "location_name": "Kano",
+      "longitude": 8.592,
+      "raw_path": "data\\raw\\canonical\\nigeria-power-daily-2001-2024-v1\\kano\\2019.json",
+      "request_parameters": {
+        "community": "AG",
+        "end": "20191231",
+        "format": "JSON",
+        "latitude": 12.0022,
+        "longitude": 8.592,
+        "parameters": "PRECTOTCORR,T2M,T2M_MIN,T2M_MAX",
+        "start": "20190101",
+        "time-standard": "UTC"
+      },
+      "response_header": {
+        "api": {
+          "name": "POWER Daily API",
+          "version": "v2.10.0"
+        },
+        "end": "20191231",
+        "fill_value": -999.0,
+        "sources": [
+          "MERRA2",
+          "POWER"
+        ],
+        "start": "20190101",
+        "time_standard": "UTC",
+        "title": "NASA/POWER Source Native Resolution Daily Data"
+      },
+      "sha256": "516a3c55bdcbe1300080333c30329eac08546dbeb4b8107e8d637372b652a584",
+      "source_url": "https://power.larc.nasa.gov/api/temporal/daily/point?parameters=PRECTOTCORR%2CT2M%2CT2M_MIN%2CT2M_MAX&community=AG&longitude=8.592&latitude=12.0022&start=20190101&end=20191231&format=JSON&time-standard=UTC",
+      "variables_requested": [
+        "PRECTOTCORR",
+        "T2M",
+        "T2M_MIN",
+        "T2M_MAX"
+      ],
+      "year": 2019
+    },
+    {
+      "byte_size": 24953,
+      "dataset_version": "nigeria-power-daily-2001-2024-v1",
+      "date_range": {
+        "end": "20201231",
+        "start": "20200101"
+      },
+      "downloaded_at": "2026-09-21T17:27:42.696002+00:00",
+      "http_status": 200,
+      "latitude": 12.0022,
+      "location_id": "kano",
+      "location_name": "Kano",
+      "longitude": 8.592,
+      "raw_path": "data\\raw\\canonical\\nigeria-power-daily-2001-2024-v1\\kano\\2020.json",
+      "request_parameters": {
+        "community": "AG",
+        "end": "20201231",
+        "format": "JSON",
+        "latitude": 12.0022,
+        "longitude": 8.592,
+        "parameters": "PRECTOTCORR,T2M,T2M_MIN,T2M_MAX",
+        "start": "20200101",
+        "time-standard": "UTC"
+      },
+      "response_header": {
+        "api": {
+          "name": "POWER Daily API",
+          "version": "v2.10.0"
+        },
+        "end": "20201231",
+        "fill_value": -999.0,
+        "sources": [
+          "MERRA2",
+          "POWER"
+        ],
+        "start": "20200101",
+        "time_standard": "UTC",
+        "title": "NASA/POWER Source Native Resolution Daily Data"
+      },
+      "sha256": "d0d5e0a47d1bbe68118ddbaa712b2678b9ef8aa6f4854771317c468b1285ab91",
+      "source_url": "https://power.larc.nasa.gov/api/temporal/daily/point?parameters=PRECTOTCORR%2CT2M%2CT2M_MIN%2CT2M_MAX&community=AG&longitude=8.592&latitude=12.0022&start=20200101&end=20201231&format=JSON&time-standard=UTC",
+      "variables_requested": [
+        "PRECTOTCORR",
+        "T2M",
+        "T2M_MIN",
+        "T2M_MAX"
+      ],
+      "year": 2020
+    },
+    {
+      "byte_size": 24864,
+      "dataset_version": "nigeria-power-daily-2001-2024-v1",
+      "date_range": {
+        "end": "20211231",
+        "start": "20210101"
+      },
+      "downloaded_at": "2026-09-21T17:27:43.886997+00:00",
+      "http_status": 200,
+      "latitude": 12.0022,
+      "location_id": "kano",
+      "location_name": "Kano",
+      "longitude": 8.592,
+      "raw_path": "data\\raw\\canonical\\nigeria-power-daily-2001-2024-v1\\kano\\2021.json",
+      "request_parameters": {
+        "community": "AG",
+        "end": "20211231",
+        "format": "JSON",
+        "latitude": 12.0022,
+        "longitude": 8.592,
+        "parameters": "PRECTOTCORR,T2M,T2M_MIN,T2M_MAX",
+        "start": "20210101",
+        "time-standard": "UTC"
+      },
+      "response_header": {
+        "api": {
+          "name": "POWER Daily API",
+          "version": "v2.10.0"
+        },
+        "end": "20211231",
+        "fill_value": -999.0,
+        "sources": [
+          "MERRA2",
+          "POWER"
+        ],
+        "start": "20210101",
+        "time_standard": "UTC",
+        "title": "NASA/POWER Source Native Resolution Daily Data"
+      },
+      "sha256": "f7d7527c576f075fba6d7730316cfea0ec7fb1d19150a2912a7d0907849366b7",
+      "source_url": "https://power.larc.nasa.gov/api/temporal/daily/point?parameters=PRECTOTCORR%2CT2M%2CT2M_MIN%2CT2M_MAX&community=AG&longitude=8.592&latitude=12.0022&start=20210101&end=20211231&format=JSON&time-standard=UTC",
+      "variables_requested": [
+        "PRECTOTCORR",
+        "T2M",
+        "T2M_MIN",
+        "T2M_MAX"
+      ],
+      "year": 2021
+    },
+    {
+      "byte_size": 24835,
+      "dataset_version": "nigeria-power-daily-2001-2024-v1",
+      "date_range": {
+        "end": "20221231",
+        "start": "20220101"
+      },
+      "downloaded_at": "2026-09-21T17:27:44.718092+00:00",
+      "http_status": 200,
+      "latitude": 12.0022,
+      "location_id": "kano",
+      "location_name": "Kano",
+      "longitude": 8.592,
+      "raw_path": "data\\raw\\canonical\\nigeria-power-daily-2001-2024-v1\\kano\\2022.json",
+      "request_parameters": {
+        "community": "AG",
+        "end": "20221231",
+        "format": "JSON",
+        "latitude": 12.0022,
+        "longitude": 8.592,
+        "parameters": "PRECTOTCORR,T2M,T2M_MIN,T2M_MAX",
+        "start": "20220101",
+        "time-standard": "UTC"
+      },
+      "response_header": {
+        "api": {
+          "name": "POWER Daily API",
+          "version": "v2.10.0"
+        },
+        "end": "20221231",
+        "fill_value": -999.0,
+        "sources": [
+          "MERRA2",
+          "POWER"
+        ],
+        "start": "20220101",
+        "time_standard": "UTC",
+        "title": "NASA/POWER Source Native Resolution Daily Data"
+      },
+      "sha256": "ca598af7353f0b71c4f73a9b621ea7379ef6d2d8e37b2892f3101b495e89ca9a",
+      "source_url": "https://power.larc.nasa.gov/api/temporal/daily/point?parameters=PRECTOTCORR%2CT2M%2CT2M_MIN%2CT2M_MAX&community=AG&longitude=8.592&latitude=12.0022&start=20220101&end=20221231&format=JSON&time-standard=UTC",
+      "variables_requested": [
+        "PRECTOTCORR",
+        "T2M",
+        "T2M_MIN",
+        "T2M_MAX"
+      ],
+      "year": 2022
+    },
+    {
+      "byte_size": 24835,
+      "dataset_version": "nigeria-power-daily-2001-2024-v1",
+      "date_range": {
+        "end": "20231231",
+        "start": "20230101"
+      },
+      "downloaded_at": "2026-09-21T17:27:46.757032+00:00",
+      "http_status": 200,
+      "latitude": 12.0022,
+      "location_id": "kano",
+      "location_name": "Kano",
+      "longitude": 8.592,
+      "raw_path": "data\\raw\\canonical\\nigeria-power-daily-2001-2024-v1\\kano\\2023.json",
+      "request_parameters": {
+        "community": "AG",
+        "end": "20231231",
+        "format": "JSON",
+        "latitude": 12.0022,
+        "longitude": 8.592,
+        "parameters": "PRECTOTCORR,T2M,T2M_MIN,T2M_MAX",
+        "start": "20230101",
+        "time-standard": "UTC"
+      },
+      "response_header": {
+        "api": {
+          "name": "POWER Daily API",
+          "version": "v2.10.0"
+        },
+        "end": "20231231",
+        "fill_value": -999.0,
+        "sources": [
+          "MERRA2",
+          "POWER"
+        ],
+        "start": "20230101",
+        "time_standard": "UTC",
+        "title": "NASA/POWER Source Native Resolution Daily Data"
+      },
+      "sha256": "bced2132b9cdc58065c8393352916ff2950e07e4aab6ed3f0a82e9f8330e334c",
+      "source_url": "https://power.larc.nasa.gov/api/temporal/daily/point?parameters=PRECTOTCORR%2CT2M%2CT2M_MIN%2CT2M_MAX&community=AG&longitude=8.592&latitude=12.0022&start=20230101&end=20231231&format=JSON&time-standard=UTC",
+      "variables_requested": [
+        "PRECTOTCORR",
+        "T2M",
+        "T2M_MIN",
+        "T2M_MAX"
+      ],
+      "year": 2023
+    },
+    {
+      "byte_size": 24898,
+      "dataset_version": "nigeria-power-daily-2001-2024-v1",
+      "date_range": {
+        "end": "20241231",
+        "start": "20240101"
+      },
+      "downloaded_at": "2026-09-21T17:27:47.983126+00:00",
+      "http_status": 200,
+      "latitude": 12.0022,
+      "location_id": "kano",
+      "location_name": "Kano",
+      "longitude": 8.592,
+      "raw_path": "data\\raw\\canonical\\nigeria-power-daily-2001-2024-v1\\kano\\2024.json",
+      "request_parameters": {
+        "community": "AG",
+        "end": "20241231",
+        "format": "JSON",
+        "latitude": 12.0022,
+        "longitude": 8.592,
+        "parameters": "PRECTOTCORR,T2M,T2M_MIN,T2M_MAX",
+        "start": "20240101",
+        "time-standard": "UTC"
+      },
+      "response_header": {
+        "api": {
+          "name": "POWER Daily API",
+          "version": "v2.10.0"
+        },
+        "end": "20241231",
+        "fill_value": -999.0,
+        "sources": [
+          "MERRA2",
+          "POWER"
+        ],
+        "start": "20240101",
+        "time_standard": "UTC",
+        "title": "NASA/POWER Source Native Resolution Daily Data"
+      },
+      "sha256": "d4d6b1659941f109f83ddd6445d9e13d1b2f41a95a6ffeaeec54c1481b98da77",
+      "source_url": "https://power.larc.nasa.gov/api/temporal/daily/point?parameters=PRECTOTCORR%2CT2M%2CT2M_MIN%2CT2M_MAX&community=AG&longitude=8.592&latitude=12.0022&start=20240101&end=20241231&format=JSON&time-standard=UTC",
+      "variables_requested": [
+        "PRECTOTCORR",
+        "T2M",
+        "T2M_MIN",
+        "T2M_MAX"
+      ],
+      "year": 2024
+    },
+    {
+      "byte_size": 24960,
+      "dataset_version": "nigeria-power-daily-2001-2024-v1",
+      "date_range": {
+        "end": "20011231",
+        "start": "20010101"
+      },
+      "downloaded_at": "2026-09-21T17:27:49.110008+00:00",
+      "http_status": 200,
+      "latitude": 9.0765,
+      "location_id": "abuja",
+      "location_name": "Abuja",
+      "longitude": 7.3986,
+      "raw_path": "data\\raw\\canonical\\nigeria-power-daily-2001-2024-v1\\abuja\\2001.json",
+      "request_parameters": {
+        "community": "AG",
+        "end": "20011231",
+        "format": "JSON",
+        "latitude": 9.0765,
+        "longitude": 7.3986,
+        "parameters": "PRECTOTCORR,T2M,T2M_MIN,T2M_MAX",
+        "start": "20010101",
+        "time-standard": "UTC"
+      },
+      "response_header": {
+        "api": {
+          "name": "POWER Daily API",
+          "version": "v2.10.0"
+        },
+        "end": "20011231",
+        "fill_value": -999.0,
+        "sources": [
+          "MERRA2",
+          "POWER"
+        ],
+        "start": "20010101",
+        "time_standard": "UTC",
+        "title": "NASA/POWER Source Native Resolution Daily Data"
+      },
+      "sha256": "f06b88d90b3cee39e4c8e33d2bd566962620c16548665ffcc8017fc583ac3dcd",
+      "source_url": "https://power.larc.nasa.gov/api/temporal/daily/point?parameters=PRECTOTCORR%2CT2M%2CT2M_MIN%2CT2M_MAX&community=AG&longitude=7.3986&latitude=9.0765&start=20010101&end=20011231&format=JSON&time-standard=UTC",
+      "variables_requested": [
+        "PRECTOTCORR",
+        "T2M",
+        "T2M_MIN",
+        "T2M_MAX"
+      ],
+      "year": 2001
+    },
+    {
+      "byte_size": 24947,
+      "dataset_version": "nigeria-power-daily-2001-2024-v1",
+      "date_range": {
+        "end": "20021231",
+        "start": "20020101"
+      },
+      "downloaded_at": "2026-09-21T17:27:50.027446+00:00",
+      "http_status": 200,
+      "latitude": 9.0765,
+      "location_id": "abuja",
+      "location_name": "Abuja",
+      "longitude": 7.3986,
+      "raw_path": "data\\raw\\canonical\\nigeria-power-daily-2001-2024-v1\\abuja\\2002.json",
+      "request_parameters": {
+        "community": "AG",
+        "end": "20021231",
+        "format": "JSON",
+        "latitude": 9.0765,
+        "longitude": 7.3986,
+        "parameters": "PRECTOTCORR,T2M,T2M_MIN,T2M_MAX",
+        "start": "20020101",
+        "time-standard": "UTC"
+      },
+      "response_header": {
+        "api": {
+          "name": "POWER Daily API",
+          "version": "v2.10.0"
+        },
+        "end": "20021231",
+        "fill_value": -999.0,
+        "sources": [
+          "MERRA2",
+          "POWER"
+        ],
+        "start": "20020101",
+        "time_standard": "UTC",
+        "title": "NASA/POWER Source Native Resolution Daily Data"
+      },
+      "sha256": "25fb6d33798d87a9d4844570a35afc78f6711e5189f6bf33c441d6b19520e63e",
+      "source_url": "https://power.larc.nasa.gov/api/temporal/daily/point?parameters=PRECTOTCORR%2CT2M%2CT2M_MIN%2CT2M_MAX&community=AG&longitude=7.3986&latitude=9.0765&start=20020101&end=20021231&format=JSON&time-standard=UTC",
+      "variables_requested": [
+        "PRECTOTCORR",
+        "T2M",
+        "T2M_MIN",
+        "T2M_MAX"
+      ],
+      "year": 2002
+    },
+    {
+      "byte_size": 24959,
+      "dataset_version": "nigeria-power-daily-2001-2024-v1",
+      "date_range": {
+        "end": "20031231",
+        "start": "20030101"
+      },
+      "downloaded_at": "2026-09-21T17:27:51.157605+00:00",
+      "http_status": 200,
+      "latitude": 9.0765,
+      "location_id": "abuja",
+      "location_name": "Abuja",
+      "longitude": 7.3986,
+      "raw_path": "data\\raw\\canonical\\nigeria-power-daily-2001-2024-v1\\abuja\\2003.json",
+      "request_parameters": {
+        "community": "AG",
+        "end": "20031231",
+        "format": "JSON",
+        "latitude": 9.0765,
+        "longitude": 7.3986,
+        "parameters": "PRECTOTCORR,T2M,T2M_MIN,T2M_MAX",
+        "start": "20030101",
+        "time-standard": "UTC"
+      },
+      "response_header": {
+        "api": {
+          "name": "POWER Daily API",
+          "version": "v2.10.0"
+        },
+        "end": "20031231",
+        "fill_value": -999.0,
+        "sources": [
+          "MERRA2",
+          "POWER"
+        ],
+        "start": "20030101",
+        "time_standard": "UTC",
+        "title": "NASA/POWER Source Native Resolution Daily Data"
+      },
+      "sha256": "3e646c0a7dd4568b2b6cd473172bec8ac37b91da7beb210800b813afadb3578d",
+      "source_url": "https://power.larc.nasa.gov/api/temporal/daily/point?parameters=PRECTOTCORR%2CT2M%2CT2M_MIN%2CT2M_MAX&community=AG&longitude=7.3986&latitude=9.0765&start=20030101&end=20031231&format=JSON&time-standard=UTC",
+      "variables_requested": [
+        "PRECTOTCORR",
+        "T2M",
+        "T2M_MIN",
+        "T2M_MAX"
+      ],
+      "year": 2003
+    },
+    {
+      "byte_size": 24978,
+      "dataset_version": "nigeria-power-daily-2001-2024-v1",
+      "date_range": {
+        "end": "20041231",
+        "start": "20040101"
+      },
+      "downloaded_at": "2026-09-21T17:27:52.320794+00:00",
+      "http_status": 200,
+      "latitude": 9.0765,
+      "location_id": "abuja",
+      "location_name": "Abuja",
+      "longitude": 7.3986,
+      "raw_path": "data\\raw\\canonical\\nigeria-power-daily-2001-2024-v1\\abuja\\2004.json",
+      "request_parameters": {
+        "community": "AG",
+        "end": "20041231",
+        "format": "JSON",
+        "latitude": 9.0765,
+        "longitude": 7.3986,
+        "parameters": "PRECTOTCORR,T2M,T2M_MIN,T2M_MAX",
+        "start": "20040101",
+        "time-standard": "UTC"
+      },
+      "response_header": {
+        "api": {
+          "name": "POWER Daily API",
+          "version": "v2.10.0"
+        },
+        "end": "20041231",
+        "fill_value": -999.0,
+        "sources": [
+          "MERRA2",
+          "POWER"
+        ],
+        "start": "20040101",
+        "time_standard": "UTC",
+        "title": "NASA/POWER Source Native Resolution Daily Data"
+      },
+      "sha256": "cbe455435a814490acc61f27d6bb8588eb7a900eb631c4917a4b9354e5388e7c",
+      "source_url": "https://power.larc.nasa.gov/api/temporal/daily/point?parameters=PRECTOTCORR%2CT2M%2CT2M_MIN%2CT2M_MAX&community=AG&longitude=7.3986&latitude=9.0765&start=20040101&end=20041231&format=JSON&time-standard=UTC",
+      "variables_requested": [
+        "PRECTOTCORR",
+        "T2M",
+        "T2M_MIN",
+        "T2M_MAX"
+      ],
+      "year": 2004
+    },
+    {
+      "byte_size": 24945,
+      "dataset_version": "nigeria-power-daily-2001-2024-v1",
+      "date_range": {
+        "end": "20051231",
+        "start": "20050101"
+      },
+      "downloaded_at": "2026-09-21T17:27:54.127546+00:00",
+      "http_status": 200,
+      "latitude": 9.0765,
+      "location_id": "abuja",
+      "location_name": "Abuja",
+      "longitude": 7.3986,
+      "raw_path": "data\\raw\\canonical\\nigeria-power-daily-2001-2024-v1\\abuja\\2005.json",
+      "request_parameters": {
+        "community": "AG",
+        "end": "20051231",
+        "format": "JSON",
+        "latitude": 9.0765,
+        "longitude": 7.3986,
+        "parameters": "PRECTOTCORR,T2M,T2M_MIN,T2M_MAX",
+        "start": "20050101",
+        "time-standard": "UTC"
+      },
+      "response_header": {
+        "api": {
+          "name": "POWER Daily API",
+          "version": "v2.10.0"
+        },
+        "end": "20051231",
+        "fill_value": -999.0,
+        "sources": [
+          "MERRA2",
+          "POWER"
+        ],
+        "start": "20050101",
+        "time_standard": "UTC",
+        "title": "NASA/POWER Source Native Resolution Daily Data"
+      },
+      "sha256": "2f9f85477b339c23e75f1dd5789d8742a8069f7652398c1f7dc69ceeb70e0e4f",
+      "source_url": "https://power.larc.nasa.gov/api/temporal/daily/point?parameters=PRECTOTCORR%2CT2M%2CT2M_MIN%2CT2M_MAX&community=AG&longitude=7.3986&latitude=9.0765&start=20050101&end=20051231&format=JSON&time-standard=UTC",
+      "variables_requested": [
+        "PRECTOTCORR",
+        "T2M",
+        "T2M_MIN",
+        "T2M_MAX"
+      ],
+      "year": 2005
+    },
+    {
+      "byte_size": 24962,
+      "dataset_version": "nigeria-power-daily-2001-2024-v1",
+      "date_range": {
+        "end": "20061231",
+        "start": "20060101"
+      },
+      "downloaded_at": "2026-09-21T17:27:55.971425+00:00",
+      "http_status": 200,
+      "latitude": 9.0765,
+      "location_id": "abuja",
+      "location_name": "Abuja",
+      "longitude": 7.3986,
+      "raw_path": "data\\raw\\canonical\\nigeria-power-daily-2001-2024-v1\\abuja\\2006.json",
+      "request_parameters": {
+        "community": "AG",
+        "end": "20061231",
+        "format": "JSON",
+        "latitude": 9.0765,
+        "longitude": 7.3986,
+        "parameters": "PRECTOTCORR,T2M,T2M_MIN,T2M_MAX",
+        "start": "20060101",
+        "time-standard": "UTC"
+      },
+      "response_header": {
+        "api": {
+          "name": "POWER Daily API",
+          "version": "v2.10.0"
+        },
+        "end": "20061231",
+        "fill_value": -999.0,
+        "sources": [
+          "MERRA2",
+          "POWER"
+        ],
+        "start": "20060101",
+        "time_standard": "UTC",
+        "title": "NASA/POWER Source Native Resolution Daily Data"
+      },
+      "sha256": "21c5aad1307e39b45b5cca23d697f2bf5dc1c9428d2b38d1a7b8012db36300dd",
+      "source_url": "https://power.larc.nasa.gov/api/temporal/daily/point?parameters=PRECTOTCORR%2CT2M%2CT2M_MIN%2CT2M_MAX&community=AG&longitude=7.3986&latitude=9.0765&start=20060101&end=20061231&format=JSON&time-standard=UTC",
+      "variables_requested": [
+        "PRECTOTCORR",
+        "T2M",
+        "T2M_MIN",
+        "T2M_MAX"
+      ],
+      "year": 2006
+    },
+    {
+      "byte_size": 24984,
+      "dataset_version": "nigeria-power-daily-2001-2024-v1",
+      "date_range": {
+        "end": "20071231",
+        "start": "20070101"
+      },
+      "downloaded_at": "2026-09-21T17:27:57.316882+00:00",
+      "http_status": 200,
+      "latitude": 9.0765,
+      "location_id": "abuja",
+      "location_name": "Abuja",
+      "longitude": 7.3986,
+      "raw_path": "data\\raw\\canonical\\nigeria-power-daily-2001-2024-v1\\abuja\\2007.json",
+      "request_parameters": {
+        "community": "AG",
+        "end": "20071231",
+        "format": "JSON",
+        "latitude": 9.0765,
+        "longitude": 7.3986,
+        "parameters": "PRECTOTCORR,T2M,T2M_MIN,T2M_MAX",
+        "start": "20070101",
+        "time-standard": "UTC"
+      },
+      "response_header": {
+        "api": {
+          "name": "POWER Daily API",
+          "version": "v2.10.0"
+        },
+        "end": "20071231",
+        "fill_value": -999.0,
+        "sources": [
+          "MERRA2",
+          "POWER"
+        ],
+        "start": "20070101",
+        "time_standard": "UTC",
+        "title": "NASA/POWER Source Native Resolution Daily Data"
+      },
+      "sha256": "8ea50cb90520a6fb3965b4fa91d99b09eb3080eb0edc34eeee741052778d0d4f",
+      "source_url": "https://power.larc.nasa.gov/api/temporal/daily/point?parameters=PRECTOTCORR%2CT2M%2CT2M_MIN%2CT2M_MAX&community=AG&longitude=7.3986&latitude=9.0765&start=20070101&end=20071231&format=JSON&time-standard=UTC",
+      "variables_requested": [
+        "PRECTOTCORR",
+        "T2M",
+        "T2M_MIN",
+        "T2M_MAX"
+      ],
+      "year": 2007
+    },
+    {
+      "byte_size": 25044,
+      "dataset_version": "nigeria-power-daily-2001-2024-v1",
+      "date_range": {
+        "end": "20081231",
+        "start": "20080101"
+      },
+      "downloaded_at": "2026-09-21T17:27:58.237420+00:00",
+      "http_status": 200,
+      "latitude": 9.0765,
+      "location_id": "abuja",
+      "location_name": "Abuja",
+      "longitude": 7.3986,
+      "raw_path": "data\\raw\\canonical\\nigeria-power-daily-2001-2024-v1\\abuja\\2008.json",
+      "request_parameters": {
+        "community": "AG",
+        "end": "20081231",
+        "format": "JSON",
+        "latitude": 9.0765,
+        "longitude": 7.3986,
+        "parameters": "PRECTOTCORR,T2M,T2M_MIN,T2M_MAX",
+        "start": "20080101",
+        "time-standard": "UTC"
+      },
+      "response_header": {
+        "api": {
+          "name": "POWER Daily API",
+          "version": "v2.10.0"
+        },
+        "end": "20081231",
+        "fill_value": -999.0,
+        "sources": [
+          "MERRA2",
+          "POWER"
+        ],
+        "start": "20080101",
+        "time_standard": "UTC",
+        "title": "NASA/POWER Source Native Resolution Daily Data"
+      },
+      "sha256": "daecb45cac92a9b662d55dc1445bdaf230682d9ee2bd8e2ceab268920a9de7de",
+      "source_url": "https://power.larc.nasa.gov/api/temporal/daily/point?parameters=PRECTOTCORR%2CT2M%2CT2M_MIN%2CT2M_MAX&community=AG&longitude=7.3986&latitude=9.0765&start=20080101&end=20081231&format=JSON&time-standard=UTC",
+      "variables_requested": [
+        "PRECTOTCORR",
+        "T2M",
+        "T2M_MIN",
+        "T2M_MAX"
+      ],
+      "year": 2008
+    },
+    {
+      "byte_size": 24994,
+      "dataset_version": "nigeria-power-daily-2001-2024-v1",
+      "date_range": {
+        "end": "20091231",
+        "start": "20090101"
+      },
+      "downloaded_at": "2026-09-21T17:27:59.246764+00:00",
+      "http_status": 200,
+      "latitude": 9.0765,
+      "location_id": "abuja",
+      "location_name": "Abuja",
+      "longitude": 7.3986,
+      "raw_path": "data\\raw\\canonical\\nigeria-power-daily-2001-2024-v1\\abuja\\2009.json",
+      "request_parameters": {
+        "community": "AG",
+        "end": "20091231",
+        "format": "JSON",
+        "latitude": 9.0765,
+        "longitude": 7.3986,
+        "parameters": "PRECTOTCORR,T2M,T2M_MIN,T2M_MAX",
+        "start": "20090101",
+        "time-standard": "UTC"
+      },
+      "response_header": {
+        "api": {
+          "name": "POWER Daily API",
+          "version": "v2.10.0"
+        },
+        "end": "20091231",
+        "fill_value": -999.0,
+        "sources": [
+          "MERRA2",
+          "POWER"
+        ],
+        "start": "20090101",
+        "time_standard": "UTC",
+        "title": "NASA/POWER Source Native Resolution Daily Data"
+      },
+      "sha256": "b907a60f60e74d00fd939c17abe2a9d6add5e6d7745bb447c9ad057f7164e5ef",
+      "source_url": "https://power.larc.nasa.gov/api/temporal/daily/point?parameters=PRECTOTCORR%2CT2M%2CT2M_MIN%2CT2M_MAX&community=AG&longitude=7.3986&latitude=9.0765&start=20090101&end=20091231&format=JSON&time-standard=UTC",
+      "variables_requested": [
+        "PRECTOTCORR",
+        "T2M",
+        "T2M_MIN",
+        "T2M_MAX"
+      ],
+      "year": 2009
+    },
+    {
+      "byte_size": 25010,
+      "dataset_version": "nigeria-power-daily-2001-2024-v1",
+      "date_range": {
+        "end": "20101231",
+        "start": "20100101"
+      },
+      "downloaded_at": "2026-09-21T17:28:00.984731+00:00",
+      "http_status": 200,
+      "latitude": 9.0765,
+      "location_id": "abuja",
+      "location_name": "Abuja",
+      "longitude": 7.3986,
+      "raw_path": "data\\raw\\canonical\\nigeria-power-daily-2001-2024-v1\\abuja\\2010.json",
+      "request_parameters": {
+        "community": "AG",
+        "end": "20101231",
+        "format": "JSON",
+        "latitude": 9.0765,
+        "longitude": 7.3986,
+        "parameters": "PRECTOTCORR,T2M,T2M_MIN,T2M_MAX",
+        "start": "20100101",
+        "time-standard": "UTC"
+      },
+      "response_header": {
+        "api": {
+          "name": "POWER Daily API",
+          "version": "v2.10.0"
+        },
+        "end": "20101231",
+        "fill_value": -999.0,
+        "sources": [
+          "MERRA2",
+          "POWER"
+        ],
+        "start": "20100101",
+        "time_standard": "UTC",
+        "title": "NASA/POWER Source Native Resolution Daily Data"
+      },
+      "sha256": "69d981edbb90606a82e03885ddb8d10c590ff4386231ce10756d161709a9f217",
+      "source_url": "https://power.larc.nasa.gov/api/temporal/daily/point?parameters=PRECTOTCORR%2CT2M%2CT2M_MIN%2CT2M_MAX&community=AG&longitude=7.3986&latitude=9.0765&start=20100101&end=20101231&format=JSON&time-standard=UTC",
+      "variables_requested": [
+        "PRECTOTCORR",
+        "T2M",
+        "T2M_MIN",
+        "T2M_MAX"
+      ],
+      "year": 2010
+    },
+    {
+      "byte_size": 24976,
+      "dataset_version": "nigeria-power-daily-2001-2024-v1",
+      "date_range": {
+        "end": "20111231",
+        "start": "20110101"
+      },
+      "downloaded_at": "2026-09-21T17:28:01.818078+00:00",
+      "http_status": 200,
+      "latitude": 9.0765,
+      "location_id": "abuja",
+      "location_name": "Abuja",
+      "longitude": 7.3986,
+      "raw_path": "data\\raw\\canonical\\nigeria-power-daily-2001-2024-v1\\abuja\\2011.json",
+      "request_parameters": {
+        "community": "AG",
+        "end": "20111231",
+        "format": "JSON",
+        "latitude": 9.0765,
+        "longitude": 7.3986,
+        "parameters": "PRECTOTCORR,T2M,T2M_MIN,T2M_MAX",
+        "start": "20110101",
+        "time-standard": "UTC"
+      },
+      "response_header": {
+        "api": {
+          "name": "POWER Daily API",
+          "version": "v2.10.0"
+        },
+        "end": "20111231",
+        "fill_value": -999.0,
+        "sources": [
+          "MERRA2",
+          "POWER"
+        ],
+        "start": "20110101",
+        "time_standard": "UTC",
+        "title": "NASA/POWER Source Native Resolution Daily Data"
+      },
+      "sha256": "f882757c84903ae511bfec76f00362a469d43388a9bb9867c836749a3a939832",
+      "source_url": "https://power.larc.nasa.gov/api/temporal/daily/point?parameters=PRECTOTCORR%2CT2M%2CT2M_MIN%2CT2M_MAX&community=AG&longitude=7.3986&latitude=9.0765&start=20110101&end=20111231&format=JSON&time-standard=UTC",
+      "variables_requested": [
+        "PRECTOTCORR",
+        "T2M",
+        "T2M_MIN",
+        "T2M_MAX"
+      ],
+      "year": 2011
+    },
+    {
+      "byte_size": 25062,
+      "dataset_version": "nigeria-power-daily-2001-2024-v1",
+      "date_range": {
+        "end": "20121231",
+        "start": "20120101"
+      },
+      "downloaded_at": "2026-09-21T17:28:03.045011+00:00",
+      "http_status": 200,
+      "latitude": 9.0765,
+      "location_id": "abuja",
+      "location_name": "Abuja",
+      "longitude": 7.3986,
+      "raw_path": "data\\raw\\canonical\\nigeria-power-daily-2001-2024-v1\\abuja\\2012.json",
+      "request_parameters": {
+        "community": "AG",
+        "end": "20121231",
+        "format": "JSON",
+        "latitude": 9.0765,
+        "longitude": 7.3986,
+        "parameters": "PRECTOTCORR,T2M,T2M_MIN,T2M_MAX",
+        "start": "20120101",
+        "time-standard": "UTC"
+      },
+      "response_header": {
+        "api": {
+          "name": "POWER Daily API",
+          "version": "v2.10.0"
+        },
+        "end": "20121231",
+        "fill_value": -999.0,
+        "sources": [
+          "MERRA2",
+          "POWER"
+        ],
+        "start": "20120101",
+        "time_standard": "UTC",
+        "title": "NASA/POWER Source Native Resolution Daily Data"
+      },
+      "sha256": "8f9accb3b2bdd26d6d6262f5d1d745f34d3c56b6621f11c250bc8e88bf122fe0",
+      "source_url": "https://power.larc.nasa.gov/api/temporal/daily/point?parameters=PRECTOTCORR%2CT2M%2CT2M_MIN%2CT2M_MAX&community=AG&longitude=7.3986&latitude=9.0765&start=20120101&end=20121231&format=JSON&time-standard=UTC",
+      "variables_requested": [
+        "PRECTOTCORR",
+        "T2M",
+        "T2M_MIN",
+        "T2M_MAX"
+      ],
+      "year": 2012
+    },
+    {
+      "byte_size": 24984,
+      "dataset_version": "nigeria-power-daily-2001-2024-v1",
+      "date_range": {
+        "end": "20131231",
+        "start": "20130101"
+      },
+      "downloaded_at": "2026-09-21T17:28:04.797613+00:00",
+      "http_status": 200,
+      "latitude": 9.0765,
+      "location_id": "abuja",
+      "location_name": "Abuja",
+      "longitude": 7.3986,
+      "raw_path": "data\\raw\\canonical\\nigeria-power-daily-2001-2024-v1\\abuja\\2013.json",
+      "request_parameters": {
+        "community": "AG",
+        "end": "20131231",
+        "format": "JSON",
+        "latitude": 9.0765,
+        "longitude": 7.3986,
+        "parameters": "PRECTOTCORR,T2M,T2M_MIN,T2M_MAX",
+        "start": "20130101",
+        "time-standard": "UTC"
+      },
+      "response_header": {
+        "api": {
+          "name": "POWER Daily API",
+          "version": "v2.10.0"
+        },
+        "end": "20131231",
+        "fill_value": -999.0,
+        "sources": [
+          "MERRA2",
+          "POWER"
+        ],
+        "start": "20130101",
+        "time_standard": "UTC",
+        "title": "NASA/POWER Source Native Resolution Daily Data"
+      },
+      "sha256": "4ecff415332a21ac89d75eefd74c02ab92fb856b5be1aebcf5a2d8d616b9fac2",
+      "source_url": "https://power.larc.nasa.gov/api/temporal/daily/point?parameters=PRECTOTCORR%2CT2M%2CT2M_MIN%2CT2M_MAX&community=AG&longitude=7.3986&latitude=9.0765&start=20130101&end=20131231&format=JSON&time-standard=UTC",
+      "variables_requested": [
+        "PRECTOTCORR",
+        "T2M",
+        "T2M_MIN",
+        "T2M_MAX"
+      ],
+      "year": 2013
+    },
+    {
+      "byte_size": 24983,
+      "dataset_version": "nigeria-power-daily-2001-2024-v1",
+      "date_range": {
+        "end": "20141231",
+        "start": "20140101"
+      },
+      "downloaded_at": "2026-09-21T17:28:06.211071+00:00",
+      "http_status": 200,
+      "latitude": 9.0765,
+      "location_id": "abuja",
+      "location_name": "Abuja",
+      "longitude": 7.3986,
+      "raw_path": "data\\raw\\canonical\\nigeria-power-daily-2001-2024-v1\\abuja\\2014.json",
+      "request_parameters": {
+        "community": "AG",
+        "end": "20141231",
+        "format": "JSON",
+        "latitude": 9.0765,
+        "longitude": 7.3986,
+        "parameters": "PRECTOTCORR,T2M,T2M_MIN,T2M_MAX",
+        "start": "20140101",
+        "time-standard": "UTC"
+      },
+      "response_header": {
+        "api": {
+          "name": "POWER Daily API",
+          "version": "v2.10.0"
+        },
+        "end": "20141231",
+        "fill_value": -999.0,
+        "sources": [
+          "MERRA2",
+          "POWER"
+        ],
+        "start": "20140101",
+        "time_standard": "UTC",
+        "title": "NASA/POWER Source Native Resolution Daily Data"
+      },
+      "sha256": "5cf57b5c8530aa175d022aaa0c241db5b9457d8f1af7722e463aba816b2e7eaa",
+      "source_url": "https://power.larc.nasa.gov/api/temporal/daily/point?parameters=PRECTOTCORR%2CT2M%2CT2M_MIN%2CT2M_MAX&community=AG&longitude=7.3986&latitude=9.0765&start=20140101&end=20141231&format=JSON&time-standard=UTC",
+      "variables_requested": [
+        "PRECTOTCORR",
+        "T2M",
+        "T2M_MIN",
+        "T2M_MAX"
+      ],
+      "year": 2014
+    },
+    {
+      "byte_size": 24921,
+      "dataset_version": "nigeria-power-daily-2001-2024-v1",
+      "date_range": {
+        "end": "20151231",
+        "start": "20150101"
+      },
+      "downloaded_at": "2026-09-21T17:28:07.562864+00:00",
+      "http_status": 200,
+      "latitude": 9.0765,
+      "location_id": "abuja",
+      "location_name": "Abuja",
+      "longitude": 7.3986,
+      "raw_path": "data\\raw\\canonical\\nigeria-power-daily-2001-2024-v1\\abuja\\2015.json",
+      "request_parameters": {
+        "community": "AG",
+        "end": "20151231",
+        "format": "JSON",
+        "latitude": 9.0765,
+        "longitude": 7.3986,
+        "parameters": "PRECTOTCORR,T2M,T2M_MIN,T2M_MAX",
+        "start": "20150101",
+        "time-standard": "UTC"
+      },
+      "response_header": {
+        "api": {
+          "name": "POWER Daily API",
+          "version": "v2.10.0"
+        },
+        "end": "20151231",
+        "fill_value": -999.0,
+        "sources": [
+          "MERRA2",
+          "POWER"
+        ],
+        "start": "20150101",
+        "time_standard": "UTC",
+        "title": "NASA/POWER Source Native Resolution Daily Data"
+      },
+      "sha256": "1da69805449898995551015e107c18fb4bb0a1fb87f14e3f1685edf3b135de99",
+      "source_url": "https://power.larc.nasa.gov/api/temporal/daily/point?parameters=PRECTOTCORR%2CT2M%2CT2M_MIN%2CT2M_MAX&community=AG&longitude=7.3986&latitude=9.0765&start=20150101&end=20151231&format=JSON&time-standard=UTC",
+      "variables_requested": [
+        "PRECTOTCORR",
+        "T2M",
+        "T2M_MIN",
+        "T2M_MAX"
+      ],
+      "year": 2015
+    },
+    {
+      "byte_size": 25024,
+      "dataset_version": "nigeria-power-daily-2001-2024-v1",
+      "date_range": {
+        "end": "20161231",
+        "start": "20160101"
+      },
+      "downloaded_at": "2026-09-21T17:28:09.385193+00:00",
+      "http_status": 200,
+      "latitude": 9.0765,
+      "location_id": "abuja",
+      "location_name": "Abuja",
+      "longitude": 7.3986,
+      "raw_path": "data\\raw\\canonical\\nigeria-power-daily-2001-2024-v1\\abuja\\2016.json",
+      "request_parameters": {
+        "community": "AG",
+        "end": "20161231",
+        "format": "JSON",
+        "latitude": 9.0765,
+        "longitude": 7.3986,
+        "parameters": "PRECTOTCORR,T2M,T2M_MIN,T2M_MAX",
+        "start": "20160101",
+        "time-standard": "UTC"
+      },
+      "response_header": {
+        "api": {
+          "name": "POWER Daily API",
+          "version": "v2.10.0"
+        },
+        "end": "20161231",
+        "fill_value": -999.0,
+        "sources": [
+          "MERRA2",
+          "POWER"
+        ],
+        "start": "20160101",
+        "time_standard": "UTC",
+        "title": "NASA/POWER Source Native Resolution Daily Data"
+      },
+      "sha256": "92206460afe05ccdda40c33205e739b132fa6e058bd6189eb4eecf785ee8f05d",
+      "source_url": "https://power.larc.nasa.gov/api/temporal/daily/point?parameters=PRECTOTCORR%2CT2M%2CT2M_MIN%2CT2M_MAX&community=AG&longitude=7.3986&latitude=9.0765&start=20160101&end=20161231&format=JSON&time-standard=UTC",
+      "variables_requested": [
+        "PRECTOTCORR",
+        "T2M",
+        "T2M_MIN",
+        "T2M_MAX"
+      ],
+      "year": 2016
+    },
+    {
+      "byte_size": 24940,
+      "dataset_version": "nigeria-power-daily-2001-2024-v1",
+      "date_range": {
+        "end": "20171231",
+        "start": "20170101"
+      },
+      "downloaded_at": "2026-09-21T17:28:10.612787+00:00",
+      "http_status": 200,
+      "latitude": 9.0765,
+      "location_id": "abuja",
+      "location_name": "Abuja",
+      "longitude": 7.3986,
+      "raw_path": "data\\raw\\canonical\\nigeria-power-daily-2001-2024-v1\\abuja\\2017.json",
+      "request_parameters": {
+        "community": "AG",
+        "end": "20171231",
+        "format": "JSON",
+        "latitude": 9.0765,
+        "longitude": 7.3986,
+        "parameters": "PRECTOTCORR,T2M,T2M_MIN,T2M_MAX",
+        "start": "20170101",
+        "time-standard": "UTC"
+      },
+      "response_header": {
+        "api": {
+          "name": "POWER Daily API",
+          "version": "v2.10.0"
+        },
+        "end": "20171231",
+        "fill_value": -999.0,
+        "sources": [
+          "MERRA2",
+          "POWER"
+        ],
+        "start": "20170101",
+        "time_standard": "UTC",
+        "title": "NASA/POWER Source Native Resolution Daily Data"
+      },
+      "sha256": "a1da57e2e9d4ae654ff173815600a1848db3916eaef450384be64a5e1f16ae8e",
+      "source_url": "https://power.larc.nasa.gov/api/temporal/daily/point?parameters=PRECTOTCORR%2CT2M%2CT2M_MIN%2CT2M_MAX&community=AG&longitude=7.3986&latitude=9.0765&start=20170101&end=20171231&format=JSON&time-standard=UTC",
+      "variables_requested": [
+        "PRECTOTCORR",
+        "T2M",
+        "T2M_MIN",
+        "T2M_MAX"
+      ],
+      "year": 2017
+    },
+    {
+      "byte_size": 24942,
+      "dataset_version": "nigeria-power-daily-2001-2024-v1",
+      "date_range": {
+        "end": "20181231",
+        "start": "20180101"
+      },
+      "downloaded_at": "2026-09-21T17:28:11.419826+00:00",
+      "http_status": 200,
+      "latitude": 9.0765,
+      "location_id": "abuja",
+      "location_name": "Abuja",
+      "longitude": 7.3986,
+      "raw_path": "data\\raw\\canonical\\nigeria-power-daily-2001-2024-v1\\abuja\\2018.json",
+      "request_parameters": {
+        "community": "AG",
+        "end": "20181231",
+        "format": "JSON",
+        "latitude": 9.0765,
+        "longitude": 7.3986,
+        "parameters": "PRECTOTCORR,T2M,T2M_MIN,T2M_MAX",
+        "start": "20180101",
+        "time-standard": "UTC"
+      },
+      "response_header": {
+        "api": {
+          "name": "POWER Daily API",
+          "version": "v2.10.0"
+        },
+        "end": "20181231",
+        "fill_value": -999.0,
+        "sources": [
+          "MERRA2",
+          "POWER"
+        ],
+        "start": "20180101",
+        "time_standard": "UTC",
+        "title": "NASA/POWER Source Native Resolution Daily Data"
+      },
+      "sha256": "b399d28f96ed375bd925e1e6a4db4ee5d7f7e7f7b862d886b5242271cd7433aa",
+      "source_url": "https://power.larc.nasa.gov/api/temporal/daily/point?parameters=PRECTOTCORR%2CT2M%2CT2M_MIN%2CT2M_MAX&community=AG&longitude=7.3986&latitude=9.0765&start=20180101&end=20181231&format=JSON&time-standard=UTC",
+      "variables_requested": [
+        "PRECTOTCORR",
+        "T2M",
+        "T2M_MIN",
+        "T2M_MAX"
+      ],
+      "year": 2018
+    },
+    {
+      "byte_size": 24966,
+      "dataset_version": "nigeria-power-daily-2001-2024-v1",
+      "date_range": {
+        "end": "20191231",
+        "start": "20190101"
+      },
+      "downloaded_at": "2026-09-21T17:28:12.133922+00:00",
+      "http_status": 200,
+      "latitude": 9.0765,
+      "location_id": "abuja",
+      "location_name": "Abuja",
+      "longitude": 7.3986,
+      "raw_path": "data\\raw\\canonical\\nigeria-power-daily-2001-2024-v1\\abuja\\2019.json",
+      "request_parameters": {
+        "community": "AG",
+        "end": "20191231",
+        "format": "JSON",
+        "latitude": 9.0765,
+        "longitude": 7.3986,
+        "parameters": "PRECTOTCORR,T2M,T2M_MIN,T2M_MAX",
+        "start": "20190101",
+        "time-standard": "UTC"
+      },
+      "response_header": {
+        "api": {
+          "name": "POWER Daily API",
+          "version": "v2.10.0"
+        },
+        "end": "20191231",
+        "fill_value": -999.0,
+        "sources": [
+          "MERRA2",
+          "POWER"
+        ],
+        "start": "20190101",
+        "time_standard": "UTC",
+        "title": "NASA/POWER Source Native Resolution Daily Data"
+      },
+      "sha256": "bc951d68c99319604ea15b23f12c74f834d36034f0aebae177ddc16cf2d06d7a",
+      "source_url": "https://power.larc.nasa.gov/api/temporal/daily/point?parameters=PRECTOTCORR%2CT2M%2CT2M_MIN%2CT2M_MAX&community=AG&longitude=7.3986&latitude=9.0765&start=20190101&end=20191231&format=JSON&time-standard=UTC",
+      "variables_requested": [
+        "PRECTOTCORR",
+        "T2M",
+        "T2M_MIN",
+        "T2M_MAX"
+      ],
+      "year": 2019
+    },
+    {
+      "byte_size": 25003,
+      "dataset_version": "nigeria-power-daily-2001-2024-v1",
+      "date_range": {
+        "end": "20201231",
+        "start": "20200101"
+      },
+      "downloaded_at": "2026-09-21T17:28:13.809700+00:00",
+      "http_status": 200,
+      "latitude": 9.0765,
+      "location_id": "abuja",
+      "location_name": "Abuja",
+      "longitude": 7.3986,
+      "raw_path": "data\\raw\\canonical\\nigeria-power-daily-2001-2024-v1\\abuja\\2020.json",
+      "request_parameters": {
+        "community": "AG",
+        "end": "20201231",
+        "format": "JSON",
+        "latitude": 9.0765,
+        "longitude": 7.3986,
+        "parameters": "PRECTOTCORR,T2M,T2M_MIN,T2M_MAX",
+        "start": "20200101",
+        "time-standard": "UTC"
+      },
+      "response_header": {
+        "api": {
+          "name": "POWER Daily API",
+          "version": "v2.10.0"
+        },
+        "end": "20201231",
+        "fill_value": -999.0,
+        "sources": [
+          "MERRA2",
+          "POWER"
+        ],
+        "start": "20200101",
+        "time_standard": "UTC",
+        "title": "NASA/POWER Source Native Resolution Daily Data"
+      },
+      "sha256": "1e5d54654a9b5b22f4a916feee76125ba23fe5a543578aa4866e92782435a709",
+      "source_url": "https://power.larc.nasa.gov/api/temporal/daily/point?parameters=PRECTOTCORR%2CT2M%2CT2M_MIN%2CT2M_MAX&community=AG&longitude=7.3986&latitude=9.0765&start=20200101&end=20201231&format=JSON&time-standard=UTC",
+      "variables_requested": [
+        "PRECTOTCORR",
+        "T2M",
+        "T2M_MIN",
+        "T2M_MAX"
+      ],
+      "year": 2020
+    },
+    {
+      "byte_size": 24978,
+      "dataset_version": "nigeria-power-daily-2001-2024-v1",
+      "date_range": {
+        "end": "20211231",
+        "start": "20210101"
+      },
+      "downloaded_at": "2026-09-21T17:28:14.913698+00:00",
+      "http_status": 200,
+      "latitude": 9.0765,
+      "location_id": "abuja",
+      "location_name": "Abuja",
+      "longitude": 7.3986,
+      "raw_path": "data\\raw\\canonical\\nigeria-power-daily-2001-2024-v1\\abuja\\2021.json",
+      "request_parameters": {
+        "community": "AG",
+        "end": "20211231",
+        "format": "JSON",
+        "latitude": 9.0765,
+        "longitude": 7.3986,
+        "parameters": "PRECTOTCORR,T2M,T2M_MIN,T2M_MAX",
+        "start": "20210101",
+        "time-standard": "UTC"
+      },
+      "response_header": {
+        "api": {
+          "name": "POWER Daily API",
+          "version": "v2.10.0"
+        },
+        "end": "20211231",
+        "fill_value": -999.0,
+        "sources": [
+          "MERRA2",
+          "POWER"
+        ],
+        "start": "20210101",
+        "time_standard": "UTC",
+        "title": "NASA/POWER Source Native Resolution Daily Data"
+      },
+      "sha256": "eca21fee9ff0a1b8f2cd2918b2c97e33ab00e169a2cd920c7a827aece8437e95",
+      "source_url": "https://power.larc.nasa.gov/api/temporal/daily/point?parameters=PRECTOTCORR%2CT2M%2CT2M_MIN%2CT2M_MAX&community=AG&longitude=7.3986&latitude=9.0765&start=20210101&end=20211231&format=JSON&time-standard=UTC",
+      "variables_requested": [
+        "PRECTOTCORR",
+        "T2M",
+        "T2M_MIN",
+        "T2M_MAX"
+      ],
+      "year": 2021
+    },
+    {
+      "byte_size": 24996,
+      "dataset_version": "nigeria-power-daily-2001-2024-v1",
+      "date_range": {
+        "end": "20221231",
+        "start": "20220101"
+      },
+      "downloaded_at": "2026-09-21T17:28:15.719287+00:00",
+      "http_status": 200,
+      "latitude": 9.0765,
+      "location_id": "abuja",
+      "location_name": "Abuja",
+      "longitude": 7.3986,
+      "raw_path": "data\\raw\\canonical\\nigeria-power-daily-2001-2024-v1\\abuja\\2022.json",
+      "request_parameters": {
+        "community": "AG",
+        "end": "20221231",
+        "format": "JSON",
+        "latitude": 9.0765,
+        "longitude": 7.3986,
+        "parameters": "PRECTOTCORR,T2M,T2M_MIN,T2M_MAX",
+        "start": "20220101",
+        "time-standard": "UTC"
+      },
+      "response_header": {
+        "api": {
+          "name": "POWER Daily API",
+          "version": "v2.10.0"
+        },
+        "end": "20221231",
+        "fill_value": -999.0,
+        "sources": [
+          "MERRA2",
+          "POWER"
+        ],
+        "start": "20220101",
+        "time_standard": "UTC",
+        "title": "NASA/POWER Source Native Resolution Daily Data"
+      },
+      "sha256": "674a98f2b3a6bcc958f787a668f4f5703f2f553433317d1fc4da08dec76e9e64",
+      "source_url": "https://power.larc.nasa.gov/api/temporal/daily/point?parameters=PRECTOTCORR%2CT2M%2CT2M_MIN%2CT2M_MAX&community=AG&longitude=7.3986&latitude=9.0765&start=20220101&end=20221231&format=JSON&time-standard=UTC",
+      "variables_requested": [
+        "PRECTOTCORR",
+        "T2M",
+        "T2M_MIN",
+        "T2M_MAX"
+      ],
+      "year": 2022
+    },
+    {
+      "byte_size": 24967,
+      "dataset_version": "nigeria-power-daily-2001-2024-v1",
+      "date_range": {
+        "end": "20231231",
+        "start": "20230101"
+      },
+      "downloaded_at": "2026-09-21T17:28:16.640096+00:00",
+      "http_status": 200,
+      "latitude": 9.0765,
+      "location_id": "abuja",
+      "location_name": "Abuja",
+      "longitude": 7.3986,
+      "raw_path": "data\\raw\\canonical\\nigeria-power-daily-2001-2024-v1\\abuja\\2023.json",
+      "request_parameters": {
+        "community": "AG",
+        "end": "20231231",
+        "format": "JSON",
+        "latitude": 9.0765,
+        "longitude": 7.3986,
+        "parameters": "PRECTOTCORR,T2M,T2M_MIN,T2M_MAX",
+        "start": "20230101",
+        "time-standard": "UTC"
+      },
+      "response_header": {
+        "api": {
+          "name": "POWER Daily API",
+          "version": "v2.10.0"
+        },
+        "end": "20231231",
+        "fill_value": -999.0,
+        "sources": [
+          "MERRA2",
+          "POWER"
+        ],
+        "start": "20230101",
+        "time_standard": "UTC",
+        "title": "NASA/POWER Source Native Resolution Daily Data"
+      },
+      "sha256": "3fcdc4e645e92b6bd5266f8b09855b6501306a5c75aeb4fa1144cd0748fb2abd",
+      "source_url": "https://power.larc.nasa.gov/api/temporal/daily/point?parameters=PRECTOTCORR%2CT2M%2CT2M_MIN%2CT2M_MAX&community=AG&longitude=7.3986&latitude=9.0765&start=20230101&end=20231231&format=JSON&time-standard=UTC",
+      "variables_requested": [
+        "PRECTOTCORR",
+        "T2M",
+        "T2M_MIN",
+        "T2M_MAX"
+      ],
+      "year": 2023
+    },
+    {
+      "byte_size": 24994,
+      "dataset_version": "nigeria-power-daily-2001-2024-v1",
+      "date_range": {
+        "end": "20241231",
+        "start": "20240101"
+      },
+      "downloaded_at": "2026-09-21T17:28:17.766115+00:00",
+      "http_status": 200,
+      "latitude": 9.0765,
+      "location_id": "abuja",
+      "location_name": "Abuja",
+      "longitude": 7.3986,
+      "raw_path": "data\\raw\\canonical\\nigeria-power-daily-2001-2024-v1\\abuja\\2024.json",
+      "request_parameters": {
+        "community": "AG",
+        "end": "20241231",
+        "format": "JSON",
+        "latitude": 9.0765,
+        "longitude": 7.3986,
+        "parameters": "PRECTOTCORR,T2M,T2M_MIN,T2M_MAX",
+        "start": "20240101",
+        "time-standard": "UTC"
+      },
+      "response_header": {
+        "api": {
+          "name": "POWER Daily API",
+          "version": "v2.10.0"
+        },
+        "end": "20241231",
+        "fill_value": -999.0,
+        "sources": [
+          "MERRA2",
+          "POWER"
+        ],
+        "start": "20240101",
+        "time_standard": "UTC",
+        "title": "NASA/POWER Source Native Resolution Daily Data"
+      },
+      "sha256": "257391f605cff8e1871a69b826726c9ffff79c67b11d228fa26b02785b6cfb3b",
+      "source_url": "https://power.larc.nasa.gov/api/temporal/daily/point?parameters=PRECTOTCORR%2CT2M%2CT2M_MIN%2CT2M_MAX&community=AG&longitude=7.3986&latitude=9.0765&start=20240101&end=20241231&format=JSON&time-standard=UTC",
+      "variables_requested": [
+        "PRECTOTCORR",
+        "T2M",
+        "T2M_MIN",
+        "T2M_MAX"
+      ],
+      "year": 2024
+    },
+    {
+      "byte_size": 25033,
+      "dataset_version": "nigeria-power-daily-2001-2024-v1",
+      "date_range": {
+        "end": "20011231",
+        "start": "20010101"
+      },
+      "downloaded_at": "2026-09-21T17:28:19.710428+00:00",
+      "http_status": 200,
+      "latitude": 7.3775,
+      "location_id": "ibadan",
+      "location_name": "Ibadan",
+      "longitude": 3.947,
+      "raw_path": "data\\raw\\canonical\\nigeria-power-daily-2001-2024-v1\\ibadan\\2001.json",
+      "request_parameters": {
+        "community": "AG",
+        "end": "20011231",
+        "format": "JSON",
+        "latitude": 7.3775,
+        "longitude": 3.947,
+        "parameters": "PRECTOTCORR,T2M,T2M_MIN,T2M_MAX",
+        "start": "20010101",
+        "time-standard": "UTC"
+      },
+      "response_header": {
+        "api": {
+          "name": "POWER Daily API",
+          "version": "v2.10.0"
+        },
+        "end": "20011231",
+        "fill_value": -999.0,
+        "sources": [
+          "MERRA2",
+          "POWER"
+        ],
+        "start": "20010101",
+        "time_standard": "UTC",
+        "title": "NASA/POWER Source Native Resolution Daily Data"
+      },
+      "sha256": "edc6f32c765450672e441b4bec0eeecda11cb259bf639093f9e287b7379b531f",
+      "source_url": "https://power.larc.nasa.gov/api/temporal/daily/point?parameters=PRECTOTCORR%2CT2M%2CT2M_MIN%2CT2M_MAX&community=AG&longitude=3.947&latitude=7.3775&start=20010101&end=20011231&format=JSON&time-standard=UTC",
+      "variables_requested": [
+        "PRECTOTCORR",
+        "T2M",
+        "T2M_MIN",
+        "T2M_MAX"
+      ],
+      "year": 2001
+    },
+    {
+      "byte_size": 25000,
+      "dataset_version": "nigeria-power-daily-2001-2024-v1",
+      "date_range": {
+        "end": "20021231",
+        "start": "20020101"
+      },
+      "downloaded_at": "2026-09-21T17:28:21.282864+00:00",
+      "http_status": 200,
+      "latitude": 7.3775,
+      "location_id": "ibadan",
+      "location_name": "Ibadan",
+      "longitude": 3.947,
+      "raw_path": "data\\raw\\canonical\\nigeria-power-daily-2001-2024-v1\\ibadan\\2002.json",
+      "request_parameters": {
+        "community": "AG",
+        "end": "20021231",
+        "format": "JSON",
+        "latitude": 7.3775,
+        "longitude": 3.947,
+        "parameters": "PRECTOTCORR,T2M,T2M_MIN,T2M_MAX",
+        "start": "20020101",
+        "time-standard": "UTC"
+      },
+      "response_header": {
+        "api": {
+          "name": "POWER Daily API",
+          "version": "v2.10.0"
+        },
+        "end": "20021231",
+        "fill_value": -999.0,
+        "sources": [
+          "MERRA2",
+          "POWER"
+        ],
+        "start": "20020101",
+        "time_standard": "UTC",
+        "title": "NASA/POWER Source Native Resolution Daily Data"
+      },
+      "sha256": "25d7d845b75ae5ee0f9e78849f34a197489feafa633f1a926b428d3f9697f28e",
+      "source_url": "https://power.larc.nasa.gov/api/temporal/daily/point?parameters=PRECTOTCORR%2CT2M%2CT2M_MIN%2CT2M_MAX&community=AG&longitude=3.947&latitude=7.3775&start=20020101&end=20021231&format=JSON&time-standard=UTC",
+      "variables_requested": [
+        "PRECTOTCORR",
+        "T2M",
+        "T2M_MIN",
+        "T2M_MAX"
+      ],
+      "year": 2002
+    },
+    {
+      "byte_size": 25026,
+      "dataset_version": "nigeria-power-daily-2001-2024-v1",
+      "date_range": {
+        "end": "20031231",
+        "start": "20030101"
+      },
+      "downloaded_at": "2026-09-21T17:28:22.476227+00:00",
+      "http_status": 200,
+      "latitude": 7.3775,
+      "location_id": "ibadan",
+      "location_name": "Ibadan",
+      "longitude": 3.947,
+      "raw_path": "data\\raw\\canonical\\nigeria-power-daily-2001-2024-v1\\ibadan\\2003.json",
+      "request_parameters": {
+        "community": "AG",
+        "end": "20031231",
+        "format": "JSON",
+        "latitude": 7.3775,
+        "longitude": 3.947,
+        "parameters": "PRECTOTCORR,T2M,T2M_MIN,T2M_MAX",
+        "start": "20030101",
+        "time-standard": "UTC"
+      },
+      "response_header": {
+        "api": {
+          "name": "POWER Daily API",
+          "version": "v2.10.0"
+        },
+        "end": "20031231",
+        "fill_value": -999.0,
+        "sources": [
+          "MERRA2",
+          "POWER"
+        ],
+        "start": "20030101",
+        "time_standard": "UTC",
+        "title": "NASA/POWER Source Native Resolution Daily Data"
+      },
+      "sha256": "1724505d9809431b143509af0826046a36f1086d7bfd014926578a02866a0c57",
+      "source_url": "https://power.larc.nasa.gov/api/temporal/daily/point?parameters=PRECTOTCORR%2CT2M%2CT2M_MIN%2CT2M_MAX&community=AG&longitude=3.947&latitude=7.3775&start=20030101&end=20031231&format=JSON&time-standard=UTC",
+      "variables_requested": [
+        "PRECTOTCORR",
+        "T2M",
+        "T2M_MIN",
+        "T2M_MAX"
+      ],
+      "year": 2003
+    },
+    {
+      "byte_size": 25097,
+      "dataset_version": "nigeria-power-daily-2001-2024-v1",
+      "date_range": {
+        "end": "20041231",
+        "start": "20040101"
+      },
+      "downloaded_at": "2026-09-21T17:28:23.634685+00:00",
+      "http_status": 200,
+      "latitude": 7.3775,
+      "location_id": "ibadan",
+      "location_name": "Ibadan",
+      "longitude": 3.947,
+      "raw_path": "data\\raw\\canonical\\nigeria-power-daily-2001-2024-v1\\ibadan\\2004.json",
+      "request_parameters": {
+        "community": "AG",
+        "end": "20041231",
+        "format": "JSON",
+        "latitude": 7.3775,
+        "longitude": 3.947,
+        "parameters": "PRECTOTCORR,T2M,T2M_MIN,T2M_MAX",
+        "start": "20040101",
+        "time-standard": "UTC"
+      },
+      "response_header": {
+        "api": {
+          "name": "POWER Daily API",
+          "version": "v2.10.0"
+        },
+        "end": "20041231",
+        "fill_value": -999.0,
+        "sources": [
+          "MERRA2",
+          "POWER"
+        ],
+        "start": "20040101",
+        "time_standard": "UTC",
+        "title": "NASA/POWER Source Native Resolution Daily Data"
+      },
+      "sha256": "a386c97bfdcbe1896350379c49379203858fb9a44c2bbae0e58b883e7c2eef8e",
+      "source_url": "https://power.larc.nasa.gov/api/temporal/daily/point?parameters=PRECTOTCORR%2CT2M%2CT2M_MIN%2CT2M_MAX&community=AG&longitude=3.947&latitude=7.3775&start=20040101&end=20041231&format=JSON&time-standard=UTC",
+      "variables_requested": [
+        "PRECTOTCORR",
+        "T2M",
+        "T2M_MIN",
+        "T2M_MAX"
+      ],
+      "year": 2004
+    },
+    {
+      "byte_size": 24997,
+      "dataset_version": "nigeria-power-daily-2001-2024-v1",
+      "date_range": {
+        "end": "20051231",
+        "start": "20050101"
+      },
+      "downloaded_at": "2026-09-21T17:28:25.241036+00:00",
+      "http_status": 200,
+      "latitude": 7.3775,
+      "location_id": "ibadan",
+      "location_name": "Ibadan",
+      "longitude": 3.947,
+      "raw_path": "data\\raw\\canonical\\nigeria-power-daily-2001-2024-v1\\ibadan\\2005.json",
+      "request_parameters": {
+        "community": "AG",
+        "end": "20051231",
+        "format": "JSON",
+        "latitude": 7.3775,
+        "longitude": 3.947,
+        "parameters": "PRECTOTCORR,T2M,T2M_MIN,T2M_MAX",
+        "start": "20050101",
+        "time-standard": "UTC"
+      },
+      "response_header": {
+        "api": {
+          "name": "POWER Daily API",
+          "version": "v2.10.0"
+        },
+        "end": "20051231",
+        "fill_value": -999.0,
+        "sources": [
+          "MERRA2",
+          "POWER"
+        ],
+        "start": "20050101",
+        "time_standard": "UTC",
+        "title": "NASA/POWER Source Native Resolution Daily Data"
+      },
+      "sha256": "06a9acd4ff8f1aa3d1dc0395835e8a0f7faeee43a2ef5249fbbc05f2aecdc1ce",
+      "source_url": "https://power.larc.nasa.gov/api/temporal/daily/point?parameters=PRECTOTCORR%2CT2M%2CT2M_MIN%2CT2M_MAX&community=AG&longitude=3.947&latitude=7.3775&start=20050101&end=20051231&format=JSON&time-standard=UTC",
+      "variables_requested": [
+        "PRECTOTCORR",
+        "T2M",
+        "T2M_MIN",
+        "T2M_MAX"
+      ],
+      "year": 2005
+    },
+    {
+      "byte_size": 25006,
+      "dataset_version": "nigeria-power-daily-2001-2024-v1",
+      "date_range": {
+        "end": "20061231",
+        "start": "20060101"
+      },
+      "downloaded_at": "2026-09-21T17:28:26.268556+00:00",
+      "http_status": 200,
+      "latitude": 7.3775,
+      "location_id": "ibadan",
+      "location_name": "Ibadan",
+      "longitude": 3.947,
+      "raw_path": "data\\raw\\canonical\\nigeria-power-daily-2001-2024-v1\\ibadan\\2006.json",
+      "request_parameters": {
+        "community": "AG",
+        "end": "20061231",
+        "format": "JSON",
+        "latitude": 7.3775,
+        "longitude": 3.947,
+        "parameters": "PRECTOTCORR,T2M,T2M_MIN,T2M_MAX",
+        "start": "20060101",
+        "time-standard": "UTC"
+      },
+      "response_header": {
+        "api": {
+          "name": "POWER Daily API",
+          "version": "v2.10.0"
+        },
+        "end": "20061231",
+        "fill_value": -999.0,
+        "sources": [
+          "MERRA2",
+          "POWER"
+        ],
+        "start": "20060101",
+        "time_standard": "UTC",
+        "title": "NASA/POWER Source Native Resolution Daily Data"
+      },
+      "sha256": "47179d15cb9f7eeaa4102ae6854b1d08901fc2526298bd0cb34087e5aba12090",
+      "source_url": "https://power.larc.nasa.gov/api/temporal/daily/point?parameters=PRECTOTCORR%2CT2M%2CT2M_MIN%2CT2M_MAX&community=AG&longitude=3.947&latitude=7.3775&start=20060101&end=20061231&format=JSON&time-standard=UTC",
+      "variables_requested": [
+        "PRECTOTCORR",
+        "T2M",
+        "T2M_MIN",
+        "T2M_MAX"
+      ],
+      "year": 2006
+    },
+    {
+      "byte_size": 25037,
+      "dataset_version": "nigeria-power-daily-2001-2024-v1",
+      "date_range": {
+        "end": "20071231",
+        "start": "20070101"
+      },
+      "downloaded_at": "2026-09-21T17:28:27.225769+00:00",
+      "http_status": 200,
+      "latitude": 7.3775,
+      "location_id": "ibadan",
+      "location_name": "Ibadan",
+      "longitude": 3.947,
+      "raw_path": "data\\raw\\canonical\\nigeria-power-daily-2001-2024-v1\\ibadan\\2007.json",
+      "request_parameters": {
+        "community": "AG",
+        "end": "20071231",
+        "format": "JSON",
+        "latitude": 7.3775,
+        "longitude": 3.947,
+        "parameters": "PRECTOTCORR,T2M,T2M_MIN,T2M_MAX",
+        "start": "20070101",
+        "time-standard": "UTC"
+      },
+      "response_header": {
+        "api": {
+          "name": "POWER Daily API",
+          "version": "v2.10.0"
+        },
+        "end": "20071231",
+        "fill_value": -999.0,
+        "sources": [
+          "MERRA2",
+          "POWER"
+        ],
+        "start": "20070101",
+        "time_standard": "UTC",
+        "title": "NASA/POWER Source Native Resolution Daily Data"
+      },
+      "sha256": "48d65630dbd116f1664f1055da8bed5681f901e666dbf0673bb815c91277b256",
+      "source_url": "https://power.larc.nasa.gov/api/temporal/daily/point?parameters=PRECTOTCORR%2CT2M%2CT2M_MIN%2CT2M_MAX&community=AG&longitude=3.947&latitude=7.3775&start=20070101&end=20071231&format=JSON&time-standard=UTC",
+      "variables_requested": [
+        "PRECTOTCORR",
+        "T2M",
+        "T2M_MIN",
+        "T2M_MAX"
+      ],
+      "year": 2007
+    },
+    {
+      "byte_size": 25080,
+      "dataset_version": "nigeria-power-daily-2001-2024-v1",
+      "date_range": {
+        "end": "20081231",
+        "start": "20080101"
+      },
+      "downloaded_at": "2026-09-21T17:28:28.329748+00:00",
+      "http_status": 200,
+      "latitude": 7.3775,
+      "location_id": "ibadan",
+      "location_name": "Ibadan",
+      "longitude": 3.947,
+      "raw_path": "data\\raw\\canonical\\nigeria-power-daily-2001-2024-v1\\ibadan\\2008.json",
+      "request_parameters": {
+        "community": "AG",
+        "end": "20081231",
+        "format": "JSON",
+        "latitude": 7.3775,
+        "longitude": 3.947,
+        "parameters": "PRECTOTCORR,T2M,T2M_MIN,T2M_MAX",
+        "start": "20080101",
+        "time-standard": "UTC"
+      },
+      "response_header": {
+        "api": {
+          "name": "POWER Daily API",
+          "version": "v2.10.0"
+        },
+        "end": "20081231",
+        "fill_value": -999.0,
+        "sources": [
+          "MERRA2",
+          "POWER"
+        ],
+        "start": "20080101",
+        "time_standard": "UTC",
+        "title": "NASA/POWER Source Native Resolution Daily Data"
+      },
+      "sha256": "8f8bc17318685e596c06e1085b4a342758f39eb8ed1ac4076754dc601a1d6a3b",
+      "source_url": "https://power.larc.nasa.gov/api/temporal/daily/point?parameters=PRECTOTCORR%2CT2M%2CT2M_MIN%2CT2M_MAX&community=AG&longitude=3.947&latitude=7.3775&start=20080101&end=20081231&format=JSON&time-standard=UTC",
+      "variables_requested": [
+        "PRECTOTCORR",
+        "T2M",
+        "T2M_MIN",
+        "T2M_MAX"
+      ],
+      "year": 2008
+    },
+    {
+      "byte_size": 24978,
+      "dataset_version": "nigeria-power-daily-2001-2024-v1",
+      "date_range": {
+        "end": "20091231",
+        "start": "20090101"
+      },
+      "downloaded_at": "2026-09-21T17:28:29.769947+00:00",
+      "http_status": 200,
+      "latitude": 7.3775,
+      "location_id": "ibadan",
+      "location_name": "Ibadan",
+      "longitude": 3.947,
+      "raw_path": "data\\raw\\canonical\\nigeria-power-daily-2001-2024-v1\\ibadan\\2009.json",
+      "request_parameters": {
+        "community": "AG",
+        "end": "20091231",
+        "format": "JSON",
+        "latitude": 7.3775,
+        "longitude": 3.947,
+        "parameters": "PRECTOTCORR,T2M,T2M_MIN,T2M_MAX",
+        "start": "20090101",
+        "time-standard": "UTC"
+      },
+      "response_header": {
+        "api": {
+          "name": "POWER Daily API",
+          "version": "v2.10.0"
+        },
+        "end": "20091231",
+        "fill_value": -999.0,
+        "sources": [
+          "MERRA2",
+          "POWER"
+        ],
+        "start": "20090101",
+        "time_standard": "UTC",
+        "title": "NASA/POWER Source Native Resolution Daily Data"
+      },
+      "sha256": "d762a5bab3d1775236e7cb0d11254eeaaab2c212c0127b74027247740ad496f2",
+      "source_url": "https://power.larc.nasa.gov/api/temporal/daily/point?parameters=PRECTOTCORR%2CT2M%2CT2M_MIN%2CT2M_MAX&community=AG&longitude=3.947&latitude=7.3775&start=20090101&end=20091231&format=JSON&time-standard=UTC",
+      "variables_requested": [
+        "PRECTOTCORR",
+        "T2M",
+        "T2M_MIN",
+        "T2M_MAX"
+      ],
+      "year": 2009
+    },
+    {
+      "byte_size": 25055,
+      "dataset_version": "nigeria-power-daily-2001-2024-v1",
+      "date_range": {
+        "end": "20101231",
+        "start": "20100101"
+      },
+      "downloaded_at": "2026-09-21T17:28:30.786147+00:00",
+      "http_status": 200,
+      "latitude": 7.3775,
+      "location_id": "ibadan",
+      "location_name": "Ibadan",
+      "longitude": 3.947,
+      "raw_path": "data\\raw\\canonical\\nigeria-power-daily-2001-2024-v1\\ibadan\\2010.json",
+      "request_parameters": {
+        "community": "AG",
+        "end": "20101231",
+        "format": "JSON",
+        "latitude": 7.3775,
+        "longitude": 3.947,
+        "parameters": "PRECTOTCORR,T2M,T2M_MIN,T2M_MAX",
+        "start": "20100101",
+        "time-standard": "UTC"
+      },
+      "response_header": {
+        "api": {
+          "name": "POWER Daily API",
+          "version": "v2.10.0"
+        },
+        "end": "20101231",
+        "fill_value": -999.0,
+        "sources": [
+          "MERRA2",
+          "POWER"
+        ],
+        "start": "20100101",
+        "time_standard": "UTC",
+        "title": "NASA/POWER Source Native Resolution Daily Data"
+      },
+      "sha256": "6be31080595a14bab757219271a3a74eb209ae379bfbef501dbbfbf2ce7d20b6",
+      "source_url": "https://power.larc.nasa.gov/api/temporal/daily/point?parameters=PRECTOTCORR%2CT2M%2CT2M_MIN%2CT2M_MAX&community=AG&longitude=3.947&latitude=7.3775&start=20100101&end=20101231&format=JSON&time-standard=UTC",
+      "variables_requested": [
+        "PRECTOTCORR",
+        "T2M",
+        "T2M_MIN",
+        "T2M_MAX"
+      ],
+      "year": 2010
+    },
+    {
+      "byte_size": 25019,
+      "dataset_version": "nigeria-power-daily-2001-2024-v1",
+      "date_range": {
+        "end": "20111231",
+        "start": "20110101"
+      },
+      "downloaded_at": "2026-09-21T17:28:31.913323+00:00",
+      "http_status": 200,
+      "latitude": 7.3775,
+      "location_id": "ibadan",
+      "location_name": "Ibadan",
+      "longitude": 3.947,
+      "raw_path": "data\\raw\\canonical\\nigeria-power-daily-2001-2024-v1\\ibadan\\2011.json",
+      "request_parameters": {
+        "community": "AG",
+        "end": "20111231",
+        "format": "JSON",
+        "latitude": 7.3775,
+        "longitude": 3.947,
+        "parameters": "PRECTOTCORR,T2M,T2M_MIN,T2M_MAX",
+        "start": "20110101",
+        "time-standard": "UTC"
+      },
+      "response_header": {
+        "api": {
+          "name": "POWER Daily API",
+          "version": "v2.10.0"
+        },
+        "end": "20111231",
+        "fill_value": -999.0,
+        "sources": [
+          "MERRA2",
+          "POWER"
+        ],
+        "start": "20110101",
+        "time_standard": "UTC",
+        "title": "NASA/POWER Source Native Resolution Daily Data"
+      },
+      "sha256": "2c7fbb156b96f4e86b1896d81b20a482ae7ada12a9808303684700f436154d45",
+      "source_url": "https://power.larc.nasa.gov/api/temporal/daily/point?parameters=PRECTOTCORR%2CT2M%2CT2M_MIN%2CT2M_MAX&community=AG&longitude=3.947&latitude=7.3775&start=20110101&end=20111231&format=JSON&time-standard=UTC",
+      "variables_requested": [
+        "PRECTOTCORR",
+        "T2M",
+        "T2M_MIN",
+        "T2M_MAX"
+      ],
+      "year": 2011
+    },
+    {
+      "byte_size": 25115,
+      "dataset_version": "nigeria-power-daily-2001-2024-v1",
+      "date_range": {
+        "end": "20121231",
+        "start": "20120101"
+      },
+      "downloaded_at": "2026-09-21T17:28:33.243642+00:00",
+      "http_status": 200,
+      "latitude": 7.3775,
+      "location_id": "ibadan",
+      "location_name": "Ibadan",
+      "longitude": 3.947,
+      "raw_path": "data\\raw\\canonical\\nigeria-power-daily-2001-2024-v1\\ibadan\\2012.json",
+      "request_parameters": {
+        "community": "AG",
+        "end": "20121231",
+        "format": "JSON",
+        "latitude": 7.3775,
+        "longitude": 3.947,
+        "parameters": "PRECTOTCORR,T2M,T2M_MIN,T2M_MAX",
+        "start": "20120101",
+        "time-standard": "UTC"
+      },
+      "response_header": {
+        "api": {
+          "name": "POWER Daily API",
+          "version": "v2.10.0"
+        },
+        "end": "20121231",
+        "fill_value": -999.0,
+        "sources": [
+          "MERRA2",
+          "POWER"
+        ],
+        "start": "20120101",
+        "time_standard": "UTC",
+        "title": "NASA/POWER Source Native Resolution Daily Data"
+      },
+      "sha256": "6fc2d48681896e446cae520eb90fd3b78acf6ace59aec57ba8d2ccc5007c320a",
+      "source_url": "https://power.larc.nasa.gov/api/temporal/daily/point?parameters=PRECTOTCORR%2CT2M%2CT2M_MIN%2CT2M_MAX&community=AG&longitude=3.947&latitude=7.3775&start=20120101&end=20121231&format=JSON&time-standard=UTC",
+      "variables_requested": [
+        "PRECTOTCORR",
+        "T2M",
+        "T2M_MIN",
+        "T2M_MAX"
+      ],
+      "year": 2012
+    },
+    {
+      "byte_size": 25010,
+      "dataset_version": "nigeria-power-daily-2001-2024-v1",
+      "date_range": {
+        "end": "20131231",
+        "start": "20130101"
+      },
+      "downloaded_at": "2026-09-21T17:28:34.378076+00:00",
+      "http_status": 200,
+      "latitude": 7.3775,
+      "location_id": "ibadan",
+      "location_name": "Ibadan",
+      "longitude": 3.947,
+      "raw_path": "data\\raw\\canonical\\nigeria-power-daily-2001-2024-v1\\ibadan\\2013.json",
+      "request_parameters": {
+        "community": "AG",
+        "end": "20131231",
+        "format": "JSON",
+        "latitude": 7.3775,
+        "longitude": 3.947,
+        "parameters": "PRECTOTCORR,T2M,T2M_MIN,T2M_MAX",
+        "start": "20130101",
+        "time-standard": "UTC"
+      },
+      "response_header": {
+        "api": {
+          "name": "POWER Daily API",
+          "version": "v2.10.0"
+        },
+        "end": "20131231",
+        "fill_value": -999.0,
+        "sources": [
+          "MERRA2",
+          "POWER"
+        ],
+        "start": "20130101",
+        "time_standard": "UTC",
+        "title": "NASA/POWER Source Native Resolution Daily Data"
+      },
+      "sha256": "16aef890823feaa168dd4dd96b8779ca459c68d27235f0f2dffd67c549151e52",
+      "source_url": "https://power.larc.nasa.gov/api/temporal/daily/point?parameters=PRECTOTCORR%2CT2M%2CT2M_MIN%2CT2M_MAX&community=AG&longitude=3.947&latitude=7.3775&start=20130101&end=20131231&format=JSON&time-standard=UTC",
+      "variables_requested": [
+        "PRECTOTCORR",
+        "T2M",
+        "T2M_MIN",
+        "T2M_MAX"
+      ],
+      "year": 2013
+    },
+    {
+      "byte_size": 25066,
+      "dataset_version": "nigeria-power-daily-2001-2024-v1",
+      "date_range": {
+        "end": "20141231",
+        "start": "20140101"
+      },
+      "downloaded_at": "2026-09-21T17:28:35.495337+00:00",
+      "http_status": 200,
+      "latitude": 7.3775,
+      "location_id": "ibadan",
+      "location_name": "Ibadan",
+      "longitude": 3.947,
+      "raw_path": "data\\raw\\canonical\\nigeria-power-daily-2001-2024-v1\\ibadan\\2014.json",
+      "request_parameters": {
+        "community": "AG",
+        "end": "20141231",
+        "format": "JSON",
+        "latitude": 7.3775,
+        "longitude": 3.947,
+        "parameters": "PRECTOTCORR,T2M,T2M_MIN,T2M_MAX",
+        "start": "20140101",
+        "time-standard": "UTC"
+      },
+      "response_header": {
+        "api": {
+          "name": "POWER Daily API",
+          "version": "v2.10.0"
+        },
+        "end": "20141231",
+        "fill_value": -999.0,
+        "sources": [
+          "MERRA2",
+          "POWER"
+        ],
+        "start": "20140101",
+        "time_standard": "UTC",
+        "title": "NASA/POWER Source Native Resolution Daily Data"
+      },
+      "sha256": "2e40146ab37d8cbb444307db9336e45948acb3efaeb3c1dc28ca6e900f0db41c",
+      "source_url": "https://power.larc.nasa.gov/api/temporal/daily/point?parameters=PRECTOTCORR%2CT2M%2CT2M_MIN%2CT2M_MAX&community=AG&longitude=3.947&latitude=7.3775&start=20140101&end=20141231&format=JSON&time-standard=UTC",
+      "variables_requested": [
+        "PRECTOTCORR",
+        "T2M",
+        "T2M_MIN",
+        "T2M_MAX"
+      ],
+      "year": 2014
+    },
+    {
+      "byte_size": 24989,
+      "dataset_version": "nigeria-power-daily-2001-2024-v1",
+      "date_range": {
+        "end": "20151231",
+        "start": "20150101"
+      },
+      "downloaded_at": "2026-09-21T17:28:36.638428+00:00",
+      "http_status": 200,
+      "latitude": 7.3775,
+      "location_id": "ibadan",
+      "location_name": "Ibadan",
+      "longitude": 3.947,
+      "raw_path": "data\\raw\\canonical\\nigeria-power-daily-2001-2024-v1\\ibadan\\2015.json",
+      "request_parameters": {
+        "community": "AG",
+        "end": "20151231",
+        "format": "JSON",
+        "latitude": 7.3775,
+        "longitude": 3.947,
+        "parameters": "PRECTOTCORR,T2M,T2M_MIN,T2M_MAX",
+        "start": "20150101",
+        "time-standard": "UTC"
+      },
+      "response_header": {
+        "api": {
+          "name": "POWER Daily API",
+          "version": "v2.10.0"
+        },
+        "end": "20151231",
+        "fill_value": -999.0,
+        "sources": [
+          "MERRA2",
+          "POWER"
+        ],
+        "start": "20150101",
+        "time_standard": "UTC",
+        "title": "NASA/POWER Source Native Resolution Daily Data"
+      },
+      "sha256": "ec9e2d4639154f58c8a8aa86f833956f5589d2f32fa7bc0477453aae16296c56",
+      "source_url": "https://power.larc.nasa.gov/api/temporal/daily/point?parameters=PRECTOTCORR%2CT2M%2CT2M_MIN%2CT2M_MAX&community=AG&longitude=3.947&latitude=7.3775&start=20150101&end=20151231&format=JSON&time-standard=UTC",
+      "variables_requested": [
+        "PRECTOTCORR",
+        "T2M",
+        "T2M_MIN",
+        "T2M_MAX"
+      ],
+      "year": 2015
+    },
+    {
+      "byte_size": 25072,
+      "dataset_version": "nigeria-power-daily-2001-2024-v1",
+      "date_range": {
+        "end": "20161231",
+        "start": "20160101"
+      },
+      "downloaded_at": "2026-09-21T17:28:37.952899+00:00",
+      "http_status": 200,
+      "latitude": 7.3775,
+      "location_id": "ibadan",
+      "location_name": "Ibadan",
+      "longitude": 3.947,
+      "raw_path": "data\\raw\\canonical\\nigeria-power-daily-2001-2024-v1\\ibadan\\2016.json",
+      "request_parameters": {
+        "community": "AG",
+        "end": "20161231",
+        "format": "JSON",
+        "latitude": 7.3775,
+        "longitude": 3.947,
+        "parameters": "PRECTOTCORR,T2M,T2M_MIN,T2M_MAX",
+        "start": "20160101",
+        "time-standard": "UTC"
+      },
+      "response_header": {
+        "api": {
+          "name": "POWER Daily API",
+          "version": "v2.10.0"
+        },
+        "end": "20161231",
+        "fill_value": -999.0,
+        "sources": [
+          "MERRA2",
+          "POWER"
+        ],
+        "start": "20160101",
+        "time_standard": "UTC",
+        "title": "NASA/POWER Source Native Resolution Daily Data"
+      },
+      "sha256": "03fbbf0fb80a62facc7656ae7b5cf574af4a7b4e5f6c5aef944f652a250d1ca0",
+      "source_url": "https://power.larc.nasa.gov/api/temporal/daily/point?parameters=PRECTOTCORR%2CT2M%2CT2M_MIN%2CT2M_MAX&community=AG&longitude=3.947&latitude=7.3775&start=20160101&end=20161231&format=JSON&time-standard=UTC",
+      "variables_requested": [
+        "PRECTOTCORR",
+        "T2M",
+        "T2M_MIN",
+        "T2M_MAX"
+      ],
+      "year": 2016
+    },
+    {
+      "byte_size": 25032,
+      "dataset_version": "nigeria-power-daily-2001-2024-v1",
+      "date_range": {
+        "end": "20171231",
+        "start": "20170101"
+      },
+      "downloaded_at": "2026-09-21T17:28:38.871539+00:00",
+      "http_status": 200,
+      "latitude": 7.3775,
+      "location_id": "ibadan",
+      "location_name": "Ibadan",
+      "longitude": 3.947,
+      "raw_path": "data\\raw\\canonical\\nigeria-power-daily-2001-2024-v1\\ibadan\\2017.json",
+      "request_parameters": {
+        "community": "AG",
+        "end": "20171231",
+        "format": "JSON",
+        "latitude": 7.3775,
+        "longitude": 3.947,
+        "parameters": "PRECTOTCORR,T2M,T2M_MIN,T2M_MAX",
+        "start": "20170101",
+        "time-standard": "UTC"
+      },
+      "response_header": {
+        "api": {
+          "name": "POWER Daily API",
+          "version": "v2.10.0"
+        },
+        "end": "20171231",
+        "fill_value": -999.0,
+        "sources": [
+          "MERRA2",
+          "POWER"
+        ],
+        "start": "20170101",
+        "time_standard": "UTC",
+        "title": "NASA/POWER Source Native Resolution Daily Data"
+      },
+      "sha256": "8d20d4bb69ffceb58968f15528a7f09e1b8545c5c9d7cb55257d6d395690445e",
+      "source_url": "https://power.larc.nasa.gov/api/temporal/daily/point?parameters=PRECTOTCORR%2CT2M%2CT2M_MIN%2CT2M_MAX&community=AG&longitude=3.947&latitude=7.3775&start=20170101&end=20171231&format=JSON&time-standard=UTC",
+      "variables_requested": [
+        "PRECTOTCORR",
+        "T2M",
+        "T2M_MIN",
+        "T2M_MAX"
+      ],
+      "year": 2017
+    },
+    {
+      "byte_size": 25021,
+      "dataset_version": "nigeria-power-daily-2001-2024-v1",
+      "date_range": {
+        "end": "20181231",
+        "start": "20180101"
+      },
+      "downloaded_at": "2026-09-21T17:28:40.013152+00:00",
+      "http_status": 200,
+      "latitude": 7.3775,
+      "location_id": "ibadan",
+      "location_name": "Ibadan",
+      "longitude": 3.947,
+      "raw_path": "data\\raw\\canonical\\nigeria-power-daily-2001-2024-v1\\ibadan\\2018.json",
+      "request_parameters": {
+        "community": "AG",
+        "end": "20181231",
+        "format": "JSON",
+        "latitude": 7.3775,
+        "longitude": 3.947,
+        "parameters": "PRECTOTCORR,T2M,T2M_MIN,T2M_MAX",
+        "start": "20180101",
+        "time-standard": "UTC"
+      },
+      "response_header": {
+        "api": {
+          "name": "POWER Daily API",
+          "version": "v2.10.0"
+        },
+        "end": "20181231",
+        "fill_value": -999.0,
+        "sources": [
+          "MERRA2",
+          "POWER"
+        ],
+        "start": "20180101",
+        "time_standard": "UTC",
+        "title": "NASA/POWER Source Native Resolution Daily Data"
+      },
+      "sha256": "f93aa86e8f0b2341f55df8b71bf06a0f660b3db7c38f16e06704bf889c811d38",
+      "source_url": "https://power.larc.nasa.gov/api/temporal/daily/point?parameters=PRECTOTCORR%2CT2M%2CT2M_MIN%2CT2M_MAX&community=AG&longitude=3.947&latitude=7.3775&start=20180101&end=20181231&format=JSON&time-standard=UTC",
+      "variables_requested": [
+        "PRECTOTCORR",
+        "T2M",
+        "T2M_MIN",
+        "T2M_MAX"
+      ],
+      "year": 2018
+    },
+    {
+      "byte_size": 25060,
+      "dataset_version": "nigeria-power-daily-2001-2024-v1",
+      "date_range": {
+        "end": "20191231",
+        "start": "20190101"
+      },
+      "downloaded_at": "2026-09-21T17:28:41.129292+00:00",
+      "http_status": 200,
+      "latitude": 7.3775,
+      "location_id": "ibadan",
+      "location_name": "Ibadan",
+      "longitude": 3.947,
+      "raw_path": "data\\raw\\canonical\\nigeria-power-daily-2001-2024-v1\\ibadan\\2019.json",
+      "request_parameters": {
+        "community": "AG",
+        "end": "20191231",
+        "format": "JSON",
+        "latitude": 7.3775,
+        "longitude": 3.947,
+        "parameters": "PRECTOTCORR,T2M,T2M_MIN,T2M_MAX",
+        "start": "20190101",
+        "time-standard": "UTC"
+      },
+      "response_header": {
+        "api": {
+          "name": "POWER Daily API",
+          "version": "v2.10.0"
+        },
+        "end": "20191231",
+        "fill_value": -999.0,
+        "sources": [
+          "MERRA2",
+          "POWER"
+        ],
+        "start": "20190101",
+        "time_standard": "UTC",
+        "title": "NASA/POWER Source Native Resolution Daily Data"
+      },
+      "sha256": "3e8b61573a29c25b5abfef9de2ee29e9563c53f11dead3b8e96ff51961800927",
+      "source_url": "https://power.larc.nasa.gov/api/temporal/daily/point?parameters=PRECTOTCORR%2CT2M%2CT2M_MIN%2CT2M_MAX&community=AG&longitude=3.947&latitude=7.3775&start=20190101&end=20191231&format=JSON&time-standard=UTC",
+      "variables_requested": [
+        "PRECTOTCORR",
+        "T2M",
+        "T2M_MIN",
+        "T2M_MAX"
+      ],
+      "year": 2019
+    },
+    {
+      "byte_size": 25090,
+      "dataset_version": "nigeria-power-daily-2001-2024-v1",
+      "date_range": {
+        "end": "20201231",
+        "start": "20200101"
+      },
+      "downloaded_at": "2026-09-21T17:28:42.819835+00:00",
+      "http_status": 200,
+      "latitude": 7.3775,
+      "location_id": "ibadan",
+      "location_name": "Ibadan",
+      "longitude": 3.947,
+      "raw_path": "data\\raw\\canonical\\nigeria-power-daily-2001-2024-v1\\ibadan\\2020.json",
+      "request_parameters": {
+        "community": "AG",
+        "end": "20201231",
+        "format": "JSON",
+        "latitude": 7.3775,
+        "longitude": 3.947,
+        "parameters": "PRECTOTCORR,T2M,T2M_MIN,T2M_MAX",
+        "start": "20200101",
+        "time-standard": "UTC"
+      },
+      "response_header": {
+        "api": {
+          "name": "POWER Daily API",
+          "version": "v2.10.0"
+        },
+        "end": "20201231",
+        "fill_value": -999.0,
+        "sources": [
+          "MERRA2",
+          "POWER"
+        ],
+        "start": "20200101",
+        "time_standard": "UTC",
+        "title": "NASA/POWER Source Native Resolution Daily Data"
+      },
+      "sha256": "699e27effcd0098cee6e36d62ff4a8ee783fd346fc76acc25c5593b5f935748b",
+      "source_url": "https://power.larc.nasa.gov/api/temporal/daily/point?parameters=PRECTOTCORR%2CT2M%2CT2M_MIN%2CT2M_MAX&community=AG&longitude=3.947&latitude=7.3775&start=20200101&end=20201231&format=JSON&time-standard=UTC",
+      "variables_requested": [
+        "PRECTOTCORR",
+        "T2M",
+        "T2M_MIN",
+        "T2M_MAX"
+      ],
+      "year": 2020
+    },
+    {
+      "byte_size": 25063,
+      "dataset_version": "nigeria-power-daily-2001-2024-v1",
+      "date_range": {
+        "end": "20211231",
+        "start": "20210101"
+      },
+      "downloaded_at": "2026-09-21T17:28:43.995467+00:00",
+      "http_status": 200,
+      "latitude": 7.3775,
+      "location_id": "ibadan",
+      "location_name": "Ibadan",
+      "longitude": 3.947,
+      "raw_path": "data\\raw\\canonical\\nigeria-power-daily-2001-2024-v1\\ibadan\\2021.json",
+      "request_parameters": {
+        "community": "AG",
+        "end": "20211231",
+        "format": "JSON",
+        "latitude": 7.3775,
+        "longitude": 3.947,
+        "parameters": "PRECTOTCORR,T2M,T2M_MIN,T2M_MAX",
+        "start": "20210101",
+        "time-standard": "UTC"
+      },
+      "response_header": {
+        "api": {
+          "name": "POWER Daily API",
+          "version": "v2.10.0"
+        },
+        "end": "20211231",
+        "fill_value": -999.0,
+        "sources": [
+          "MERRA2",
+          "POWER"
+        ],
+        "start": "20210101",
+        "time_standard": "UTC",
+        "title": "NASA/POWER Source Native Resolution Daily Data"
+      },
+      "sha256": "834559ef52eb07ef3d5b4f129050b35b09a747a71f8baf29e59228057f937a6f",
+      "source_url": "https://power.larc.nasa.gov/api/temporal/daily/point?parameters=PRECTOTCORR%2CT2M%2CT2M_MIN%2CT2M_MAX&community=AG&longitude=3.947&latitude=7.3775&start=20210101&end=20211231&format=JSON&time-standard=UTC",
+      "variables_requested": [
+        "PRECTOTCORR",
+        "T2M",
+        "T2M_MIN",
+        "T2M_MAX"
+      ],
+      "year": 2021
+    },
+    {
+      "byte_size": 25051,
+      "dataset_version": "nigeria-power-daily-2001-2024-v1",
+      "date_range": {
+        "end": "20221231",
+        "start": "20220101"
+      },
+      "downloaded_at": "2026-09-21T17:28:45.221518+00:00",
+      "http_status": 200,
+      "latitude": 7.3775,
+      "location_id": "ibadan",
+      "location_name": "Ibadan",
+      "longitude": 3.947,
+      "raw_path": "data\\raw\\canonical\\nigeria-power-daily-2001-2024-v1\\ibadan\\2022.json",
+      "request_parameters": {
+        "community": "AG",
+        "end": "20221231",
+        "format": "JSON",
+        "latitude": 7.3775,
+        "longitude": 3.947,
+        "parameters": "PRECTOTCORR,T2M,T2M_MIN,T2M_MAX",
+        "start": "20220101",
+        "time-standard": "UTC"
+      },
+      "response_header": {
+        "api": {
+          "name": "POWER Daily API",
+          "version": "v2.10.0"
+        },
+        "end": "20221231",
+        "fill_value": -999.0,
+        "sources": [
+          "MERRA2",
+          "POWER"
+        ],
+        "start": "20220101",
+        "time_standard": "UTC",
+        "title": "NASA/POWER Source Native Resolution Daily Data"
+      },
+      "sha256": "2dcb12aa7929582654d28054233739943954fcf7a8dd5a855f93bff67f0fd40c",
+      "source_url": "https://power.larc.nasa.gov/api/temporal/daily/point?parameters=PRECTOTCORR%2CT2M%2CT2M_MIN%2CT2M_MAX&community=AG&longitude=3.947&latitude=7.3775&start=20220101&end=20221231&format=JSON&time-standard=UTC",
+      "variables_requested": [
+        "PRECTOTCORR",
+        "T2M",
+        "T2M_MIN",
+        "T2M_MAX"
+      ],
+      "year": 2022
+    },
+    {
+      "byte_size": 25023,
+      "dataset_version": "nigeria-power-daily-2001-2024-v1",
+      "date_range": {
+        "end": "20231231",
+        "start": "20230101"
+      },
+      "downloaded_at": "2026-09-21T17:28:46.848457+00:00",
+      "http_status": 200,
+      "latitude": 7.3775,
+      "location_id": "ibadan",
+      "location_name": "Ibadan",
+      "longitude": 3.947,
+      "raw_path": "data\\raw\\canonical\\nigeria-power-daily-2001-2024-v1\\ibadan\\2023.json",
+      "request_parameters": {
+        "community": "AG",
+        "end": "20231231",
+        "format": "JSON",
+        "latitude": 7.3775,
+        "longitude": 3.947,
+        "parameters": "PRECTOTCORR,T2M,T2M_MIN,T2M_MAX",
+        "start": "20230101",
+        "time-standard": "UTC"
+      },
+      "response_header": {
+        "api": {
+          "name": "POWER Daily API",
+          "version": "v2.10.0"
+        },
+        "end": "20231231",
+        "fill_value": -999.0,
+        "sources": [
+          "MERRA2",
+          "POWER"
+        ],
+        "start": "20230101",
+        "time_standard": "UTC",
+        "title": "NASA/POWER Source Native Resolution Daily Data"
+      },
+      "sha256": "7bd1caec685a6baf7affb0b1e9f86fdd71588dae83e5abd08fef7444e209e2ea",
+      "source_url": "https://power.larc.nasa.gov/api/temporal/daily/point?parameters=PRECTOTCORR%2CT2M%2CT2M_MIN%2CT2M_MAX&community=AG&longitude=3.947&latitude=7.3775&start=20230101&end=20231231&format=JSON&time-standard=UTC",
+      "variables_requested": [
+        "PRECTOTCORR",
+        "T2M",
+        "T2M_MIN",
+        "T2M_MAX"
+      ],
+      "year": 2023
+    },
+    {
+      "byte_size": 25081,
+      "dataset_version": "nigeria-power-daily-2001-2024-v1",
+      "date_range": {
+        "end": "20241231",
+        "start": "20240101"
+      },
+      "downloaded_at": "2026-09-21T17:28:47.767430+00:00",
+      "http_status": 200,
+      "latitude": 7.3775,
+      "location_id": "ibadan",
+      "location_name": "Ibadan",
+      "longitude": 3.947,
+      "raw_path": "data\\raw\\canonical\\nigeria-power-daily-2001-2024-v1\\ibadan\\2024.json",
+      "request_parameters": {
+        "community": "AG",
+        "end": "20241231",
+        "format": "JSON",
+        "latitude": 7.3775,
+        "longitude": 3.947,
+        "parameters": "PRECTOTCORR,T2M,T2M_MIN,T2M_MAX",
+        "start": "20240101",
+        "time-standard": "UTC"
+      },
+      "response_header": {
+        "api": {
+          "name": "POWER Daily API",
+          "version": "v2.10.0"
+        },
+        "end": "20241231",
+        "fill_value": -999.0,
+        "sources": [
+          "MERRA2",
+          "POWER"
+        ],
+        "start": "20240101",
+        "time_standard": "UTC",
+        "title": "NASA/POWER Source Native Resolution Daily Data"
+      },
+      "sha256": "9c961e8d1aa317c7c40290360bf184d6ec5a0b0534ffba538234acf3665c40e6",
+      "source_url": "https://power.larc.nasa.gov/api/temporal/daily/point?parameters=PRECTOTCORR%2CT2M%2CT2M_MIN%2CT2M_MAX&community=AG&longitude=3.947&latitude=7.3775&start=20240101&end=20241231&format=JSON&time-standard=UTC",
+      "variables_requested": [
+        "PRECTOTCORR",
+        "T2M",
+        "T2M_MIN",
+        "T2M_MAX"
+      ],
+      "year": 2024
+    },
+    {
+      "byte_size": 25043,
+      "dataset_version": "nigeria-power-daily-2001-2024-v1",
+      "date_range": {
+        "end": "20011231",
+        "start": "20010101"
+      },
+      "downloaded_at": "2026-09-21T17:28:49.548478+00:00",
+      "http_status": 200,
+      "latitude": 4.8156,
+      "location_id": "port_harcourt",
+      "location_name": "Port Harcourt",
+      "longitude": 7.0498,
+      "raw_path": "data\\raw\\canonical\\nigeria-power-daily-2001-2024-v1\\port_harcourt\\2001.json",
+      "request_parameters": {
+        "community": "AG",
+        "end": "20011231",
+        "format": "JSON",
+        "latitude": 4.8156,
+        "longitude": 7.0498,
+        "parameters": "PRECTOTCORR,T2M,T2M_MIN,T2M_MAX",
+        "start": "20010101",
+        "time-standard": "UTC"
+      },
+      "response_header": {
+        "api": {
+          "name": "POWER Daily API",
+          "version": "v2.10.0"
+        },
+        "end": "20011231",
+        "fill_value": -999.0,
+        "sources": [
+          "MERRA2",
+          "POWER"
+        ],
+        "start": "20010101",
+        "time_standard": "UTC",
+        "title": "NASA/POWER Source Native Resolution Daily Data"
+      },
+      "sha256": "fb4b1d739032f40c231695109185b0919d12f0b1262fd61047ea2e3b00e94a5f",
+      "source_url": "https://power.larc.nasa.gov/api/temporal/daily/point?parameters=PRECTOTCORR%2CT2M%2CT2M_MIN%2CT2M_MAX&community=AG&longitude=7.0498&latitude=4.8156&start=20010101&end=20011231&format=JSON&time-standard=UTC",
+      "variables_requested": [
+        "PRECTOTCORR",
+        "T2M",
+        "T2M_MIN",
+        "T2M_MAX"
+      ],
+      "year": 2001
+    },
+    {
+      "byte_size": 25063,
+      "dataset_version": "nigeria-power-daily-2001-2024-v1",
+      "date_range": {
+        "end": "20021231",
+        "start": "20020101"
+      },
+      "downloaded_at": "2026-09-21T17:28:50.680952+00:00",
+      "http_status": 200,
+      "latitude": 4.8156,
+      "location_id": "port_harcourt",
+      "location_name": "Port Harcourt",
+      "longitude": 7.0498,
+      "raw_path": "data\\raw\\canonical\\nigeria-power-daily-2001-2024-v1\\port_harcourt\\2002.json",
+      "request_parameters": {
+        "community": "AG",
+        "end": "20021231",
+        "format": "JSON",
+        "latitude": 4.8156,
+        "longitude": 7.0498,
+        "parameters": "PRECTOTCORR,T2M,T2M_MIN,T2M_MAX",
+        "start": "20020101",
+        "time-standard": "UTC"
+      },
+      "response_header": {
+        "api": {
+          "name": "POWER Daily API",
+          "version": "v2.10.0"
+        },
+        "end": "20021231",
+        "fill_value": -999.0,
+        "sources": [
+          "MERRA2",
+          "POWER"
+        ],
+        "start": "20020101",
+        "time_standard": "UTC",
+        "title": "NASA/POWER Source Native Resolution Daily Data"
+      },
+      "sha256": "4e6d2d53e3c6e2f0dbafe40e7318d95efd1fea7f455e1ae83c3b7526d39cfa9c",
+      "source_url": "https://power.larc.nasa.gov/api/temporal/daily/point?parameters=PRECTOTCORR%2CT2M%2CT2M_MIN%2CT2M_MAX&community=AG&longitude=7.0498&latitude=4.8156&start=20020101&end=20021231&format=JSON&time-standard=UTC",
+      "variables_requested": [
+        "PRECTOTCORR",
+        "T2M",
+        "T2M_MIN",
+        "T2M_MAX"
+      ],
+      "year": 2002
+    },
+    {
+      "byte_size": 25062,
+      "dataset_version": "nigeria-power-daily-2001-2024-v1",
+      "date_range": {
+        "end": "20031231",
+        "start": "20030101"
+      },
+      "downloaded_at": "2026-09-21T17:28:52.316045+00:00",
+      "http_status": 200,
+      "latitude": 4.8156,
+      "location_id": "port_harcourt",
+      "location_name": "Port Harcourt",
+      "longitude": 7.0498,
+      "raw_path": "data\\raw\\canonical\\nigeria-power-daily-2001-2024-v1\\port_harcourt\\2003.json",
+      "request_parameters": {
+        "community": "AG",
+        "end": "20031231",
+        "format": "JSON",
+        "latitude": 4.8156,
+        "longitude": 7.0498,
+        "parameters": "PRECTOTCORR,T2M,T2M_MIN,T2M_MAX",
+        "start": "20030101",
+        "time-standard": "UTC"
+      },
+      "response_header": {
+        "api": {
+          "name": "POWER Daily API",
+          "version": "v2.10.0"
+        },
+        "end": "20031231",
+        "fill_value": -999.0,
+        "sources": [
+          "MERRA2",
+          "POWER"
+        ],
+        "start": "20030101",
+        "time_standard": "UTC",
+        "title": "NASA/POWER Source Native Resolution Daily Data"
+      },
+      "sha256": "613eae28e74a388e401d80337d04ad13710213c1a97c6d680cdd722df1a26f4f",
+      "source_url": "https://power.larc.nasa.gov/api/temporal/daily/point?parameters=PRECTOTCORR%2CT2M%2CT2M_MIN%2CT2M_MAX&community=AG&longitude=7.0498&latitude=4.8156&start=20030101&end=20031231&format=JSON&time-standard=UTC",
+      "variables_requested": [
+        "PRECTOTCORR",
+        "T2M",
+        "T2M_MIN",
+        "T2M_MAX"
+      ],
+      "year": 2003
+    },
+    {
+      "byte_size": 25130,
+      "dataset_version": "nigeria-power-daily-2001-2024-v1",
+      "date_range": {
+        "end": "20041231",
+        "start": "20040101"
+      },
+      "downloaded_at": "2026-09-21T17:28:53.505194+00:00",
+      "http_status": 200,
+      "latitude": 4.8156,
+      "location_id": "port_harcourt",
+      "location_name": "Port Harcourt",
+      "longitude": 7.0498,
+      "raw_path": "data\\raw\\canonical\\nigeria-power-daily-2001-2024-v1\\port_harcourt\\2004.json",
+      "request_parameters": {
+        "community": "AG",
+        "end": "20041231",
+        "format": "JSON",
+        "latitude": 4.8156,
+        "longitude": 7.0498,
+        "parameters": "PRECTOTCORR,T2M,T2M_MIN,T2M_MAX",
+        "start": "20040101",
+        "time-standard": "UTC"
+      },
+      "response_header": {
+        "api": {
+          "name": "POWER Daily API",
+          "version": "v2.10.0"
+        },
+        "end": "20041231",
+        "fill_value": -999.0,
+        "sources": [
+          "MERRA2",
+          "POWER"
+        ],
+        "start": "20040101",
+        "time_standard": "UTC",
+        "title": "NASA/POWER Source Native Resolution Daily Data"
+      },
+      "sha256": "8b0c4c987a0dfe92f8c58b52356cddbb96dd4cb2980458013e02794a1086405b",
+      "source_url": "https://power.larc.nasa.gov/api/temporal/daily/point?parameters=PRECTOTCORR%2CT2M%2CT2M_MIN%2CT2M_MAX&community=AG&longitude=7.0498&latitude=4.8156&start=20040101&end=20041231&format=JSON&time-standard=UTC",
+      "variables_requested": [
+        "PRECTOTCORR",
+        "T2M",
+        "T2M_MIN",
+        "T2M_MAX"
+      ],
+      "year": 2004
+    },
+    {
+      "byte_size": 25031,
+      "dataset_version": "nigeria-power-daily-2001-2024-v1",
+      "date_range": {
+        "end": "20051231",
+        "start": "20050101"
+      },
+      "downloaded_at": "2026-09-21T17:28:54.531382+00:00",
+      "http_status": 200,
+      "latitude": 4.8156,
+      "location_id": "port_harcourt",
+      "location_name": "Port Harcourt",
+      "longitude": 7.0498,
+      "raw_path": "data\\raw\\canonical\\nigeria-power-daily-2001-2024-v1\\port_harcourt\\2005.json",
+      "request_parameters": {
+        "community": "AG",
+        "end": "20051231",
+        "format": "JSON",
+        "latitude": 4.8156,
+        "longitude": 7.0498,
+        "parameters": "PRECTOTCORR,T2M,T2M_MIN,T2M_MAX",
+        "start": "20050101",
+        "time-standard": "UTC"
+      },
+      "response_header": {
+        "api": {
+          "name": "POWER Daily API",
+          "version": "v2.10.0"
+        },
+        "end": "20051231",
+        "fill_value": -999.0,
+        "sources": [
+          "MERRA2",
+          "POWER"
+        ],
+        "start": "20050101",
+        "time_standard": "UTC",
+        "title": "NASA/POWER Source Native Resolution Daily Data"
+      },
+      "sha256": "1aa676118e1e019ab6bcdeb88f9e10d02d1d92d49766c91b76bb0d20b92e0702",
+      "source_url": "https://power.larc.nasa.gov/api/temporal/daily/point?parameters=PRECTOTCORR%2CT2M%2CT2M_MIN%2CT2M_MAX&community=AG&longitude=7.0498&latitude=4.8156&start=20050101&end=20051231&format=JSON&time-standard=UTC",
+      "variables_requested": [
+        "PRECTOTCORR",
+        "T2M",
+        "T2M_MIN",
+        "T2M_MAX"
+      ],
+      "year": 2005
+    },
+    {
+      "byte_size": 25051,
+      "dataset_version": "nigeria-power-daily-2001-2024-v1",
+      "date_range": {
+        "end": "20061231",
+        "start": "20060101"
+      },
+      "downloaded_at": "2026-09-21T17:28:55.768571+00:00",
+      "http_status": 200,
+      "latitude": 4.8156,
+      "location_id": "port_harcourt",
+      "location_name": "Port Harcourt",
+      "longitude": 7.0498,
+      "raw_path": "data\\raw\\canonical\\nigeria-power-daily-2001-2024-v1\\port_harcourt\\2006.json",
+      "request_parameters": {
+        "community": "AG",
+        "end": "20061231",
+        "format": "JSON",
+        "latitude": 4.8156,
+        "longitude": 7.0498,
+        "parameters": "PRECTOTCORR,T2M,T2M_MIN,T2M_MAX",
+        "start": "20060101",
+        "time-standard": "UTC"
+      },
+      "response_header": {
+        "api": {
+          "name": "POWER Daily API",
+          "version": "v2.10.0"
+        },
+        "end": "20061231",
+        "fill_value": -999.0,
+        "sources": [
+          "MERRA2",
+          "POWER"
+        ],
+        "start": "20060101",
+        "time_standard": "UTC",
+        "title": "NASA/POWER Source Native Resolution Daily Data"
+      },
+      "sha256": "aaee24dc20444a94c0230a935d09222cdda95cd801c998121c5aac0bdf9dcbba",
+      "source_url": "https://power.larc.nasa.gov/api/temporal/daily/point?parameters=PRECTOTCORR%2CT2M%2CT2M_MIN%2CT2M_MAX&community=AG&longitude=7.0498&latitude=4.8156&start=20060101&end=20061231&format=JSON&time-standard=UTC",
+      "variables_requested": [
+        "PRECTOTCORR",
+        "T2M",
+        "T2M_MIN",
+        "T2M_MAX"
+      ],
+      "year": 2006
+    },
+    {
+      "byte_size": 25089,
+      "dataset_version": "nigeria-power-daily-2001-2024-v1",
+      "date_range": {
+        "end": "20071231",
+        "start": "20070101"
+      },
+      "downloaded_at": "2026-09-21T17:28:56.896611+00:00",
+      "http_status": 200,
+      "latitude": 4.8156,
+      "location_id": "port_harcourt",
+      "location_name": "Port Harcourt",
+      "longitude": 7.0498,
+      "raw_path": "data\\raw\\canonical\\nigeria-power-daily-2001-2024-v1\\port_harcourt\\2007.json",
+      "request_parameters": {
+        "community": "AG",
+        "end": "20071231",
+        "format": "JSON",
+        "latitude": 4.8156,
+        "longitude": 7.0498,
+        "parameters": "PRECTOTCORR,T2M,T2M_MIN,T2M_MAX",
+        "start": "20070101",
+        "time-standard": "UTC"
+      },
+      "response_header": {
+        "api": {
+          "name": "POWER Daily API",
+          "version": "v2.10.0"
+        },
+        "end": "20071231",
+        "fill_value": -999.0,
+        "sources": [
+          "MERRA2",
+          "POWER"
+        ],
+        "start": "20070101",
+        "time_standard": "UTC",
+        "title": "NASA/POWER Source Native Resolution Daily Data"
+      },
+      "sha256": "52de76c89cb306bc79283069e090b3abe1c03fd8f2d5934a3c7a95b1cd601c0f",
+      "source_url": "https://power.larc.nasa.gov/api/temporal/daily/point?parameters=PRECTOTCORR%2CT2M%2CT2M_MIN%2CT2M_MAX&community=AG&longitude=7.0498&latitude=4.8156&start=20070101&end=20071231&format=JSON&time-standard=UTC",
+      "variables_requested": [
+        "PRECTOTCORR",
+        "T2M",
+        "T2M_MIN",
+        "T2M_MAX"
+      ],
+      "year": 2007
+    },
+    {
+      "byte_size": 25111,
+      "dataset_version": "nigeria-power-daily-2001-2024-v1",
+      "date_range": {
+        "end": "20081231",
+        "start": "20080101"
+      },
+      "downloaded_at": "2026-09-21T17:28:58.031031+00:00",
+      "http_status": 200,
+      "latitude": 4.8156,
+      "location_id": "port_harcourt",
+      "location_name": "Port Harcourt",
+      "longitude": 7.0498,
+      "raw_path": "data\\raw\\canonical\\nigeria-power-daily-2001-2024-v1\\port_harcourt\\2008.json",
+      "request_parameters": {
+        "community": "AG",
+        "end": "20081231",
+        "format": "JSON",
+        "latitude": 4.8156,
+        "longitude": 7.0498,
+        "parameters": "PRECTOTCORR,T2M,T2M_MIN,T2M_MAX",
+        "start": "20080101",
+        "time-standard": "UTC"
+      },
+      "response_header": {
+        "api": {
+          "name": "POWER Daily API",
+          "version": "v2.10.0"
+        },
+        "end": "20081231",
+        "fill_value": -999.0,
+        "sources": [
+          "MERRA2",
+          "POWER"
+        ],
+        "start": "20080101",
+        "time_standard": "UTC",
+        "title": "NASA/POWER Source Native Resolution Daily Data"
+      },
+      "sha256": "25dd9c9c3bce72aa7c2dba8703f97afa6eeef1698c76bede207e37a2a26e9ce3",
+      "source_url": "https://power.larc.nasa.gov/api/temporal/daily/point?parameters=PRECTOTCORR%2CT2M%2CT2M_MIN%2CT2M_MAX&community=AG&longitude=7.0498&latitude=4.8156&start=20080101&end=20081231&format=JSON&time-standard=UTC",
+      "variables_requested": [
+        "PRECTOTCORR",
+        "T2M",
+        "T2M_MIN",
+        "T2M_MAX"
+      ],
+      "year": 2008
+    },
+    {
+      "byte_size": 25065,
+      "dataset_version": "nigeria-power-daily-2001-2024-v1",
+      "date_range": {
+        "end": "20091231",
+        "start": "20090101"
+      },
+      "downloaded_at": "2026-09-21T17:28:59.775965+00:00",
+      "http_status": 200,
+      "latitude": 4.8156,
+      "location_id": "port_harcourt",
+      "location_name": "Port Harcourt",
+      "longitude": 7.0498,
+      "raw_path": "data\\raw\\canonical\\nigeria-power-daily-2001-2024-v1\\port_harcourt\\2009.json",
+      "request_parameters": {
+        "community": "AG",
+        "end": "20091231",
+        "format": "JSON",
+        "latitude": 4.8156,
+        "longitude": 7.0498,
+        "parameters": "PRECTOTCORR,T2M,T2M_MIN,T2M_MAX",
+        "start": "20090101",
+        "time-standard": "UTC"
+      },
+      "response_header": {
+        "api": {
+          "name": "POWER Daily API",
+          "version": "v2.10.0"
+        },
+        "end": "20091231",
+        "fill_value": -999.0,
+        "sources": [
+          "MERRA2",
+          "POWER"
+        ],
+        "start": "20090101",
+        "time_standard": "UTC",
+        "title": "NASA/POWER Source Native Resolution Daily Data"
+      },
+      "sha256": "f1c6c37e806a1f42ec7d5fc0a85b497d8ce3863de492b42312fb30af28ad40a5",
+      "source_url": "https://power.larc.nasa.gov/api/temporal/daily/point?parameters=PRECTOTCORR%2CT2M%2CT2M_MIN%2CT2M_MAX&community=AG&longitude=7.0498&latitude=4.8156&start=20090101&end=20091231&format=JSON&time-standard=UTC",
+      "variables_requested": [
+        "PRECTOTCORR",
+        "T2M",
+        "T2M_MIN",
+        "T2M_MAX"
+      ],
+      "year": 2009
+    },
+    {
+      "byte_size": 25080,
+      "dataset_version": "nigeria-power-daily-2001-2024-v1",
+      "date_range": {
+        "end": "20101231",
+        "start": "20100101"
+      },
+      "downloaded_at": "2026-09-21T17:29:01.809217+00:00",
+      "http_status": 200,
+      "latitude": 4.8156,
+      "location_id": "port_harcourt",
+      "location_name": "Port Harcourt",
+      "longitude": 7.0498,
+      "raw_path": "data\\raw\\canonical\\nigeria-power-daily-2001-2024-v1\\port_harcourt\\2010.json",
+      "request_parameters": {
+        "community": "AG",
+        "end": "20101231",
+        "format": "JSON",
+        "latitude": 4.8156,
+        "longitude": 7.0498,
+        "parameters": "PRECTOTCORR,T2M,T2M_MIN,T2M_MAX",
+        "start": "20100101",
+        "time-standard": "UTC"
+      },
+      "response_header": {
+        "api": {
+          "name": "POWER Daily API",
+          "version": "v2.10.0"
+        },
+        "end": "20101231",
+        "fill_value": -999.0,
+        "sources": [
+          "MERRA2",
+          "POWER"
+        ],
+        "start": "20100101",
+        "time_standard": "UTC",
+        "title": "NASA/POWER Source Native Resolution Daily Data"
+      },
+      "sha256": "48ea8e07701ed55f0feb6b5082242abf5e2ebeb6af4b468c04da26892fe1a548",
+      "source_url": "https://power.larc.nasa.gov/api/temporal/daily/point?parameters=PRECTOTCORR%2CT2M%2CT2M_MIN%2CT2M_MAX&community=AG&longitude=7.0498&latitude=4.8156&start=20100101&end=20101231&format=JSON&time-standard=UTC",
+      "variables_requested": [
+        "PRECTOTCORR",
+        "T2M",
+        "T2M_MIN",
+        "T2M_MAX"
+      ],
+      "year": 2010
+    },
+    {
+      "byte_size": 25064,
+      "dataset_version": "nigeria-power-daily-2001-2024-v1",
+      "date_range": {
+        "end": "20111231",
+        "start": "20110101"
+      },
+      "downloaded_at": "2026-09-21T17:29:03.556350+00:00",
+      "http_status": 200,
+      "latitude": 4.8156,
+      "location_id": "port_harcourt",
+      "location_name": "Port Harcourt",
+      "longitude": 7.0498,
+      "raw_path": "data\\raw\\canonical\\nigeria-power-daily-2001-2024-v1\\port_harcourt\\2011.json",
+      "request_parameters": {
+        "community": "AG",
+        "end": "20111231",
+        "format": "JSON",
+        "latitude": 4.8156,
+        "longitude": 7.0498,
+        "parameters": "PRECTOTCORR,T2M,T2M_MIN,T2M_MAX",
+        "start": "20110101",
+        "time-standard": "UTC"
+      },
+      "response_header": {
+        "api": {
+          "name": "POWER Daily API",
+          "version": "v2.10.0"
+        },
+        "end": "20111231",
+        "fill_value": -999.0,
+        "sources": [
+          "MERRA2",
+          "POWER"
+        ],
+        "start": "20110101",
+        "time_standard": "UTC",
+        "title": "NASA/POWER Source Native Resolution Daily Data"
+      },
+      "sha256": "4072df6e2a0b4c97e4558db14e4342b1917a6b393f5d4cadc17472465269fbb2",
+      "source_url": "https://power.larc.nasa.gov/api/temporal/daily/point?parameters=PRECTOTCORR%2CT2M%2CT2M_MIN%2CT2M_MAX&community=AG&longitude=7.0498&latitude=4.8156&start=20110101&end=20111231&format=JSON&time-standard=UTC",
+      "variables_requested": [
+        "PRECTOTCORR",
+        "T2M",
+        "T2M_MIN",
+        "T2M_MAX"
+      ],
+      "year": 2011
+    },
+    {
+      "byte_size": 25134,
+      "dataset_version": "nigeria-power-daily-2001-2024-v1",
+      "date_range": {
+        "end": "20121231",
+        "start": "20120101"
+      },
+      "downloaded_at": "2026-09-21T17:29:05.396948+00:00",
+      "http_status": 200,
+      "latitude": 4.8156,
+      "location_id": "port_harcourt",
+      "location_name": "Port Harcourt",
+      "longitude": 7.0498,
+      "raw_path": "data\\raw\\canonical\\nigeria-power-daily-2001-2024-v1\\port_harcourt\\2012.json",
+      "request_parameters": {
+        "community": "AG",
+        "end": "20121231",
+        "format": "JSON",
+        "latitude": 4.8156,
+        "longitude": 7.0498,
+        "parameters": "PRECTOTCORR,T2M,T2M_MIN,T2M_MAX",
+        "start": "20120101",
+        "time-standard": "UTC"
+      },
+      "response_header": {
+        "api": {
+          "name": "POWER Daily API",
+          "version": "v2.10.0"
+        },
+        "end": "20121231",
+        "fill_value": -999.0,
+        "sources": [
+          "MERRA2",
+          "POWER"
+        ],
+        "start": "20120101",
+        "time_standard": "UTC",
+        "title": "NASA/POWER Source Native Resolution Daily Data"
+      },
+      "sha256": "cbf200ac91700fda16bcf09a22d02bd740b2f9877e86b10a94003eb52b939dfa",
+      "source_url": "https://power.larc.nasa.gov/api/temporal/daily/point?parameters=PRECTOTCORR%2CT2M%2CT2M_MIN%2CT2M_MAX&community=AG&longitude=7.0498&latitude=4.8156&start=20120101&end=20121231&format=JSON&time-standard=UTC",
+      "variables_requested": [
+        "PRECTOTCORR",
+        "T2M",
+        "T2M_MIN",
+        "T2M_MAX"
+      ],
+      "year": 2012
+    },
+    {
+      "byte_size": 25107,
+      "dataset_version": "nigeria-power-daily-2001-2024-v1",
+      "date_range": {
+        "end": "20131231",
+        "start": "20130101"
+      },
+      "downloaded_at": "2026-09-21T17:29:06.726854+00:00",
+      "http_status": 200,
+      "latitude": 4.8156,
+      "location_id": "port_harcourt",
+      "location_name": "Port Harcourt",
+      "longitude": 7.0498,
+      "raw_path": "data\\raw\\canonical\\nigeria-power-daily-2001-2024-v1\\port_harcourt\\2013.json",
+      "request_parameters": {
+        "community": "AG",
+        "end": "20131231",
+        "format": "JSON",
+        "latitude": 4.8156,
+        "longitude": 7.0498,
+        "parameters": "PRECTOTCORR,T2M,T2M_MIN,T2M_MAX",
+        "start": "20130101",
+        "time-standard": "UTC"
+      },
+      "response_header": {
+        "api": {
+          "name": "POWER Daily API",
+          "version": "v2.10.0"
+        },
+        "end": "20131231",
+        "fill_value": -999.0,
+        "sources": [
+          "MERRA2",
+          "POWER"
+        ],
+        "start": "20130101",
+        "time_standard": "UTC",
+        "title": "NASA/POWER Source Native Resolution Daily Data"
+      },
+      "sha256": "0250c6db5bae34851ea4a9b494ab360953c7aab6c8aec0b35e8ea8674e1eb4a8",
+      "source_url": "https://power.larc.nasa.gov/api/temporal/daily/point?parameters=PRECTOTCORR%2CT2M%2CT2M_MIN%2CT2M_MAX&community=AG&longitude=7.0498&latitude=4.8156&start=20130101&end=20131231&format=JSON&time-standard=UTC",
+      "variables_requested": [
+        "PRECTOTCORR",
+        "T2M",
+        "T2M_MIN",
+        "T2M_MAX"
+      ],
+      "year": 2013
+    },
+    {
+      "byte_size": 25046,
+      "dataset_version": "nigeria-power-daily-2001-2024-v1",
+      "date_range": {
+        "end": "20141231",
+        "start": "20140101"
+      },
+      "downloaded_at": "2026-09-21T17:29:08.058199+00:00",
+      "http_status": 200,
+      "latitude": 4.8156,
+      "location_id": "port_harcourt",
+      "location_name": "Port Harcourt",
+      "longitude": 7.0498,
+      "raw_path": "data\\raw\\canonical\\nigeria-power-daily-2001-2024-v1\\port_harcourt\\2014.json",
+      "request_parameters": {
+        "community": "AG",
+        "end": "20141231",
+        "format": "JSON",
+        "latitude": 4.8156,
+        "longitude": 7.0498,
+        "parameters": "PRECTOTCORR,T2M,T2M_MIN,T2M_MAX",
+        "start": "20140101",
+        "time-standard": "UTC"
+      },
+      "response_header": {
+        "api": {
+          "name": "POWER Daily API",
+          "version": "v2.10.0"
+        },
+        "end": "20141231",
+        "fill_value": -999.0,
+        "sources": [
+          "MERRA2",
+          "POWER"
+        ],
+        "start": "20140101",
+        "time_standard": "UTC",
+        "title": "NASA/POWER Source Native Resolution Daily Data"
+      },
+      "sha256": "9e430bb141465a2af1bfda761bf47a000854e7035ab263568a44e3fa02259875",
+      "source_url": "https://power.larc.nasa.gov/api/temporal/daily/point?parameters=PRECTOTCORR%2CT2M%2CT2M_MIN%2CT2M_MAX&community=AG&longitude=7.0498&latitude=4.8156&start=20140101&end=20141231&format=JSON&time-standard=UTC",
+      "variables_requested": [
+        "PRECTOTCORR",
+        "T2M",
+        "T2M_MIN",
+        "T2M_MAX"
+      ],
+      "year": 2014
+    },
+    {
+      "byte_size": 25029,
+      "dataset_version": "nigeria-power-daily-2001-2024-v1",
+      "date_range": {
+        "end": "20151231",
+        "start": "20150101"
+      },
+      "downloaded_at": "2026-09-21T17:29:09.385623+00:00",
+      "http_status": 200,
+      "latitude": 4.8156,
+      "location_id": "port_harcourt",
+      "location_name": "Port Harcourt",
+      "longitude": 7.0498,
+      "raw_path": "data\\raw\\canonical\\nigeria-power-daily-2001-2024-v1\\port_harcourt\\2015.json",
+      "request_parameters": {
+        "community": "AG",
+        "end": "20151231",
+        "format": "JSON",
+        "latitude": 4.8156,
+        "longitude": 7.0498,
+        "parameters": "PRECTOTCORR,T2M,T2M_MIN,T2M_MAX",
+        "start": "20150101",
+        "time-standard": "UTC"
+      },
+      "response_header": {
+        "api": {
+          "name": "POWER Daily API",
+          "version": "v2.10.0"
+        },
+        "end": "20151231",
+        "fill_value": -999.0,
+        "sources": [
+          "MERRA2",
+          "POWER"
+        ],
+        "start": "20150101",
+        "time_standard": "UTC",
+        "title": "NASA/POWER Source Native Resolution Daily Data"
+      },
+      "sha256": "ea23c34efb0d783d1e4daf8bd49af8dec2debfc15bf9969de7cb3b808e2fe563",
+      "source_url": "https://power.larc.nasa.gov/api/temporal/daily/point?parameters=PRECTOTCORR%2CT2M%2CT2M_MIN%2CT2M_MAX&community=AG&longitude=7.0498&latitude=4.8156&start=20150101&end=20151231&format=JSON&time-standard=UTC",
+      "variables_requested": [
+        "PRECTOTCORR",
+        "T2M",
+        "T2M_MIN",
+        "T2M_MAX"
+      ],
+      "year": 2015
+    },
+    {
+      "byte_size": 25136,
+      "dataset_version": "nigeria-power-daily-2001-2024-v1",
+      "date_range": {
+        "end": "20161231",
+        "start": "20160101"
+      },
+      "downloaded_at": "2026-09-21T17:29:10.311192+00:00",
+      "http_status": 200,
+      "latitude": 4.8156,
+      "location_id": "port_harcourt",
+      "location_name": "Port Harcourt",
+      "longitude": 7.0498,
+      "raw_path": "data\\raw\\canonical\\nigeria-power-daily-2001-2024-v1\\port_harcourt\\2016.json",
+      "request_parameters": {
+        "community": "AG",
+        "end": "20161231",
+        "format": "JSON",
+        "latitude": 4.8156,
+        "longitude": 7.0498,
+        "parameters": "PRECTOTCORR,T2M,T2M_MIN,T2M_MAX",
+        "start": "20160101",
+        "time-standard": "UTC"
+      },
+      "response_header": {
+        "api": {
+          "name": "POWER Daily API",
+          "version": "v2.10.0"
+        },
+        "end": "20161231",
+        "fill_value": -999.0,
+        "sources": [
+          "MERRA2",
+          "POWER"
+        ],
+        "start": "20160101",
+        "time_standard": "UTC",
+        "title": "NASA/POWER Source Native Resolution Daily Data"
+      },
+      "sha256": "0aea4ffb0db07298767ad07d67153cdb1a4ba9ca44f01725531fc7f8c76acb83",
+      "source_url": "https://power.larc.nasa.gov/api/temporal/daily/point?parameters=PRECTOTCORR%2CT2M%2CT2M_MIN%2CT2M_MAX&community=AG&longitude=7.0498&latitude=4.8156&start=20160101&end=20161231&format=JSON&time-standard=UTC",
+      "variables_requested": [
+        "PRECTOTCORR",
+        "T2M",
+        "T2M_MIN",
+        "T2M_MAX"
+      ],
+      "year": 2016
+    },
+    {
+      "byte_size": 25074,
+      "dataset_version": "nigeria-power-daily-2001-2024-v1",
+      "date_range": {
+        "end": "20171231",
+        "start": "20170101"
+      },
+      "downloaded_at": "2026-09-21T17:29:12.050454+00:00",
+      "http_status": 200,
+      "latitude": 4.8156,
+      "location_id": "port_harcourt",
+      "location_name": "Port Harcourt",
+      "longitude": 7.0498,
+      "raw_path": "data\\raw\\canonical\\nigeria-power-daily-2001-2024-v1\\port_harcourt\\2017.json",
+      "request_parameters": {
+        "community": "AG",
+        "end": "20171231",
+        "format": "JSON",
+        "latitude": 4.8156,
+        "longitude": 7.0498,
+        "parameters": "PRECTOTCORR,T2M,T2M_MIN,T2M_MAX",
+        "start": "20170101",
+        "time-standard": "UTC"
+      },
+      "response_header": {
+        "api": {
+          "name": "POWER Daily API",
+          "version": "v2.10.0"
+        },
+        "end": "20171231",
+        "fill_value": -999.0,
+        "sources": [
+          "MERRA2",
+          "POWER"
+        ],
+        "start": "20170101",
+        "time_standard": "UTC",
+        "title": "NASA/POWER Source Native Resolution Daily Data"
+      },
+      "sha256": "75a27c1c2bc0173444dcd7dd90cb0f87473279563ca684dad12e7f3437e6c910",
+      "source_url": "https://power.larc.nasa.gov/api/temporal/daily/point?parameters=PRECTOTCORR%2CT2M%2CT2M_MIN%2CT2M_MAX&community=AG&longitude=7.0498&latitude=4.8156&start=20170101&end=20171231&format=JSON&time-standard=UTC",
+      "variables_requested": [
+        "PRECTOTCORR",
+        "T2M",
+        "T2M_MIN",
+        "T2M_MAX"
+      ],
+      "year": 2017
+    },
+    {
+      "byte_size": 25089,
+      "dataset_version": "nigeria-power-daily-2001-2024-v1",
+      "date_range": {
+        "end": "20181231",
+        "start": "20180101"
+      },
+      "downloaded_at": "2026-09-21T17:29:13.267359+00:00",
+      "http_status": 200,
+      "latitude": 4.8156,
+      "location_id": "port_harcourt",
+      "location_name": "Port Harcourt",
+      "longitude": 7.0498,
+      "raw_path": "data\\raw\\canonical\\nigeria-power-daily-2001-2024-v1\\port_harcourt\\2018.json",
+      "request_parameters": {
+        "community": "AG",
+        "end": "20181231",
+        "format": "JSON",
+        "latitude": 4.8156,
+        "longitude": 7.0498,
+        "parameters": "PRECTOTCORR,T2M,T2M_MIN,T2M_MAX",
+        "start": "20180101",
+        "time-standard": "UTC"
+      },
+      "response_header": {
+        "api": {
+          "name": "POWER Daily API",
+          "version": "v2.10.0"
+        },
+        "end": "20181231",
+        "fill_value": -999.0,
+        "sources": [
+          "MERRA2",
+          "POWER"
+        ],
+        "start": "20180101",
+        "time_standard": "UTC",
+        "title": "NASA/POWER Source Native Resolution Daily Data"
+      },
+      "sha256": "14036acfb583a246317a81460c3a6588ad310a235311491ac7f3d1aa30f554b0",
+      "source_url": "https://power.larc.nasa.gov/api/temporal/daily/point?parameters=PRECTOTCORR%2CT2M%2CT2M_MIN%2CT2M_MAX&community=AG&longitude=7.0498&latitude=4.8156&start=20180101&end=20181231&format=JSON&time-standard=UTC",
+      "variables_requested": [
+        "PRECTOTCORR",
+        "T2M",
+        "T2M_MIN",
+        "T2M_MAX"
+      ],
+      "year": 2018
+    },
+    {
+      "byte_size": 25084,
+      "dataset_version": "nigeria-power-daily-2001-2024-v1",
+      "date_range": {
+        "end": "20191231",
+        "start": "20190101"
+      },
+      "downloaded_at": "2026-09-21T17:29:13.997441+00:00",
+      "http_status": 200,
+      "latitude": 4.8156,
+      "location_id": "port_harcourt",
+      "location_name": "Port Harcourt",
+      "longitude": 7.0498,
+      "raw_path": "data\\raw\\canonical\\nigeria-power-daily-2001-2024-v1\\port_harcourt\\2019.json",
+      "request_parameters": {
+        "community": "AG",
+        "end": "20191231",
+        "format": "JSON",
+        "latitude": 4.8156,
+        "longitude": 7.0498,
+        "parameters": "PRECTOTCORR,T2M,T2M_MIN,T2M_MAX",
+        "start": "20190101",
+        "time-standard": "UTC"
+      },
+      "response_header": {
+        "api": {
+          "name": "POWER Daily API",
+          "version": "v2.10.0"
+        },
+        "end": "20191231",
+        "fill_value": -999.0,
+        "sources": [
+          "MERRA2",
+          "POWER"
+        ],
+        "start": "20190101",
+        "time_standard": "UTC",
+        "title": "NASA/POWER Source Native Resolution Daily Data"
+      },
+      "sha256": "7c57fc11e5feb405293e9a54c4100d55cee361a63928df98c1ec67f9f1d52823",
+      "source_url": "https://power.larc.nasa.gov/api/temporal/daily/point?parameters=PRECTOTCORR%2CT2M%2CT2M_MIN%2CT2M_MAX&community=AG&longitude=7.0498&latitude=4.8156&start=20190101&end=20191231&format=JSON&time-standard=UTC",
+      "variables_requested": [
+        "PRECTOTCORR",
+        "T2M",
+        "T2M_MIN",
+        "T2M_MAX"
+      ],
+      "year": 2019
+    },
+    {
+      "byte_size": 25159,
+      "dataset_version": "nigeria-power-daily-2001-2024-v1",
+      "date_range": {
+        "end": "20201231",
+        "start": "20200101"
+      },
+      "downloaded_at": "2026-09-21T17:29:15.660536+00:00",
+      "http_status": 200,
+      "latitude": 4.8156,
+      "location_id": "port_harcourt",
+      "location_name": "Port Harcourt",
+      "longitude": 7.0498,
+      "raw_path": "data\\raw\\canonical\\nigeria-power-daily-2001-2024-v1\\port_harcourt\\2020.json",
+      "request_parameters": {
+        "community": "AG",
+        "end": "20201231",
+        "format": "JSON",
+        "latitude": 4.8156,
+        "longitude": 7.0498,
+        "parameters": "PRECTOTCORR,T2M,T2M_MIN,T2M_MAX",
+        "start": "20200101",
+        "time-standard": "UTC"
+      },
+      "response_header": {
+        "api": {
+          "name": "POWER Daily API",
+          "version": "v2.10.0"
+        },
+        "end": "20201231",
+        "fill_value": -999.0,
+        "sources": [
+          "MERRA2",
+          "POWER"
+        ],
+        "start": "20200101",
+        "time_standard": "UTC",
+        "title": "NASA/POWER Source Native Resolution Daily Data"
+      },
+      "sha256": "701af66eaf3b182dc3527799ac4945df765476e8e1b740ec83c20320c8c4a147",
+      "source_url": "https://power.larc.nasa.gov/api/temporal/daily/point?parameters=PRECTOTCORR%2CT2M%2CT2M_MIN%2CT2M_MAX&community=AG&longitude=7.0498&latitude=4.8156&start=20200101&end=20201231&format=JSON&time-standard=UTC",
+      "variables_requested": [
+        "PRECTOTCORR",
+        "T2M",
+        "T2M_MIN",
+        "T2M_MAX"
+      ],
+      "year": 2020
+    },
+    {
+      "byte_size": 25106,
+      "dataset_version": "nigeria-power-daily-2001-2024-v1",
+      "date_range": {
+        "end": "20211231",
+        "start": "20210101"
+      },
+      "downloaded_at": "2026-09-21T17:29:16.754779+00:00",
+      "http_status": 200,
+      "latitude": 4.8156,
+      "location_id": "port_harcourt",
+      "location_name": "Port Harcourt",
+      "longitude": 7.0498,
+      "raw_path": "data\\raw\\canonical\\nigeria-power-daily-2001-2024-v1\\port_harcourt\\2021.json",
+      "request_parameters": {
+        "community": "AG",
+        "end": "20211231",
+        "format": "JSON",
+        "latitude": 4.8156,
+        "longitude": 7.0498,
+        "parameters": "PRECTOTCORR,T2M,T2M_MIN,T2M_MAX",
+        "start": "20210101",
+        "time-standard": "UTC"
+      },
+      "response_header": {
+        "api": {
+          "name": "POWER Daily API",
+          "version": "v2.10.0"
+        },
+        "end": "20211231",
+        "fill_value": -999.0,
+        "sources": [
+          "MERRA2",
+          "POWER"
+        ],
+        "start": "20210101",
+        "time_standard": "UTC",
+        "title": "NASA/POWER Source Native Resolution Daily Data"
+      },
+      "sha256": "1a893dcf02798b1aa1d4a8544a3a63d90cc81246989cc3159cfef8fa3bde76a9",
+      "source_url": "https://power.larc.nasa.gov/api/temporal/daily/point?parameters=PRECTOTCORR%2CT2M%2CT2M_MIN%2CT2M_MAX&community=AG&longitude=7.0498&latitude=4.8156&start=20210101&end=20211231&format=JSON&time-standard=UTC",
+      "variables_requested": [
+        "PRECTOTCORR",
+        "T2M",
+        "T2M_MIN",
+        "T2M_MAX"
+      ],
+      "year": 2021
+    },
+    {
+      "byte_size": 25073,
+      "dataset_version": "nigeria-power-daily-2001-2024-v1",
+      "date_range": {
+        "end": "20221231",
+        "start": "20220101"
+      },
+      "downloaded_at": "2026-09-21T17:29:18.181459+00:00",
+      "http_status": 200,
+      "latitude": 4.8156,
+      "location_id": "port_harcourt",
+      "location_name": "Port Harcourt",
+      "longitude": 7.0498,
+      "raw_path": "data\\raw\\canonical\\nigeria-power-daily-2001-2024-v1\\port_harcourt\\2022.json",
+      "request_parameters": {
+        "community": "AG",
+        "end": "20221231",
+        "format": "JSON",
+        "latitude": 4.8156,
+        "longitude": 7.0498,
+        "parameters": "PRECTOTCORR,T2M,T2M_MIN,T2M_MAX",
+        "start": "20220101",
+        "time-standard": "UTC"
+      },
+      "response_header": {
+        "api": {
+          "name": "POWER Daily API",
+          "version": "v2.10.0"
+        },
+        "end": "20221231",
+        "fill_value": -999.0,
+        "sources": [
+          "MERRA2",
+          "POWER"
+        ],
+        "start": "20220101",
+        "time_standard": "UTC",
+        "title": "NASA/POWER Source Native Resolution Daily Data"
+      },
+      "sha256": "ef68f1b827b6feda0d9f16b315e3ae06da3a56d677fc59444612e08e2e48cb24",
+      "source_url": "https://power.larc.nasa.gov/api/temporal/daily/point?parameters=PRECTOTCORR%2CT2M%2CT2M_MIN%2CT2M_MAX&community=AG&longitude=7.0498&latitude=4.8156&start=20220101&end=20221231&format=JSON&time-standard=UTC",
+      "variables_requested": [
+        "PRECTOTCORR",
+        "T2M",
+        "T2M_MIN",
+        "T2M_MAX"
+      ],
+      "year": 2022
+    },
+    {
+      "byte_size": 25033,
+      "dataset_version": "nigeria-power-daily-2001-2024-v1",
+      "date_range": {
+        "end": "20231231",
+        "start": "20230101"
+      },
+      "downloaded_at": "2026-09-21T17:29:19.303802+00:00",
+      "http_status": 200,
+      "latitude": 4.8156,
+      "location_id": "port_harcourt",
+      "location_name": "Port Harcourt",
+      "longitude": 7.0498,
+      "raw_path": "data\\raw\\canonical\\nigeria-power-daily-2001-2024-v1\\port_harcourt\\2023.json",
+      "request_parameters": {
+        "community": "AG",
+        "end": "20231231",
+        "format": "JSON",
+        "latitude": 4.8156,
+        "longitude": 7.0498,
+        "parameters": "PRECTOTCORR,T2M,T2M_MIN,T2M_MAX",
+        "start": "20230101",
+        "time-standard": "UTC"
+      },
+      "response_header": {
+        "api": {
+          "name": "POWER Daily API",
+          "version": "v2.10.0"
+        },
+        "end": "20231231",
+        "fill_value": -999.0,
+        "sources": [
+          "MERRA2",
+          "POWER"
+        ],
+        "start": "20230101",
+        "time_standard": "UTC",
+        "title": "NASA/POWER Source Native Resolution Daily Data"
+      },
+      "sha256": "96360a922610549e8e6489d681ff2eb3aa9a9401d83135cff2f13b12d5e4f34a",
+      "source_url": "https://power.larc.nasa.gov/api/temporal/daily/point?parameters=PRECTOTCORR%2CT2M%2CT2M_MIN%2CT2M_MAX&community=AG&longitude=7.0498&latitude=4.8156&start=20230101&end=20231231&format=JSON&time-standard=UTC",
+      "variables_requested": [
+        "PRECTOTCORR",
+        "T2M",
+        "T2M_MIN",
+        "T2M_MAX"
+      ],
+      "year": 2023
+    },
+    {
+      "byte_size": 25086,
+      "dataset_version": "nigeria-power-daily-2001-2024-v1",
+      "date_range": {
+        "end": "20241231",
+        "start": "20240101"
+      },
+      "downloaded_at": "2026-09-21T17:29:20.869614+00:00",
+      "http_status": 200,
+      "latitude": 4.8156,
+      "location_id": "port_harcourt",
+      "location_name": "Port Harcourt",
+      "longitude": 7.0498,
+      "raw_path": "data\\raw\\canonical\\nigeria-power-daily-2001-2024-v1\\port_harcourt\\2024.json",
+      "request_parameters": {
+        "community": "AG",
+        "end": "20241231",
+        "format": "JSON",
+        "latitude": 4.8156,
+        "longitude": 7.0498,
+        "parameters": "PRECTOTCORR,T2M,T2M_MIN,T2M_MAX",
+        "start": "20240101",
+        "time-standard": "UTC"
+      },
+      "response_header": {
+        "api": {
+          "name": "POWER Daily API",
+          "version": "v2.10.0"
+        },
+        "end": "20241231",
+        "fill_value": -999.0,
+        "sources": [
+          "MERRA2",
+          "POWER"
+        ],
+        "start": "20240101",
+        "time_standard": "UTC",
+        "title": "NASA/POWER Source Native Resolution Daily Data"
+      },
+      "sha256": "8bbe08728a26465d6d8564a1a1aea8e0006ed7cae19648495b14cceda7166335",
+      "source_url": "https://power.larc.nasa.gov/api/temporal/daily/point?parameters=PRECTOTCORR%2CT2M%2CT2M_MIN%2CT2M_MAX&community=AG&longitude=7.0498&latitude=4.8156&start=20240101&end=20241231&format=JSON&time-standard=UTC",
+      "variables_requested": [
+        "PRECTOTCORR",
+        "T2M",
+        "T2M_MIN",
+        "T2M_MAX"
+      ],
+      "year": 2024
+    }
+  ]
+}

@@ -1,0 +1,2 @@
+[console_scripts]
+climate-pipeline = climate_pipeline.cli:main
